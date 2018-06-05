@@ -1,0 +1,22 @@
+R.OpacFavicon
+
+----------
+
+Name: OpacFavicon
+
+----------
+
+Options: 
+
+----------
+
+Description: Enter a complete URL to an image to replace the default Koha favicon on the OPAC
+
+----------
+
+Type: free
+
+----------
+
+http://www.nexpresslibrary.org/wp-content/uploads/favicon.ico
+

@@ -1,0 +1,22 @@
+R.numReturnedItemsToShow
+
+----------
+
+Name: numReturnedItemsToShow
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of returned items to show on the check-in page
+
+----------
+
+Type: Integer
+
+----------
+
+20
+

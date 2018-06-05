@@ -1,0 +1,22 @@
+R.OpacMaxItemsToDisplay
+
+----------
+
+Name: OpacMaxItemsToDisplay
+
+----------
+
+Options: 
+
+----------
+
+Description: Max items to display at the OPAC on a biblio detail
+
+----------
+
+Type: Integer
+
+----------
+
+100
+

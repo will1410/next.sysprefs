@@ -1,0 +1,22 @@
+R.OpacSuppressionRedirect
+
+----------
+
+Name: OpacSuppressionRedirect
+
+----------
+
+Options: 
+
+----------
+
+Description: Redirect the opac detail page for suppressed records to an explanatory page (otherwise redirect to 404 error page)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

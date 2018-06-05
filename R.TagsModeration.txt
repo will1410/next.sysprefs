@@ -1,0 +1,22 @@
+R.TagsModeration
+
+----------
+
+Name: TagsModeration
+
+----------
+
+Options: 
+
+----------
+
+Description: Require tags from patrons to be approved before becoming visible.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

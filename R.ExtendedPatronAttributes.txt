@@ -1,0 +1,22 @@
+R.ExtendedPatronAttributes
+
+----------
+
+Name: ExtendedPatronAttributes
+
+----------
+
+Options: 
+
+----------
+
+Description: Use extended patron IDs and attributes
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

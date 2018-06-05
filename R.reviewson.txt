@@ -1,0 +1,22 @@
+R.reviewson
+
+----------
+
+Name: reviewson
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables patron reviews of bibliographic records in the OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.AllowPatronToSetCheckoutsVisibilityForGuarantor
+
+----------
+
+Name: AllowPatronToSetCheckoutsVisibilityForGuarantor
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, the patron can set checkouts to be visible to  his or her guarantor
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

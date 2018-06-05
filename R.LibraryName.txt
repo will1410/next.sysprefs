@@ -1,0 +1,22 @@
+R.LibraryName
+
+----------
+
+Name: LibraryName
+
+----------
+
+Options: 
+
+----------
+
+Description: Define library name as shown on main opac page
+
+----------
+
+Type: 
+
+----------
+
+NExpress Shared
+

@@ -1,0 +1,22 @@
+R.NotHighlightedWords
+
+----------
+
+Name: NotHighlightedWords
+
+----------
+
+Options: List of words to NOT highlight when OpacHighlightedWords is enabled
+
+----------
+
+Description:  
+
+----------
+
+Type: free
+
+----------
+
+and|or|not|the|a|an
+

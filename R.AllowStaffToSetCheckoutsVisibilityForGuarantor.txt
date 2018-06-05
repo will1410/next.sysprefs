@@ -1,0 +1,22 @@
+R.AllowStaffToSetCheckoutsVisibilityForGuarantor
+
+----------
+
+Name: AllowStaffToSetCheckoutsVisibilityForGuarantor
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, library staff can set a patron's checkouts to be visible to linked patrons from the opac.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

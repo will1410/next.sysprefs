@@ -1,0 +1,22 @@
+R.OpacStarRatings
+
+----------
+
+Name: OpacStarRatings
+
+----------
+
+Options: disable|all|details
+
+----------
+
+Description:  
+
+----------
+
+Type: Choice
+
+----------
+
+disable
+

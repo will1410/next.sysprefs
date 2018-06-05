@@ -1,0 +1,22 @@
+R.decreaseLoanHighHoldsIgnoreStatuses
+
+----------
+
+Name: decreaseLoanHighHoldsIgnoreStatuses
+
+----------
+
+Options: damaged|itemlost|notforloan|withdrawn
+
+----------
+
+Description: Ignore items with these statuses for dynamic high holds checking
+
+----------
+
+Type: Choice
+
+----------
+
+
+

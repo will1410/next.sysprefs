@@ -1,0 +1,22 @@
+R.UseGranularMaxFines
+
+----------
+
+Name: UseGranularMaxFines
+
+----------
+
+Options: 
+
+----------
+
+Description: If enabled,this allows you to define the max for an item by a combination of itemtype & patroncategory.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.OAI-PMH:DeletedRecord
+
+----------
+
+Name: OAI-PMH:DeletedRecord
+
+----------
+
+Options: transient|persistent
+
+----------
+
+Description: Koha's deletedbiblio table will never be deleted (persistent) or might be deleted (transient)
+
+----------
+
+Type: Choice
+
+----------
+
+persistent
+

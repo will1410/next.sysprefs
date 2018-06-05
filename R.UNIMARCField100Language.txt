@@ -1,0 +1,22 @@
+R.UNIMARCField100Language
+
+----------
+
+Name: UNIMARCField100Language
+
+----------
+
+Options:  
+
+----------
+
+Description: UNIMARC field 100 default language
+
+----------
+
+Type: short
+
+----------
+
+fre
+

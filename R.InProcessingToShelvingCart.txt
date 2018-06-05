@@ -1,0 +1,22 @@
+R.InProcessingToShelvingCart
+
+----------
+
+Name: InProcessingToShelvingCart
+
+----------
+
+Options: 
+
+----------
+
+Description: If set, when any item with a location code of PROC is 'checked in', it's location code will be changed to CART.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

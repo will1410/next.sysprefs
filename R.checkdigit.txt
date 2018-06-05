@@ -1,0 +1,22 @@
+R.checkdigit
+
+----------
+
+Name: checkdigit
+
+----------
+
+Options: none|katipo
+
+----------
+
+Description: If ON, enable checks on patron cardnumber: none or "Katipo" style checks
+
+----------
+
+Type: Choice
+
+----------
+
+none
+

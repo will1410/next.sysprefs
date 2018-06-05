@@ -1,0 +1,22 @@
+R.OPACAcquisitionDetails
+
+----------
+
+Name: OPACAcquisitionDetails
+
+----------
+
+Options: 
+
+----------
+
+Description: Show the acquisition details at the OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

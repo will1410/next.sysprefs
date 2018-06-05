@@ -1,0 +1,22 @@
+R.LoadSearchHistoryToTheFirstLoggedUser
+
+----------
+
+Name: LoadSearchHistoryToTheFirstLoggedUser
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, the next user will automatically get the last searches in his history
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

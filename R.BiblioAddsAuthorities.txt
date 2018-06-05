@@ -1,0 +1,22 @@
+R.BiblioAddsAuthorities
+
+----------
+
+Name: BiblioAddsAuthorities
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, adding a new biblio will check for an existing authority record and create one on the fly if one doesn't exist
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.AutomaticItemReturn
+
+----------
+
+Name: AutomaticItemReturn
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Koha will automatically set up a transfer of this item to its homebranch
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationPrefillForm
+
+----------
+
+Name: PatronSelfRegistrationPrefillForm
+
+----------
+
+Options:  
+
+----------
+
+Description: Display password and prefill login form after a patron has self registered
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

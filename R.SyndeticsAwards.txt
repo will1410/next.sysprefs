@@ -1,0 +1,22 @@
+R.SyndeticsAwards
+
+----------
+
+Name: SyndeticsAwards
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Awards on OPAC from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.HoldsToPullStartDate
+
+----------
+
+Name: HoldsToPullStartDate
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the default start date for the Holds to pull list to this many days ago
+
+----------
+
+Type: Integer
+
+----------
+
+2
+

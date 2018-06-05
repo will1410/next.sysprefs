@@ -1,0 +1,22 @@
+R.OpacLangSelectorMode
+
+----------
+
+Name: OpacLangSelectorMode
+
+----------
+
+Options: top|both|footer
+
+----------
+
+Description: Select the location to display the language selector
+
+----------
+
+Type: Choice
+
+----------
+
+footer
+

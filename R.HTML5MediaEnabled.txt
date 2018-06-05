@@ -1,0 +1,22 @@
+R.HTML5MediaEnabled
+
+----------
+
+Name: HTML5MediaEnabled
+
+----------
+
+Options: not|opac|staff|both
+
+----------
+
+Description: Show a HTML5 media player in a tab on opac-detail.pl for media files catalogued in field 856.
+
+----------
+
+Type: Choice
+
+----------
+
+both
+

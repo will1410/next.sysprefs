@@ -1,0 +1,22 @@
+R.LocalHoldsPriority
+
+----------
+
+Name: LocalHoldsPriority
+
+----------
+
+Options:  
+
+----------
+
+Description: Enables the LocalHoldsPriority feature
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

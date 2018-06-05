@@ -1,0 +1,22 @@
+R.UsageStatsLibrariesInfo
+
+----------
+
+Name: UsageStatsLibrariesInfo
+
+----------
+
+Options:  
+
+----------
+
+Description: Share libraries information
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

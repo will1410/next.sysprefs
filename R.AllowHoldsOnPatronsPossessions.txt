@@ -1,0 +1,22 @@
+R.AllowHoldsOnPatronsPossessions
+
+----------
+
+Name: AllowHoldsOnPatronsPossessions
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow holds on records that patron have items of it
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.DisableHoldsIssueOverrideUnlessAuthorised
+
+----------
+
+Name: DisableHoldsIssueOverrideUnlessAuthorised
+
+----------
+
+Options: 
+
+----------
+
+Description: If this preference is enabled,it will block staff ability to checkout items on hold,but includes a superlibrarian override.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

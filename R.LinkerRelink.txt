@@ -1,0 +1,22 @@
+R.LinkerRelink
+
+----------
+
+Name: LinkerRelink
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON the authority linker will relink headings that have previously been linked every time it runs.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.LibraryThingForLibrariesTabbedView
+
+----------
+
+Name: LibraryThingForLibrariesTabbedView
+
+----------
+
+Options: 
+
+----------
+
+Description: Put LibraryThingForLibraries Content in Tabs.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

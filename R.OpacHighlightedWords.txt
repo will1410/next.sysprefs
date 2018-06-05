@@ -1,0 +1,22 @@
+R.OpacHighlightedWords
+
+----------
+
+Name: OpacHighlightedWords
+
+----------
+
+Options: 
+
+----------
+
+Description: If Set, then queried words are higlighted in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

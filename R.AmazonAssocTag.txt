@@ -1,0 +1,22 @@
+R.AmazonAssocTag
+
+----------
+
+Name: AmazonAssocTag
+
+----------
+
+Options: 
+
+----------
+
+Description: See:  http://aws.amazon.com
+
+----------
+
+Type: free
+
+----------
+
+nexplibrcata-20
+

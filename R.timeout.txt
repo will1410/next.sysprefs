@@ -1,0 +1,22 @@
+R.timeout
+
+----------
+
+Name: timeout
+
+----------
+
+Options:  
+
+----------
+
+Description: Inactivity timeout for cookies authentication (in seconds)
+
+----------
+
+Type: Free
+
+----------
+
+1d
+

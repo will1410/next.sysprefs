@@ -1,0 +1,22 @@
+R.DisplayLibraryFacets
+
+----------
+
+Name: DisplayLibraryFacets
+
+----------
+
+Options: home|holding|both
+
+----------
+
+Description: Defines which library facets to display.
+
+----------
+
+Type: Choice
+
+----------
+
+home
+

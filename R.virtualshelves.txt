@@ -1,0 +1,22 @@
+R.virtualshelves
+
+----------
+
+Name: virtualshelves
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables virtual shelves management
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

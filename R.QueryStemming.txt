@@ -1,0 +1,22 @@
+R.QueryStemming
+
+----------
+
+Name: QueryStemming
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables query stemming
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

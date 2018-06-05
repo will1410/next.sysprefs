@@ -1,0 +1,22 @@
+R.OpacCloud
+
+----------
+
+Name: OpacCloud
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables subject cloud on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.IssuingInProcess
+
+----------
+
+Name: IssuingInProcess
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, disables fines if the patron is issuing item that accumulate debt
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

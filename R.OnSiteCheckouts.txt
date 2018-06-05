@@ -1,0 +1,22 @@
+R.OnSiteCheckouts
+
+----------
+
+Name: OnSiteCheckouts
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable/Disable the on-site checkouts feature
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.defaultSortField
+
+----------
+
+Name: defaultSortField
+
+----------
+
+Options: relevance|popularity|call_number|pubdate|acqdate|title|author
+
+----------
+
+Description: Specify the default field used for sorting
+
+----------
+
+Type: Choice
+
+----------
+
+relevance
+

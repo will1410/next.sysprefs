@@ -1,0 +1,22 @@
+R.SyndeticsEnabled
+
+----------
+
+Name: SyndeticsEnabled
+
+----------
+
+Options: 
+
+----------
+
+Description: Turn on Syndetics Enhanced Content
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

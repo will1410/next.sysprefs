@@ -1,0 +1,22 @@
+R.OpacTopissue
+
+----------
+
+Name: OpacTopissue
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables the 'most popular items' link on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

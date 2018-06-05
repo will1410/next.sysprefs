@@ -1,0 +1,22 @@
+R.opacreadinghistory
+
+----------
+
+Name: opacreadinghistory
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables display of Patron Circulation History in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.OpacMaintenanceNotice
+
+----------
+
+Name: OpacMaintenanceNotice
+
+----------
+
+Options: 
+
+----------
+
+Description: A user-defined block of HTML to appear on screen when OpacMaintenace is enabled
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

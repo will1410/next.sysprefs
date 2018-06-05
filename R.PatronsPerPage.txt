@@ -1,0 +1,22 @@
+R.PatronsPerPage
+
+----------
+
+Name: PatronsPerPage
+
+----------
+
+Options: 20
+
+----------
+
+Description: Number of Patrons Per Page displayed by default
+
+----------
+
+Type: Integer
+
+----------
+
+20
+

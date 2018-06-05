@@ -1,0 +1,22 @@
+R.EasyAnalyticalRecords
+
+----------
+
+Name: EasyAnalyticalRecords
+
+----------
+
+Options: 
+
+----------
+
+Description: If on, display in the catalogue screens tools to easily setup analytical record relationships
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

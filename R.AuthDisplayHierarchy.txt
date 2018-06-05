@@ -1,0 +1,22 @@
+R.AuthDisplayHierarchy
+
+----------
+
+Name: AuthDisplayHierarchy
+
+----------
+
+Options: 
+
+----------
+
+Description: Display authority hierarchies
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.SpineLabelShowPrintOnBibDetails
+
+----------
+
+Name: SpineLabelShowPrintOnBibDetails
+
+----------
+
+Options: 
+
+----------
+
+Description: If turned on, a "Print Label" link will appear for each item on the bib details page in the staff interface.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.OpacSuppressionMessage
+
+----------
+
+Name: OpacSuppressionMessage
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Display this message on the redirect page for suppressed biblios
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

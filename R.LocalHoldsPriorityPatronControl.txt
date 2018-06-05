@@ -1,0 +1,22 @@
+R.LocalHoldsPriorityPatronControl
+
+----------
+
+Name: LocalHoldsPriorityPatronControl
+
+----------
+
+Options: HomeLibrary|PickupLibrary
+
+----------
+
+Description: decides if the feature operates using the library set as the patron's home library, or the library set as the pickup library for the given hold.
+
+----------
+
+Type: Choice
+
+----------
+
+PickupLibrary
+

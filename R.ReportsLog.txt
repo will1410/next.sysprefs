@@ -1,0 +1,22 @@
+R.ReportsLog
+
+----------
+
+Name: ReportsLog
+
+----------
+
+Options: If ON, log information about reports.
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

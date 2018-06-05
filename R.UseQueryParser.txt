@@ -1,0 +1,22 @@
+R.UseQueryParser
+
+----------
+
+Name: UseQueryParser
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, try to use QueryParser for queries.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

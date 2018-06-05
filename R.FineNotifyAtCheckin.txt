@@ -1,0 +1,22 @@
+R.FineNotifyAtCheckin
+
+----------
+
+Name: FineNotifyAtCheckin
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON notify librarians of overdue fines on the items they are checking in.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

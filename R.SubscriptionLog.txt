@@ -1,0 +1,22 @@
+R.SubscriptionLog
+
+----------
+
+Name: SubscriptionLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables subscriptions log
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

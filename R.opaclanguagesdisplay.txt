@@ -1,0 +1,22 @@
+R.opaclanguagesdisplay
+
+----------
+
+Name: opaclanguagesdisplay
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables display of Change Language feature on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.HouseboundModule
+
+----------
+
+Name: HouseboundModule
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enable housebound module functionality.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

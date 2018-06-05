@@ -1,0 +1,22 @@
+R.SuspendHoldsOpac
+
+----------
+
+Name: SuspendHoldsOpac
+
+----------
+
+Options: Allow holds to be suspended from the OPAC.
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

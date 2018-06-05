@@ -1,0 +1,22 @@
+R.AutoEmailOpacUser
+
+----------
+
+Name: AutoEmailOpacUser
+
+----------
+
+Options: 
+
+----------
+
+Description: Sends notification emails containing new account details to patrons - when account is created.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.TrackClicks
+
+----------
+
+Name: TrackClicks
+
+----------
+
+Options:  
+
+----------
+
+Description: Track links clicked
+
+----------
+
+Type: Integer
+
+----------
+
+0
+

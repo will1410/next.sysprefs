@@ -1,0 +1,22 @@
+R.hidelostitems
+
+----------
+
+Name: hidelostitems
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, disables display of"lost" items in OPAC.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

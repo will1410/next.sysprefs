@@ -1,0 +1,22 @@
+R.AllFinesNeedOverride
+
+----------
+
+Name: AllFinesNeedOverride
+
+----------
+
+Options: 0
+
+----------
+
+Description: If on, staff will be asked to override every fine, even if it is below noissuescharge.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

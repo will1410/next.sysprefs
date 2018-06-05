@@ -1,0 +1,22 @@
+R.SelfCheckHelpMessage
+
+----------
+
+Name: SelfCheckHelpMessage
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Enter HTML to include under the basic Web-based Self Checkout instructions on the Help page
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

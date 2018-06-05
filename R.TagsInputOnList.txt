@@ -1,0 +1,22 @@
+R.TagsInputOnList
+
+----------
+
+Name: TagsInputOnList
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow users to input tags from the search results list.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

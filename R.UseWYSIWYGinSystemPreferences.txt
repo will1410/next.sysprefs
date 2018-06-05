@@ -1,0 +1,22 @@
+R.UseWYSIWYGinSystemPreferences
+
+----------
+
+Name: UseWYSIWYGinSystemPreferences
+
+----------
+
+Options: Show WYSIWYG editor when editing certain HTML system preferences.
+
+----------
+
+Description: 
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.CheckoutTimeout
+
+----------
+
+Name: CheckoutTimeout
+
+----------
+
+Options: 
+
+----------
+
+Description: Value in seconds before a window pops up on the circ screen asking the librarian if they would like to continue using this record or to search for a new borrower.
+
+----------
+
+Type: Integer
+
+----------
+
+450
+

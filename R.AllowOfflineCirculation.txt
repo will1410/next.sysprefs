@@ -1,0 +1,22 @@
+R.AllowOfflineCirculation
+
+----------
+
+Name: AllowOfflineCirculation
+
+----------
+
+Options: 
+
+----------
+
+Description: If on, enables HTML5 offline circulation functionality.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

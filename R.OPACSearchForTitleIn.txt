@@ -1,0 +1,34 @@
+R.OPACSearchForTitleIn
+
+----------
+
+Name: OPACSearchForTitleIn
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Enter the HTML that will appear in the 'Search for this title in' box on the detail page in the OPAC.  Enter {TITLE}, {AUTHOR}, or {ISBN} in place of their respective variables in the URL. Leave blank to disable 'More Searches' menu.
+
+----------
+
+Type: Textarea
+
+----------
+
+<li><a target='_blank' href='http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=R'>State Library Databases</a></li>
+<li><a  href="http://worldcat.org/search?q={TITLE}" target="_blank">Other Libraries (WorldCat)</a></li>
+<li><a target=_'blank' href='http://ww2.kdl.org/libcat/WhatsNext.asp?AuthorLastName=&AuthorFirstName=&SeriesName=&BookTitle={TITLE}&CategoryID=0&cmdSearch=Search&Search=1&grouping='>What's Next in This Series</a></li>
+<li><a target='blank' href="http://www.imdb.com/find?s=all&q={TITLE}">Internet Movie Database (IMDB)</a></li>
+<li><a target='blank' href="http://whatshouldireadnext.com/wsirn.php?isbn={ISBN}">What Should I Read Next?</a></li>
+
+</ul></div></div><div class="tagcell">
+<script
+src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like
+href="http://catalog.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber={BIBLIONUMBER}" data-send="false" data-width="250" data-show-faces="false"></fb:like> 
+<div><a href="http://twitter.com/share" class="twitter-share-button"
+data-url="http://catalog.nexpresslibrary.org/cgi-bin/koha/opac-detail.pl?biblionumber={BIBLIONUMBER}" data-text="I found this at my NExpress library!" data-count="horizontal">Tweet</a><script type="text/javascript"
+src="http://platform.twitter.com/widgets.js"></script></div></div><div><div><ul>
+

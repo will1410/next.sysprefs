@@ -1,0 +1,22 @@
+R.delimiter
+
+----------
+
+Name: delimiter
+
+----------
+
+Options: ;|tabulation|,|/|\|#
+
+----------
+
+Description: Define the default separator character for exporting reports
+
+----------
+
+Type: Choice
+
+----------
+
+,
+

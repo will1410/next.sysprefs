@@ -1,0 +1,22 @@
+R.OpacMaintenance
+
+----------
+
+Name: OpacMaintenance
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables maintenance warning in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,34 @@
+R.opacheader
+
+----------
+
+Name: opacheader
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Add HTML to be included as a custom header in the OPAC
+
+----------
+
+Type: Systempreference
+
+----------
+
+
+<div id="header-menu">
+<ul>
+<li><a href="http://catalog.nexpresslibrary.org/">Catalog Home</a></li>
+<li><a href="http://www.nexpresslibrary.org/about/" target="_blank">About NExpress</a></li>
+<li><a href="http://www.nekls.org" target="_blank">NEKLS Website</a></li>
+<li><a href="http://www.kslib.info/digitalbooks.html" target="_blank">Digital Books</a></li>
+<li><a href="http://kslib.info/221/Online-Databases" target="_blank">Research & Reference</a></li><li><a href="http://news.nexpresslibrary.org/nexpress-libraries/"_blank">NExpress Libraries</a></li>
+</ul>
+</div>
+<div id="header">
+</br></br><a href="http://catalog.nexpresslibrary.org"><img src="http://www.nexpresslibrary.org/wp-content/uploads/nexpressbanner_transp_bluelinessm.png" width="650" height="113" border="0"></a><p></p>
+</div>
+

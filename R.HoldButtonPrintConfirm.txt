@@ -1,0 +1,22 @@
+R.HoldButtonPrintConfirm
+
+----------
+
+Name: HoldButtonPrintConfirm
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Confirm and Print Slip button when hold triggered. Leave either this setting or HoldButtonConfirm on.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

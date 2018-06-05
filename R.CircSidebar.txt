@@ -1,0 +1,22 @@
+R.CircSidebar
+
+----------
+
+Name: CircSidebar
+
+----------
+
+Options: 
+
+----------
+
+Description: Activate or deactivate the navigation sidebar on all Circulation pages
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

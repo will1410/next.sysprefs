@@ -1,0 +1,22 @@
+R.StaticHoldsQueueWeight
+
+----------
+
+Name: StaticHoldsQueueWeight
+
+----------
+
+Options: 
+
+----------
+
+Description: Specify a list of library location codes separated by commas -- the list of codes will be traversed and weighted with first values given higher weight for holds fulfillment -- alternatively, if RandomizeHoldsQueueWeight is set, the list will be randomly selective
+
+----------
+
+Type: Integer
+
+----------
+
+NEKLS,ATCHISON,BALDWIN,BASEHOR,BERN,BONNERSPGS,BURLINGAME,CARBONDALE,CENTRALIA,CORNING,DONIELWD,DONIHIGH,DONITROY,DONIWATH,EFFINGHAM,EUDORA,EVEREST,HIAWATHA,HOLTON,HORTON,LANSING,LEAVENWRTH,LINWOOD,LYNDON,MCLOUTH,MERIDEN,NORTONVLLE,OSAGECITY,OSAWATOMIE,OSKALOOSA,OTTAWA,OVERBROOK,PAOLA,PERRY,POMONA,RICHMOND,ROSSVILLE,SABETHA,SENECA,SILVERLAKE,TONGANOXIE,VALLEYFALL,WELLSVILLE,WETMORE,WILLIAMSBG,WINCHESTER
+

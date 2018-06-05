@@ -1,0 +1,22 @@
+R.viewLabeledMARC
+
+----------
+
+Name: viewLabeledMARC
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow display of labeled MARC view of bibiographic records
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

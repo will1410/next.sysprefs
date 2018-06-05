@@ -1,0 +1,22 @@
+R.ResetOpacInactivityTimeout
+
+----------
+
+Name: ResetOpacInactivityTimeout
+
+----------
+
+Options: 
+
+----------
+
+Description: This will set an inactivity timer that will reset the OPAC to the main OPAC screen after the specified amount of time has passed since mouse movement was last detected. The value is 0 for disabled,or a positive integer for the number of seconds of inactivity before resetting the OPAC.
+
+----------
+
+Type: Integer
+
+----------
+
+600
+

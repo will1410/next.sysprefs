@@ -1,0 +1,22 @@
+R.IssueLog
+
+----------
+
+Name: IssueLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, log checkout activity
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

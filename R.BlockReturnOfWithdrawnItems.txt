@@ -1,0 +1,22 @@
+R.BlockReturnOfWithdrawnItems
+
+----------
+
+Name: BlockReturnOfWithdrawnItems
+
+----------
+
+Options: 0
+
+----------
+
+Description: If enabled, items that are marked as withdrawn cannot be returned.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

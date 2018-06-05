@@ -1,0 +1,22 @@
+R.RoutingListAddReserves
+
+----------
+
+Name: RoutingListAddReserves
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON the patrons on routing lists are automatically added to holds on the issue.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

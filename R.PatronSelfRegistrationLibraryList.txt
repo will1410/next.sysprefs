@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationLibraryList
+
+----------
+
+Name: PatronSelfRegistrationLibraryList
+
+----------
+
+Options:  
+
+----------
+
+Description: Only display libraries listed. If empty, all libraries are displayed.
+
+----------
+
+Type: Free
+
+----------
+
+
+

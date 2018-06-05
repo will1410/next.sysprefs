@@ -1,0 +1,22 @@
+R.ShowPatronImageInWebBasedSelfCheck
+
+----------
+
+Name: ShowPatronImageInWebBasedSelfCheck
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, displays patron image when a patron uses web-based self-checkout
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

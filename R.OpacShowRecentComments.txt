@@ -1,0 +1,22 @@
+R.OpacShowRecentComments
+
+----------
+
+Name: OpacShowRecentComments
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON a link to recent comments will appear in the OPAC masthead
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

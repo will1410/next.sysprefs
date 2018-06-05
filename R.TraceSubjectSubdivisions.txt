@@ -1,0 +1,22 @@
+R.TraceSubjectSubdivisions
+
+----------
+
+Name: TraceSubjectSubdivisions
+
+----------
+
+Options: 1
+
+----------
+
+Description: Create searches on all subdivisions for subject tracings.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

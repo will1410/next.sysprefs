@@ -1,0 +1,22 @@
+R.SocialNetworks
+
+----------
+
+Name: SocialNetworks
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable/Disable social networks links in opac detail
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

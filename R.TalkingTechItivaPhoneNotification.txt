@@ -1,0 +1,22 @@
+R.TalkingTechItivaPhoneNotification
+
+----------
+
+Name: TalkingTechItivaPhoneNotification
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables Talking Tech I-tiva phone notifications
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

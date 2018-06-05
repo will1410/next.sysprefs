@@ -1,0 +1,142 @@
+R.RestrictedPageContent
+
+----------
+
+Name: RestrictedPageContent
+
+----------
+
+Options:  
+
+----------
+
+Description: HTML content of the restricted page
+
+----------
+
+Type: TextArea
+
+----------
+
+<style>
+
+@media screen and (max-width:1024px){
+  #navigation {
+    display:none;
+  }
+  #rcontent {
+    width: 100%;
+  }
+
+}
+
+
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.card__title {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+    font-size: 1rem;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.button {
+    display: block;
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 1.25rem;
+}
+
+.topp {
+    display: block;
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+h3, figure, main {
+    text-align: center
+}
+
+img {
+  border-radius: 15px;
+}
+
+</style>
+
+<h1 style="text-align: center;">Magazines and Articles</h1>
+<section class="card-container">
+
+    <article class="card">
+        <p class="topp">Requires a NExpress Library Card</p>
+        <header class="card__title">
+            <h3>Flipster Magazines</h3>
+        </header>
+        <figure class="card__thumbnail" style="height: 150px; margin-left: auto; margin-right: auto;">
+            <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon" >
+            <img src="/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=863836" alt="Flipster logo">
+            </a>
+        </figure>
+        <main class="card__description" style="text-align: center;">
+            <p>NExpress currently provides access to 38 magazine titles including TIME, SPORTS ILLUSTRATED, and PEOPLE, just to name a few.</p>
+            <p>Go to Flipster to see a full list.</p>
+        </main>
+        <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon" class="button">Go to Flipster</a>
+    </article>
+
+    <article class="card">
+        <p class="topp">Requires a Kansas Library e-Card</p>
+        <header class="card__title">
+            <h3>Explora Multi-search</h3>
+        </header>
+        <figure class="card__thumbnail" style="height: 150px; margin-left: auto; margin-right: auto;">
+            <a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1965" >
+            <img src="/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=907405" alt="Explora logo">
+            </a>
+        </figure>
+        <main class="card__description" style="text-align: center;">
+            <p>The state library of Kansas provides all Kansas residents with access to the Explora Multi-search database.  This database allows you to to search magazine, journal, news, and reference articles from a wide variety of sources.</p>
+            <p>A state library of Kansas e-card is required to use this service.<br />See your local library to get a Kansas e-card.</p>
+        </main>
+        <a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1965" class="button">Go to Explora</a>
+    </article>
+
+</section>
+
+
+
+
+
+
+

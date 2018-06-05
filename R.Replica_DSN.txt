@@ -1,0 +1,22 @@
+R.Replica_DSN
+
+----------
+
+Name: Replica_DSN
+
+----------
+
+Options: 
+
+----------
+
+Description: DSN for reporting database replica
+
+----------
+
+Type: Textarea
+
+----------
+
+DBI:mysql:dbname=koha_nekls;host=heh.ec2.liblime.com:port=3306
+

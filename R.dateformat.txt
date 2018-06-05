@@ -1,0 +1,22 @@
+R.dateformat
+
+----------
+
+Name: dateformat
+
+----------
+
+Options: metric|us|iso|dmydot
+
+----------
+
+Description: Define global date format (us mm/dd/yyyy, metric dd/mm/yyy, ISO yyyy-mm-dd, DMY separated by dots dd.mm.yyyy)
+
+----------
+
+Type: Choice
+
+----------
+
+us
+

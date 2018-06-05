@@ -1,0 +1,22 @@
+R.ILS-DI
+
+----------
+
+Name: ILS-DI
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable ILS-DI services. See http://your.opac.name/cgi-bin/koha/ilsdi.pl for online documentation.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

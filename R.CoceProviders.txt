@@ -1,0 +1,22 @@
+R.CoceProviders
+
+----------
+
+Name: CoceProviders
+
+----------
+
+Options: aws,gb,ol
+
+----------
+
+Description: Coce providers
+
+----------
+
+Type: multiple
+
+----------
+
+aws,gb,ol
+

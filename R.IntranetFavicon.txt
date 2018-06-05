@@ -1,0 +1,22 @@
+R.IntranetFavicon
+
+----------
+
+Name: IntranetFavicon
+
+----------
+
+Options: 
+
+----------
+
+Description: Enter a complete URL to an image to replace the default Koha favicon on the Staff client
+
+----------
+
+Type: free
+
+----------
+
+
+

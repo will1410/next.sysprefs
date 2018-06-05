@@ -1,0 +1,22 @@
+R.AllowDueDateInPast
+
+----------
+
+Name: AllowDueDateInPast
+
+----------
+
+Options: 
+
+----------
+
+Description: Allows a due date to be set in the past for testing.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

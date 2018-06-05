@@ -1,0 +1,22 @@
+R.TimeFormat
+
+----------
+
+Name: TimeFormat
+
+----------
+
+Options: 12hr|24hr
+
+----------
+
+Description: Defines the global time format for visual output.
+
+----------
+
+Type: Choice
+
+----------
+
+24hr
+

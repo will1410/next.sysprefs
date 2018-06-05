@@ -1,0 +1,22 @@
+R.AlternateHoldingsField
+
+----------
+
+Name: AlternateHoldingsField
+
+----------
+
+Options:  
+
+----------
+
+Description: The MARC field/subfield that contains alternate holdings information for bibs taht do not have items attached (e.g. 852abchi for libraries converting from MARC Magician).
+
+----------
+
+Type: free
+
+----------
+
+
+

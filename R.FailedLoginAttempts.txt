@@ -1,0 +1,22 @@
+R.FailedLoginAttempts
+
+----------
+
+Name: FailedLoginAttempts
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of login attempts before lockout the patron account
+
+----------
+
+Type: Integer
+
+----------
+
+5
+

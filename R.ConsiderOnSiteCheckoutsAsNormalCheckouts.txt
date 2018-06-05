@@ -1,0 +1,22 @@
+R.ConsiderOnSiteCheckoutsAsNormalCheckouts
+
+----------
+
+Name: ConsiderOnSiteCheckoutsAsNormalCheckouts
+
+----------
+
+Options: Consider on-site checkouts as normal checkouts
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

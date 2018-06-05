@@ -1,0 +1,22 @@
+R.ReturnBeforeExpiry
+
+----------
+
+Name: ReturnBeforeExpiry
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, checkout will be prevented if returndate is after patron card expiry
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

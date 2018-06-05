@@ -1,0 +1,22 @@
+R.AcqItemSetSubfieldsWhenReceived
+
+----------
+
+Name: AcqItemSetSubfieldsWhenReceived
+
+----------
+
+Options: 
+
+----------
+
+Description: Upon receiving items, update their subfields if they were created when placing an order (e.g. o=5|a="foo bar")
+
+----------
+
+Type: Free
+
+----------
+
+
+

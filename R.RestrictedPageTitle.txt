@@ -1,0 +1,22 @@
+R.RestrictedPageTitle
+
+----------
+
+Name: RestrictedPageTitle
+
+----------
+
+Options:  
+
+----------
+
+Description: Title of the restricted page (breadcrumb and header)
+
+----------
+
+Type: Free
+
+----------
+
+
+

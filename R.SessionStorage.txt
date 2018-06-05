@@ -1,0 +1,22 @@
+R.SessionStorage
+
+----------
+
+Name: SessionStorage
+
+----------
+
+Options: mysql|Pg|tmp
+
+----------
+
+Description: Use database or a temporary file for storing session data
+
+----------
+
+Type: Choice
+
+----------
+
+tmp
+

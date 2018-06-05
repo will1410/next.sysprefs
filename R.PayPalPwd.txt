@@ -1,0 +1,22 @@
+R.PayPalPwd
+
+----------
+
+Name: PayPalPwd
+
+----------
+
+Options:  
+
+----------
+
+Description: Your PayPal API password
+
+----------
+
+Type: Free
+
+----------
+
+SLYE8JXN26HRGXZ4
+

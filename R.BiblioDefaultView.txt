@@ -1,0 +1,22 @@
+R.BiblioDefaultView
+
+----------
+
+Name: BiblioDefaultView
+
+----------
+
+Options: normal|marc|isbd
+
+----------
+
+Description: Choose the default detail view in the catalog; choose between normal, marc or isbd
+
+----------
+
+Type: Choice
+
+----------
+
+normal
+

@@ -1,0 +1,22 @@
+R.decreaseLoanHighHoldsControl
+
+----------
+
+Name: decreaseLoanHighHoldsControl
+
+----------
+
+Options: static|dynamic
+
+----------
+
+Description: Chooses between static and dynamic high holds checking
+
+----------
+
+Type: Choice
+
+----------
+
+static
+

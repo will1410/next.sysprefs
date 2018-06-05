@@ -1,0 +1,22 @@
+R.HoldFeeMode
+
+----------
+
+Name: HoldFeeMode
+
+----------
+
+Options: any_time_is_placed|not_always|any_time_is_collected
+
+----------
+
+Description: Set the hold fee mode
+
+----------
+
+Type: Choice
+
+----------
+
+not_always
+

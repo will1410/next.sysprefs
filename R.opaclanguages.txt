@@ -1,0 +1,22 @@
+R.opaclanguages
+
+----------
+
+Name: opaclanguages
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the default language in the OPAC.
+
+----------
+
+Type: Languages
+
+----------
+
+en,es-ES
+

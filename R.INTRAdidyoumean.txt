@@ -1,0 +1,22 @@
+R.INTRAdidyoumean
+
+----------
+
+Name: INTRAdidyoumean
+
+----------
+
+Options:  
+
+----------
+
+Description: Did you mean? configuration for the Intranet. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl.
+
+----------
+
+Type: Free
+
+----------
+
+
+

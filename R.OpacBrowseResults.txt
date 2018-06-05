@@ -1,0 +1,22 @@
+R.OpacBrowseResults
+
+----------
+
+Name: OpacBrowseResults
+
+----------
+
+Options:  
+
+----------
+
+Description: Disable/enable browsing and paging search results from the OPAC detail page.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

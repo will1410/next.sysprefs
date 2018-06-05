@@ -1,0 +1,22 @@
+R.intranetcolorstylesheet
+
+----------
+
+Name: intranetcolorstylesheet
+
+----------
+
+Options: 50
+
+----------
+
+Description: Define the color stylesheet to use in the Staff Client
+
+----------
+
+Type: free
+
+----------
+
+
+

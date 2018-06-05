@@ -1,0 +1,22 @@
+R.AcqCreateItem
+
+----------
+
+Name: AcqCreateItem
+
+----------
+
+Options: ordering|receiving|cataloguing
+
+----------
+
+Description: Define when the item is created : when ordering, when receiving, or in cataloguing module
+
+----------
+
+Type: Choice
+
+----------
+
+ordering
+

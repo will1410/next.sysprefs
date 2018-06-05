@@ -1,0 +1,22 @@
+R.hide_marc
+
+----------
+
+Name: hide_marc
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, disables display of MARC fields, subfield codes & indicators (still shows data)
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

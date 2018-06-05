@@ -1,0 +1,22 @@
+R.AllowMultipleIssuesOnABiblio
+
+----------
+
+Name: AllowMultipleIssuesOnABiblio
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow/Don't allow patrons to check out multiple items from one biblio
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

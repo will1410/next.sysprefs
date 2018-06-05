@@ -1,0 +1,22 @@
+R.SeparateHoldingsBranch
+
+----------
+
+Name: SeparateHoldingsBranch
+
+----------
+
+Options: homebranch|holdingbranch
+
+----------
+
+Description: Branch used to separate holdings
+
+----------
+
+Type: Choice
+
+----------
+
+homebranch
+

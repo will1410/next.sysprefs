@@ -1,0 +1,22 @@
+R.UsageStatsPublicID
+
+----------
+
+Name: UsageStatsPublicID
+
+----------
+
+Options:  
+
+----------
+
+Description: Public ID for Hea website
+
+----------
+
+Type: Free
+
+----------
+
+
+

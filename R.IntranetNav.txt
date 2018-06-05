@@ -1,0 +1,33 @@
+R.IntranetNav
+
+----------
+
+Name: IntranetNav
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Use HTML tabs to add navigational links to the left-hand navigational bar in the Staff Client
+
+----------
+
+Type: Textarea
+
+----------
+
+<li><a href="http://catalog.nexpresslibrary.org" target=_blank>OPAC</a></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Helpful Links<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="http://kslibexpress.mykansaslibrary.org/shipping-labels/" target="_blank">Courier Labels</a></li>
+<li><a href="http://libguides.nekls.org/nexpress2015/toolbox/training" target="_blank">NExpress Documentation</a></li>
+<li><a href="http://news.nexpresslibrary.org" target="_blank">NExpress News</a></li>
+<li><a href="http://classify.oclc.org/classify2/" target="_blank">OCLC Classify (Call numbers)</a></li>
+</ul>
+<li><a href="http://kslib.info/221/Online-Databases" target="_blank">Databases</a></li>
+
+
+
+

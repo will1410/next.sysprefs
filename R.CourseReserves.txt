@@ -1,0 +1,22 @@
+R.CourseReserves
+
+----------
+
+Name: CourseReserves
+
+----------
+
+Options: 
+
+----------
+
+Description: Turn ON Course Reserves functionality
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

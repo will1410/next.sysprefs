@@ -1,0 +1,22 @@
+R.AllowItemsOnHoldCheckout
+
+----------
+
+Name: AllowItemsOnHoldCheckout
+
+----------
+
+Options: Do not generate RESERVE_WAITING and RESERVED warning when checking out items reserved to someone else. This allows self checkouts for those items.
+
+----------
+
+Description: 
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

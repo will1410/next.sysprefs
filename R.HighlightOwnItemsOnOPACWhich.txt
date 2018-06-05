@@ -1,0 +1,22 @@
+R.HighlightOwnItemsOnOPACWhich
+
+----------
+
+Name: HighlightOwnItemsOnOPACWhich
+
+----------
+
+Options: PatronBranch|OpacURLBranch
+
+----------
+
+Description: Decides which branch's items to emphasize. If PatronBranch, emphasize the logged in user's library's items. If OpacURLBranch, highlight the items of the Apache var BRANCHCODE defined in Koha's Apache configuration file.
+
+----------
+
+Type: Choice
+
+----------
+
+OpacURLBranch
+

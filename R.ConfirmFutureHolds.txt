@@ -1,0 +1,22 @@
+R.ConfirmFutureHolds
+
+----------
+
+Name: ConfirmFutureHolds
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of days for confirming future holds
+
+----------
+
+Type: Integer
+
+----------
+
+0
+

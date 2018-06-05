@@ -1,0 +1,22 @@
+R.IDreamBooksResults
+
+----------
+
+Name: IDreamBooksResults
+
+----------
+
+Options: 
+
+----------
+
+Description: Display IDreamBooks.com rating in search results
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

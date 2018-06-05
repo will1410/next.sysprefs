@@ -1,0 +1,22 @@
+R.CatalogModuleRelink
+
+----------
+
+Name: CatalogModuleRelink
+
+----------
+
+Options:  
+
+----------
+
+Description: If OFF the linker will never replace the authids that are set in the cataloging module.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

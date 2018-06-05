@@ -1,0 +1,22 @@
+R.IDreamBooksReviews
+
+----------
+
+Name: IDreamBooksReviews
+
+----------
+
+Options: 
+
+----------
+
+Description: Display book review snippets from IDreamBooks.com
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

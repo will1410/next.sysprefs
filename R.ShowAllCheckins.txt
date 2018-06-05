@@ -1,0 +1,22 @@
+R.ShowAllCheckins
+
+----------
+
+Name: ShowAllCheckins
+
+----------
+
+Options: 
+
+----------
+
+Description: Show all checkins
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

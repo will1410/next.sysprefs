@@ -1,0 +1,22 @@
+R.PatronSelfRegistration
+
+----------
+
+Name: PatronSelfRegistration
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, patrons will be able to register themselves via the OPAC.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.ArticleRequestsMandatoryFieldsItemsOnly
+
+----------
+
+Name: ArticleRequestsMandatoryFieldsItemsOnly
+
+----------
+
+Options:  
+
+----------
+
+Description: Comma delimited list of required fields for bibs where article requests rule = 'item_only'
+
+----------
+
+Type: multiple
+
+----------
+
+
+

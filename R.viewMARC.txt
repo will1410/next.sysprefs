@@ -1,0 +1,22 @@
+R.viewMARC
+
+----------
+
+Name: viewMARC
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow display of MARC view of bibiographic records
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

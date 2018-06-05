@@ -1,0 +1,22 @@
+R.WaitingNotifyAtCheckin
+
+----------
+
+Name: WaitingNotifyAtCheckin
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, notify librarians of waiting holds for the patron whose items they are checking in.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

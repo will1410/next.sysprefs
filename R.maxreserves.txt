@@ -1,0 +1,22 @@
+R.maxreserves
+
+----------
+
+Name: maxreserves
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type:  
+
+----------
+
+1000
+

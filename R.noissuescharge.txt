@@ -1,0 +1,22 @@
+R.noissuescharge
+
+----------
+
+Name: noissuescharge
+
+----------
+
+Options: 
+
+----------
+
+Description: Define maximum amount withstanding before check outs are blocked
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

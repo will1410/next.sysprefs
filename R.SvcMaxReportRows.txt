@@ -1,0 +1,22 @@
+R.SvcMaxReportRows
+
+----------
+
+Name: SvcMaxReportRows
+
+----------
+
+Options:  
+
+----------
+
+Description: Maximum number of rows to return via the report web service.
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

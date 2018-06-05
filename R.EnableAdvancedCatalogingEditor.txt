@@ -1,0 +1,22 @@
+R.EnableAdvancedCatalogingEditor
+
+----------
+
+Name: EnableAdvancedCatalogingEditor
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable the Rancor advanced cataloging editor
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

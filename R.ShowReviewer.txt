@@ -1,0 +1,22 @@
+R.ShowReviewer
+
+----------
+
+Name: ShowReviewer
+
+----------
+
+Options: none|full|first|surname|firstandinitial|username
+
+----------
+
+Description: Choose how a commenter's identity is presented alongside comments in the OPAC
+
+----------
+
+Type: Choice
+
+----------
+
+none
+

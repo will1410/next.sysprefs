@@ -1,0 +1,22 @@
+R.BCCAllNotices
+
+----------
+
+Name: BCCAllNotices
+
+----------
+
+Options: 
+
+----------
+
+Description: If set,sends a blind carbon of every email sent to the specified address
+
+----------
+
+Type: free
+
+----------
+
+
+

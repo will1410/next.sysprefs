@@ -1,0 +1,22 @@
+R.OpacSuppressionByIPRange
+
+----------
+
+Name: OpacSuppressionByIPRange
+
+----------
+
+Options: 
+
+----------
+
+Description: Restrict the suppression to IP adresses outside of the IP range
+
+----------
+
+Type: free
+
+----------
+
+
+

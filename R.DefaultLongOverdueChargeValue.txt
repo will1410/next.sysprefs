@@ -1,0 +1,22 @@
+R.DefaultLongOverdueChargeValue
+
+----------
+
+Name: DefaultLongOverdueChargeValue
+
+----------
+
+Options:  
+
+----------
+
+Description: Charge a lost item to the borrower account when the LOST value of the item changes to n
+
+----------
+
+Type: integer
+
+----------
+
+
+

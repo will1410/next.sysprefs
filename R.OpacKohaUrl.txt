@@ -1,0 +1,22 @@
+R.OpacKohaUrl
+
+----------
+
+Name: OpacKohaUrl
+
+----------
+
+Options:  
+
+----------
+
+Description: Show 'Powered by Koha' text on OPAC footer.
+
+----------
+
+Type:  
+
+----------
+
+1
+

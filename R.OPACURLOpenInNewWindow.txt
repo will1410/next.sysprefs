@@ -1,0 +1,22 @@
+R.OPACURLOpenInNewWindow
+
+----------
+
+Name: OPACURLOpenInNewWindow
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, URLs in the OPAC open in a new window
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.CurrencyFormat
+
+----------
+
+Name: CurrencyFormat
+
+----------
+
+Options: US|FR|CH
+
+----------
+
+Description: Determines the display format of currencies. eg: '36000' is displayed as '360 000,00'  in 'FR' or 360,000.00'  in 'US'.
+
+----------
+
+Type: Choice
+
+----------
+
+US
+

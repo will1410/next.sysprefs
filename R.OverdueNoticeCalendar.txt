@@ -1,0 +1,22 @@
+R.OverdueNoticeCalendar
+
+----------
+
+Name: OverdueNoticeCalendar
+
+----------
+
+Options:  
+
+----------
+
+Description: Take calendar into consideration when working out sending overdue notices
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

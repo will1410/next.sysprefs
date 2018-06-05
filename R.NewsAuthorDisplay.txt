@@ -1,0 +1,22 @@
+R.NewsAuthorDisplay
+
+----------
+
+Name: NewsAuthorDisplay
+
+----------
+
+Options: none|opac|staff|both
+
+----------
+
+Description: Display the author name for news items.
+
+----------
+
+Type: Choice
+
+----------
+
+none
+

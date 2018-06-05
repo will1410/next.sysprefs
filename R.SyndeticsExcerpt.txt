@@ -1,0 +1,22 @@
+R.SyndeticsExcerpt
+
+----------
+
+Name: SyndeticsExcerpt
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Excerpts and first chapters on OPAC from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

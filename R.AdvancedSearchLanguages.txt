@@ -1,0 +1,22 @@
+R.AdvancedSearchLanguages
+
+----------
+
+Name: AdvancedSearchLanguages
+
+----------
+
+Options: 
+
+----------
+
+Description: ISO 639-2 codes of languages you wish to see appear as an advanced search option.  Example: eng|fra|ita
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

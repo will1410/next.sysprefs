@@ -1,0 +1,22 @@
+R.AutoSelfCheckAllowed
+
+----------
+
+Name: AutoSelfCheckAllowed
+
+----------
+
+Options: 
+
+----------
+
+Description: For corporate and special libraries which want web-based self-check available from any PC without the need for a manual staff login. Most libraries will want to leave this turned off. If on,requires self-check ID and password to be entered in AutoSelfCheckID and AutoSelfCheckPass sysprefs.
+
+----------
+
+Type: Systempreference
+
+----------
+
+
+

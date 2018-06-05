@@ -1,0 +1,22 @@
+R.decreaseLoanHighHoldsValue
+
+----------
+
+Name: decreaseLoanHighHoldsValue
+
+----------
+
+Options: 
+
+----------
+
+Description: Specifies a threshold for the minimum number of holds needed to trigger a reduction in loan duration (used with decreaseLoanHighHolds)
+
+----------
+
+Type: Integer
+
+----------
+
+
+

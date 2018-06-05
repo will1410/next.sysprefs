@@ -1,0 +1,22 @@
+R.ClaimsReturnedValue
+
+----------
+
+Name: ClaimsReturnedValue
+
+----------
+
+Options: 
+
+----------
+
+Description: Lost value of Claims Returned,to be ignored by fines cron job
+
+----------
+
+Type: Integer
+
+----------
+
+5
+

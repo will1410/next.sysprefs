@@ -1,0 +1,22 @@
+R.OpacAuthorities
+
+----------
+
+Name: OpacAuthorities
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables the search authorities link on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

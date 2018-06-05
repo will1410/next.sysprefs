@@ -1,0 +1,22 @@
+R.AllowCheckInDateChange
+
+----------
+
+Name: AllowCheckInDateChange
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow modification of checkin date/time
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

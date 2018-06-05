@@ -1,0 +1,22 @@
+R.canreservefromotherbranches
+
+----------
+
+Name: canreservefromotherbranches
+
+----------
+
+Options: 
+
+----------
+
+Description: With Independent branches on, can a user from one library place a hold on an item from another library
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

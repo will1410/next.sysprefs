@@ -1,0 +1,22 @@
+R.KohaAdminEmailAddress
+
+----------
+
+Name: KohaAdminEmailAddress
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the email address where patron modification requests are sent
+
+----------
+
+Type: free
+
+----------
+
+teamnexpress@nekls.org
+

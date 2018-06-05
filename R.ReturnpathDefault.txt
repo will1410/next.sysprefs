@@ -1,0 +1,22 @@
+R.ReturnpathDefault
+
+----------
+
+Name: ReturnpathDefault
+
+----------
+
+Options:  
+
+----------
+
+Description: The default email address to be set as return-path
+
+----------
+
+Type: Free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.BakerTaylorEnabled
+
+----------
+
+Name: BakerTaylorEnabled
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or disable all Baker & Taylor features.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

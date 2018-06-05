@@ -1,0 +1,22 @@
+R.Babeltheque
+
+----------
+
+Name: Babeltheque
+
+----------
+
+Options: 
+
+----------
+
+Description: Turn ON Babeltheque content  - See babeltheque.com to subscribe to this service
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

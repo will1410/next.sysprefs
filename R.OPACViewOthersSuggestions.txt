@@ -1,0 +1,22 @@
+R.OPACViewOthersSuggestions
+
+----------
+
+Name: OPACViewOthersSuggestions
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, allows all suggestions to be displayed in the OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

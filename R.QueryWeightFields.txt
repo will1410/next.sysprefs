@@ -1,0 +1,22 @@
+R.QueryWeightFields
+
+----------
+
+Name: QueryWeightFields
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables field weighting
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

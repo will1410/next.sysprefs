@@ -1,0 +1,22 @@
+R.AddressFormat
+
+----------
+
+Name: AddressFormat
+
+----------
+
+Options: us|de|fr
+
+----------
+
+Description: Choose format to display postal addresses
+
+----------
+
+Type: Choice
+
+----------
+
+us
+

@@ -1,0 +1,22 @@
+R.CirculationRowsLimit
+
+----------
+
+Name: CirculationRowsLimit
+
+----------
+
+Options: 
+
+----------
+
+Description: 
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

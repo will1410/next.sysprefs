@@ -1,0 +1,22 @@
+R.RenewalLog
+
+----------
+
+Name: RenewalLog
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, log information about renewals
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

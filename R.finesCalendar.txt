@@ -1,0 +1,22 @@
+R.finesCalendar
+
+----------
+
+Name: finesCalendar
+
+----------
+
+Options: ignoreCalendar|noFinesWhenClosed
+
+----------
+
+Description: Specify whether to use the Calendar in calculating duedates and fines
+
+----------
+
+Type: Choice
+
+----------
+
+noFinesWhenClosed
+

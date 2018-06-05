@@ -1,0 +1,22 @@
+R.LabelMARCView
+
+----------
+
+Name: LabelMARCView
+
+----------
+
+Options: standard|economical
+
+----------
+
+Description: Define how a MARC record will display
+
+----------
+
+Type: Choice
+
+----------
+
+standard
+

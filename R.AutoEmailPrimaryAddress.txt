@@ -1,0 +1,22 @@
+R.AutoEmailPrimaryAddress
+
+----------
+
+Name: AutoEmailPrimaryAddress
+
+----------
+
+Options: email|emailpro|B_email|cardnumber|OFF
+
+----------
+
+Description: Defines the default email address where Account Details emails are sent.
+
+----------
+
+Type: Choice
+
+----------
+
+OFF
+

@@ -1,0 +1,22 @@
+R.CardnumberLength
+
+----------
+
+Name: CardnumberLength
+
+----------
+
+Options: 
+
+----------
+
+Description: Set a length for card numbers.
+
+----------
+
+Type: Free
+
+----------
+
+
+

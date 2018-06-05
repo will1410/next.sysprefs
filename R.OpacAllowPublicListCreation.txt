@@ -1,0 +1,22 @@
+R.OpacAllowPublicListCreation
+
+----------
+
+Name: OpacAllowPublicListCreation
+
+----------
+
+Options:  
+
+----------
+
+Description: If set, allows opac users to create public lists
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

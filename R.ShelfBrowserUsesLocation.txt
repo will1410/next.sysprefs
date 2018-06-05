@@ -1,0 +1,22 @@
+R.ShelfBrowserUsesLocation
+
+----------
+
+Name: ShelfBrowserUsesLocation
+
+----------
+
+Options: 1
+
+----------
+
+Description: Use the item location when finding items for the shelf browser.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

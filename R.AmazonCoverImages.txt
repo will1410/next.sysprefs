@@ -1,0 +1,22 @@
+R.AmazonCoverImages
+
+----------
+
+Name: AmazonCoverImages
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Cover Images in Staff Client from Amazon Web Services
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

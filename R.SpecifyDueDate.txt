@@ -1,0 +1,22 @@
+R.SpecifyDueDate
+
+----------
+
+Name: SpecifyDueDate
+
+----------
+
+Options: 
+
+----------
+
+Description: Define whether to display "Specify Due Date" form in Circulation
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

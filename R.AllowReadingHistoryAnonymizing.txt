@@ -1,0 +1,22 @@
+R.AllowReadingHistoryAnonymizing
+
+----------
+
+Name: AllowReadingHistoryAnonymizing
+
+----------
+
+Options: 
+
+----------
+
+Description: Allows a borrower to optionally delete his or her reading history.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

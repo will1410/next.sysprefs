@@ -1,0 +1,22 @@
+R.automatic_item_modification_by_age_configuration
+
+----------
+
+Name: automatic_item_modification_by_age_configuration
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type:  
+
+----------
+
+[{"substitutions":[{"value":"GAME","field":"items.itype"}],"conditions":[{"field":"items.homebranch","value":"BURLINGAME"},{"value":"SWITCH","field":"items.ccode"}],"age":"60"},{"conditions":[{"value":"LOCALHOLD2","field":"items.itype"}],"age":"60","substitutions":[{"value":"BOOK","field":"items.itype"}]},{"conditions":[{"field":"items.itype","value":"WALKIN2"}],"age":"60","substitutions":[{"value":"BOOK","field":"items.itype"}]},{"substitutions":[{"value":"MEDIA","field":"items.itype"}],"age":"30","conditions":[{"field":"items.itype","value":"LOCALHOLD1"}]},{"conditions":[{"field":"items.itype","value":"WALKIN1"}],"age":"30","substitutions":[{"value":"MEDIA","field":"items.itype"}]},{"substitutions":[{"field":"items.itype","value":"MEDIA"}],"conditions":[{"field":"items.homebranch","value":"MCLOUTH"},{"value":"NEWMEDIA","field":"items.itype"}],"age":"60"}]
+

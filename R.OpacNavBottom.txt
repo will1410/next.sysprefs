@@ -1,0 +1,67 @@
+R.OpacNavBottom
+
+----------
+
+Name: OpacNavBottom
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Links after OpacNav links
+
+----------
+
+Type: Textarea
+
+----------
+
+<div id="menu1">
+
+<h2><a title="State Library of Kansas Digital" href="http://kslib.info/128/Digital-Book-eLending" target="_blank">Digital Sources</a></h2>
+
+  <ul id="digital-nav">
+<li id="hoopla-nav"><a title="Hoopla, digital ebooks, movies, music, and more!" href="https://www.hoopladigital.com/home" target="_blank">Hoopla</a></li>
+
+    <li><a title="State Library of Kansas Digital" href="http://kslib.info/128/Digital-Book-eLending" target="_blank">Digital Books Start</a></li></ul>
+</div>
+<div id="menu2">
+
+    <ul><li><a title="3M Cloud Library" href="http://ebook.3m.com/library/kansas/" target="_blank">3M eBooks</a></li>
+
+    <li><a title="Freading eBooks" href="http://kslib.freading.com/index" target="_blank">Freading eBooks</a></li>
+
+    <li><a title="OneClick Digital" href="http://statelibraryofks.oneclickdigital.com/Home/Featured.aspx" target="_blank">eAudiobooks</a></li>
+
+    <li><a title="Nonfiction eBooks" href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=508" target="_blank">EBSCO Non-Fiction</a></li>
+
+    <li><a title="Public Domain eBooks" href="http://www.gutenberg.org/" target="_blank">Project Gutenberg</a></li>
+
+  </ul>
+
+</div>
+
+
+
+<div id='cssmenu'>
+
+<h2><a title="State Library of Kansas Databases" href="http://kslib.info/221/Online-Databases" target="_blank">State Resources</a></h2>
+
+<ul>
+   <li><a title="State Library of Kansas Databases" href="http://kslib.info/221/Online-Databases" target="_blank">Research & Reference</a></li> 
+   <li><a title="Learn a new Language" href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1503" target="_blank">Mango Languages</a></li>
+   <li><a title="Learn new skills" href="http://www.learningexpresslibrary3.com/?AuthToken=895C9A93-31CF-45C5-814C-A0788C14776D" target="_blank">LearningExpress</a></li>
+   <li><a title="Find Your Next Book" href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1050" target="_blank">NoveList</a></li>
+   <li><a title="Encyclopedia" href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=854" target="_blank">Encyclopedia Britannica</a></li>
+   <li><a title="Genealogy Research" href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=308" target="_blank">HeritageQuest</a></li>
+   <li><a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=500" target="_blank">AutoRepair</a></li>
+   <li><a title="Health Information" href="http://www.nlm.nih.gov/medlineplus/" target="_blank">MedLine Plus</a></li>
+   <li><a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1225" target="_blank">Newspapers</a></li>
+   <li><a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=2029" target="_blank">Universal Class</a></li>
+  
+  </ul>
+
+</div>
+

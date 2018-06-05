@@ -1,0 +1,22 @@
+R.TraceCompleteSubfields
+
+----------
+
+Name: TraceCompleteSubfields
+
+----------
+
+Options: 0
+
+----------
+
+Description: Force subject tracings to only match complete subfields.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

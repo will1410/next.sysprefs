@@ -1,0 +1,22 @@
+R.finesMode
+
+----------
+
+Name: finesMode
+
+----------
+
+Options: off|test|production
+
+----------
+
+Description: Choose the fines mode, 'off', 'test' (emails admin report) or 'production' (accrue overdue fines).  Requires accruefines cronjob.
+
+----------
+
+Type: Choice
+
+----------
+
+production
+

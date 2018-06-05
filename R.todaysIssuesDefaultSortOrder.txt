@@ -1,0 +1,22 @@
+R.todaysIssuesDefaultSortOrder
+
+----------
+
+Name: todaysIssuesDefaultSortOrder
+
+----------
+
+Options: asc|desc
+
+----------
+
+Description: Specify the sort order of Todays Issues on the circulation page
+
+----------
+
+Type: Choice
+
+----------
+
+desc
+

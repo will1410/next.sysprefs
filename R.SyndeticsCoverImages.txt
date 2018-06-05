@@ -1,0 +1,22 @@
+R.SyndeticsCoverImages
+
+----------
+
+Name: SyndeticsCoverImages
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Cover Images from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

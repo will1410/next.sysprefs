@@ -1,0 +1,22 @@
+R.HomeOrHoldingBranch
+
+----------
+
+Name: HomeOrHoldingBranch
+
+----------
+
+Options: holdingbranch|homebranch
+
+----------
+
+Description: Used by Circulation to determine which branch of an item to check with independent branches on, and by search to determine which branch to choose for availability 
+
+----------
+
+Type: Choice
+
+----------
+
+holdingbranch
+

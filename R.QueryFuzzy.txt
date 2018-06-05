@@ -1,0 +1,22 @@
+R.QueryFuzzy
+
+----------
+
+Name: QueryFuzzy
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables fuzzy option for searches
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

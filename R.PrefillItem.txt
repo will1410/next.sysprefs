@@ -1,0 +1,22 @@
+R.PrefillItem
+
+----------
+
+Name: PrefillItem
+
+----------
+
+Options: 
+
+----------
+
+Description: When a new item is added, should it be prefilled with last created item values?
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

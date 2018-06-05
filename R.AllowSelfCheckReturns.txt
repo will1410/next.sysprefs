@@ -1,0 +1,22 @@
+R.AllowSelfCheckReturns
+
+----------
+
+Name: AllowSelfCheckReturns
+
+----------
+
+Options: 
+
+----------
+
+Description: If enabled, patrons may return items through the Web-based Self Checkout
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

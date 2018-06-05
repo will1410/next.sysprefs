@@ -1,0 +1,22 @@
+R.MaxItemsToDisplayForBatchDel
+
+----------
+
+Name: MaxItemsToDisplayForBatchDel
+
+----------
+
+Options:  
+
+----------
+
+Description: Display up to a given number of items in a single item deletionbatch.
+
+----------
+
+Type: Integer
+
+----------
+
+5000
+

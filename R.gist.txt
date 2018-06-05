@@ -1,0 +1,22 @@
+R.gist
+
+----------
+
+Name: gist
+
+----------
+
+Options: 
+
+----------
+
+Description: Default Goods and Services tax rate NOT in %, but in numeric form (0.12 for 12%), set to 0 to disable GST
+
+----------
+
+Type: Float
+
+----------
+
+0
+

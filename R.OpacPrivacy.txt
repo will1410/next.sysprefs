@@ -1,0 +1,22 @@
+R.OpacPrivacy
+
+----------
+
+Name: OpacPrivacy
+
+----------
+
+Options:  
+
+----------
+
+Description: if ON, allows patrons to define their privacy rules (reading history)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

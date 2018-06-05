@@ -1,0 +1,22 @@
+R.opacmysummaryhtml
+
+----------
+
+Name: opacmysummaryhtml
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type:  
+
+----------
+
+
+

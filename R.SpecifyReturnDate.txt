@@ -1,0 +1,22 @@
+R.SpecifyReturnDate
+
+----------
+
+Name: SpecifyReturnDate
+
+----------
+
+Options: 
+
+----------
+
+Description: Define whether to display "Specify Return Date" form in Circulation
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

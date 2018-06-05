@@ -1,0 +1,22 @@
+R.DefaultLongOverdueLostValue
+
+----------
+
+Name: DefaultLongOverdueLostValue
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the LOST value of an item to n when the item has been overdue for more than defaultlongoverduedays days.
+
+----------
+
+Type: integer
+
+----------
+
+
+

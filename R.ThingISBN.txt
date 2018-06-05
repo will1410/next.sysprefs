@@ -1,0 +1,22 @@
+R.ThingISBN
+
+----------
+
+Name: ThingISBN
+
+----------
+
+Options: 
+
+----------
+
+Description: Use with FRBRizeEditions. If ON, Koha will use the ThingISBN web service in the Editions tab on the detail pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.XISBN
+
+----------
+
+Name: XISBN
+
+----------
+
+Options: 
+
+----------
+
+Description: Use with FRBRizeEditions. If ON, Koha will use the OCLC xISBN web service in the Editions tab on the detail pages. See: http://www.worldcat.org/affiliate/webservices/xisbn/app.jsp
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

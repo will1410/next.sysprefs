@@ -1,0 +1,22 @@
+R.UsageStatsGeolocation
+
+----------
+
+Name: UsageStatsGeolocation
+
+----------
+
+Options:  
+
+----------
+
+Description: Geolocation of the main library
+
+----------
+
+Type: Free
+
+----------
+
+
+

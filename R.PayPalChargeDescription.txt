@@ -1,0 +1,22 @@
+R.PayPalChargeDescription
+
+----------
+
+Name: PayPalChargeDescription
+
+----------
+
+Options:  
+
+----------
+
+Description: This preference defines what the user will see the charge listed as in PayPal
+
+----------
+
+Type: Free
+
+----------
+
+NExpress Library Catalog payment
+

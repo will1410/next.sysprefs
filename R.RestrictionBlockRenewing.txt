@@ -1,0 +1,22 @@
+R.RestrictionBlockRenewing
+
+----------
+
+Name: RestrictionBlockRenewing
+
+----------
+
+Options:  
+
+----------
+
+Description: If patron is restricted, should renewal be allowed or blocked
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.suggestion
+
+----------
+
+Name: suggestion
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables patron suggestions feature in OPAC
+
+----------
+
+Type: free
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.opaclayoutstylesheet
+
+----------
+
+Name: opaclayoutstylesheet
+
+----------
+
+Options: 
+
+----------
+
+Description: Enter the name of the layout CSS stylesheet to use in the OPAC
+
+----------
+
+Type: free
+
+----------
+
+opac.css
+

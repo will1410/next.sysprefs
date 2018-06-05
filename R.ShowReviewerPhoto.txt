@@ -1,0 +1,22 @@
+R.ShowReviewerPhoto
+
+----------
+
+Name: ShowReviewerPhoto
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, photo of reviewer will be shown beside comments in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

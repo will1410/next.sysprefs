@@ -1,0 +1,22 @@
+R.AllowPKIAuth
+
+----------
+
+Name: AllowPKIAuth
+
+----------
+
+Options: None|Common Name|emailAddress
+
+----------
+
+Description: Use the field from a client-side SSL certificate to look a user in the Koha database
+
+----------
+
+Type: Choice
+
+----------
+
+None
+

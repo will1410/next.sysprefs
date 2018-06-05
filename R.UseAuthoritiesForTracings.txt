@@ -1,0 +1,22 @@
+R.UseAuthoritiesForTracings
+
+----------
+
+Name: UseAuthoritiesForTracings
+
+----------
+
+Options: 0
+
+----------
+
+Description: Use authority record numbers for subject tracings instead of heading strings.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

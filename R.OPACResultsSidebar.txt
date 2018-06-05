@@ -1,0 +1,22 @@
+R.OPACResultsSidebar
+
+----------
+
+Name: OPACResultsSidebar
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Define HTML to be included on the search results page, underneath the facets sidebar
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.AnonSuggestions
+
+----------
+
+Name: AnonSuggestions
+
+----------
+
+Options:  
+
+----------
+
+Description: Set to anonymous borrowernumber to enable Anonymous suggestions
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

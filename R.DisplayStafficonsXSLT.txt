@@ -1,0 +1,22 @@
+R.DisplayStafficonsXSLT
+
+----------
+
+Name: DisplayStafficonsXSLT
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, displays the format, audience, type icons in the staff XSLT MARC21 result and display pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

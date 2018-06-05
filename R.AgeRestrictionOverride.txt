@@ -1,0 +1,22 @@
+R.AgeRestrictionOverride
+
+----------
+
+Name: AgeRestrictionOverride
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow staff to check out an item with age restriction.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.IndependentBranchesPatronModifications
+
+----------
+
+Name: IndependentBranchesPatronModifications
+
+----------
+
+Options: 
+
+----------
+
+Description: Show only modification request for the logged in branch
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.AutoSelfCheckPass
+
+----------
+
+Name: AutoSelfCheckPass
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Password to be used for automatic web-based self-check. Only applies if AutoSelfCheckAllowed syspref is turned on.
+
+----------
+
+Type: Systempreference
+
+----------
+
+
+

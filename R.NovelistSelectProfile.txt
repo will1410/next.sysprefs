@@ -1,0 +1,22 @@
+R.NovelistSelectProfile
+
+----------
+
+Name: NovelistSelectProfile
+
+----------
+
+Options:  
+
+----------
+
+Description: Novelist Select user Password
+
+----------
+
+Type: free
+
+----------
+
+s9089318.main.novselcsc
+

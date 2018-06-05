@@ -1,0 +1,22 @@
+R.DefaultPatronSearchFields
+
+----------
+
+Name: DefaultPatronSearchFields
+
+----------
+
+Options:  
+
+----------
+
+Description: Comma separated list defining the default fields to be used during a patron search
+
+----------
+
+Type: free
+
+----------
+
+surname,firstname,othernames,cardnumber,userid
+

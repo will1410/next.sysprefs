@@ -1,0 +1,22 @@
+R.ReservesMaxPickUpDelay
+
+----------
+
+Name: ReservesMaxPickUpDelay
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the Maximum delay to pick up an item on hold
+
+----------
+
+Type: Integer
+
+----------
+
+7
+

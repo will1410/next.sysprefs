@@ -1,0 +1,22 @@
+R.HoldButtonIgnore
+
+----------
+
+Name: HoldButtonIgnore
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Ignore button when hold triggered.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

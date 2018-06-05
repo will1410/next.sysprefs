@@ -1,0 +1,22 @@
+R.numSearchRSSResults
+
+----------
+
+Name: numSearchRSSResults
+
+----------
+
+Options:  
+
+----------
+
+Description: Specify the maximum number of results to display on a RSS page of results
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

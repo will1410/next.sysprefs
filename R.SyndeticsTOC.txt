@@ -1,0 +1,22 @@
+R.SyndeticsTOC
+
+----------
+
+Name: SyndeticsTOC
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Table of Content information from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

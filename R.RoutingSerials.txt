@@ -1,0 +1,22 @@
+R.RoutingSerials
+
+----------
+
+Name: RoutingSerials
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, serials routing is enabled
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

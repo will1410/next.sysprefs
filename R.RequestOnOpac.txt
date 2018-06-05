@@ -1,0 +1,22 @@
+R.RequestOnOpac
+
+----------
+
+Name: RequestOnOpac
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, globally enables patron holds on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.ReservesNeedReturns
+
+----------
+
+Name: ReservesNeedReturns
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, a hold placed on an item available in this library must be checked-in, otherwise, a hold on a specific item, that is in the library & available is considered available
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

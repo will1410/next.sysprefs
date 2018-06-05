@@ -1,0 +1,22 @@
+R.DisplayMultiPlaceHold
+
+----------
+
+Name: DisplayMultiPlaceHold
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON,displays the Place Hold button at the top of the search results list in staff and OPAC. Sites whose policies require tighter control over holds may want to turn this option off and limit users to placing holds one at a time.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

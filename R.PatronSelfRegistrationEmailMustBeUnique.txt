@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationEmailMustBeUnique
+
+----------
+
+Name: PatronSelfRegistrationEmailMustBeUnique
+
+----------
+
+Options:  
+
+----------
+
+Description: If set, the field borrowers.email will be considered as a unique field on self registering
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

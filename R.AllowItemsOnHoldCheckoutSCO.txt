@@ -1,0 +1,22 @@
+R.AllowItemsOnHoldCheckoutSCO
+
+----------
+
+Name: AllowItemsOnHoldCheckoutSCO
+
+----------
+
+Options: 
+
+----------
+
+Description: Do not generate RESERVE_WAITING and RESERVED warning in the SCO module when checking out items reserved to someone else. This allows self checkouts for those items.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationVerifyByEmail
+
+----------
+
+Name: PatronSelfRegistrationVerifyByEmail
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, any patron attempting to register themselves via the OPAC will be required to verify themselves via email to activate his or her account.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

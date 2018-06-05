@@ -1,0 +1,22 @@
+R.OPACdidyoumean
+
+----------
+
+Name: OPACdidyoumean
+
+----------
+
+Options:  
+
+----------
+
+Description: Did you mean? configuration for the OPAC. Do not change, as this is controlled by /cgi-bin/koha/admin/didyoumean.pl.
+
+----------
+
+Type: Free
+
+----------
+
+
+

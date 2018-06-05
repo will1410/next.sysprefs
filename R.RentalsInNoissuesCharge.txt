@@ -1,0 +1,22 @@
+R.RentalsInNoissuesCharge
+
+----------
+
+Name: RentalsInNoissuesCharge
+
+----------
+
+Options:  
+
+----------
+
+Description: Rental charges block checkouts (added to noissuescharge).
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

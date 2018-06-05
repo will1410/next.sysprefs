@@ -1,0 +1,22 @@
+R.HoldsQueueSkipClosed
+
+----------
+
+Name: HoldsQueueSkipClosed
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, any libraries that are closed when the holds queue is built will be ignored for the purpose of filling holds.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

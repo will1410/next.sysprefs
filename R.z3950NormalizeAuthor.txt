@@ -1,0 +1,22 @@
+R.z3950NormalizeAuthor
+
+----------
+
+Name: z3950NormalizeAuthor
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Personal Name Authorities will replace authors in biblio.author
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

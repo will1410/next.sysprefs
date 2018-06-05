@@ -1,0 +1,22 @@
+R.NovelistSelectStaffView
+
+----------
+
+Name: NovelistSelectStaffView
+
+----------
+
+Options: tab|above|below
+
+----------
+
+Description: Where to display Novelist Select content
+
+----------
+
+Type: Choice
+
+----------
+
+tab
+

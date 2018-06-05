@@ -1,0 +1,22 @@
+R.ArticleRequests
+
+----------
+
+Name: ArticleRequests
+
+----------
+
+Options:  
+
+----------
+
+Description: Enables the article request feature
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

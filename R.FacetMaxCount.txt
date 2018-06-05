@@ -1,0 +1,22 @@
+R.FacetMaxCount
+
+----------
+
+Name: FacetMaxCount
+
+----------
+
+Options:  
+
+----------
+
+Description: Specify the max facet count for each category
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

@@ -1,0 +1,22 @@
+R.OPACSuggestionMandatoryFields
+
+----------
+
+Name: OPACSuggestionMandatoryFields
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the mandatory fields for a patron purchase suggestions made via OPAC.
+
+----------
+
+Type: multiple
+
+----------
+
+itemtype,title
+

@@ -1,0 +1,22 @@
+R.printcirculationslips
+
+----------
+
+Name: printcirculationslips
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enable printing circulation receipts
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

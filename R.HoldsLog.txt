@@ -1,0 +1,22 @@
+R.HoldsLog
+
+----------
+
+Name: HoldsLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, log create/cancel/suspend/resume actions on holds.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.Replica_user
+
+----------
+
+Name: Replica_user
+
+----------
+
+Options: 
+
+----------
+
+Description: Username for reporting database replica
+
+----------
+
+Type: Textarea
+
+----------
+
+r-nekls
+

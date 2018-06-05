@@ -1,0 +1,22 @@
+R.item-level_itypes
+
+----------
+
+Name: item-level_itypes
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables Item-level Itemtype / Issuing Rules
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

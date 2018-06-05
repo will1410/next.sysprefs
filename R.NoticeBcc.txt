@@ -1,0 +1,22 @@
+R.NoticeBcc
+
+----------
+
+Name: NoticeBcc
+
+----------
+
+Options: 
+
+----------
+
+Description: Email address to Bcc outgoing notices sent by email
+
+----------
+
+Type: free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.AllowHoldsOnDamagedItems
+
+----------
+
+Name: AllowHoldsOnDamagedItems
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow hold requests to be placed on damaged items
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

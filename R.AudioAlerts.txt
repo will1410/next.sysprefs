@@ -1,0 +1,22 @@
+R.AudioAlerts
+
+----------
+
+Name: AudioAlerts
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable circulation sounds during checkin and checkout in the staff interface.  Not supported by all web browsers yet.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.FinesLog
+
+----------
+
+Name: FinesLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, log fines
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

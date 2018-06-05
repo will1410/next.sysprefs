@@ -1,0 +1,22 @@
+R.HighlightOwnItemsOnOPAC
+
+----------
+
+Name: HighlightOwnItemsOnOPAC
+
+----------
+
+Options: 
+
+----------
+
+Description: If on, and a patron is logged into the OPAC, items from his or her home library will be emphasized and shown first in search results and item details.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

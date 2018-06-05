@@ -1,0 +1,22 @@
+R.OPACdefaultSortField
+
+----------
+
+Name: OPACdefaultSortField
+
+----------
+
+Options: relevance|popularity|call_number|pubdate|acqdate|title|author
+
+----------
+
+Description: Specify the default field used for sorting
+
+----------
+
+Type: Choice
+
+----------
+
+
+

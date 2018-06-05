@@ -1,0 +1,22 @@
+R.opacthemes
+
+----------
+
+Name: opacthemes
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the current theme for the OPAC interface.
+
+----------
+
+Type: Themes
+
+----------
+
+bootstrap
+

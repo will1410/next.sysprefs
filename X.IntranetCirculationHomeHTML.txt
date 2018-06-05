@@ -1,0 +1,22 @@
+R.IntranetCirculationHomeHTML
+
+----------
+
+Name: IntranetCirculationHomeHTML
+
+----------
+
+Options:  
+
+----------
+
+Description: Show the following HTML in a div on the bottom of the reports home page
+
+----------
+
+Type: Free
+
+----------
+
+Too large to process
+

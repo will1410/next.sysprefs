@@ -1,0 +1,22 @@
+R.OPACFallback
+
+----------
+
+Name: OPACFallback
+
+----------
+
+Options: bootstrap|prog
+
+----------
+
+Description: Define the fallback theme for the OPAC interface.
+
+----------
+
+Type: Themes
+
+----------
+
+prog
+

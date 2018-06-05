@@ -1,0 +1,22 @@
+R.opacmsgtab
+
+----------
+
+Name: opacmsgtab
+
+----------
+
+Options: 
+
+----------
+
+Description: If on,enables display of My Messaging tab in OPAC patron account and the email/text message settings in OPAC user update tab.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

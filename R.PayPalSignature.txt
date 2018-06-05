@@ -1,0 +1,22 @@
+R.PayPalSignature
+
+----------
+
+Name: PayPalSignature
+
+----------
+
+Options:  
+
+----------
+
+Description: Your PayPal API signature
+
+----------
+
+Type: Free
+
+----------
+
+AiPC9BjkCyDFQXbSkoZcgqH3hpacA81yJgjFE15XpcXOg5x3ELuB85pK
+

@@ -1,0 +1,22 @@
+R.AcqWarnOnDuplicateInvoice
+
+----------
+
+Name: AcqWarnOnDuplicateInvoice
+
+----------
+
+Options: 
+
+----------
+
+Description: Warn librarians when they try to create a duplicate invoice
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.LinkerOptions
+
+----------
+
+Name: LinkerOptions
+
+----------
+
+Options: 
+
+----------
+
+Description: A pipe-separated list of options for the linker.
+
+----------
+
+Type: free
+
+----------
+
+
+

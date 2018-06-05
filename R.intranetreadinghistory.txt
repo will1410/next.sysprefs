@@ -1,0 +1,22 @@
+R.intranetreadinghistory
+
+----------
+
+Name: intranetreadinghistory
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Reading History is enabled for all patrons
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

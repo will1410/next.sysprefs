@@ -1,0 +1,22 @@
+R.SMSSendDriver
+
+----------
+
+Name: SMSSendDriver
+
+----------
+
+Options: 
+
+----------
+
+Description: Sets which SMS::Send driver is used to send SMS messages.
+
+----------
+
+Type: free
+
+----------
+
+Email
+

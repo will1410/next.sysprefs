@@ -1,0 +1,22 @@
+R.OPACItemsResultsDisplay
+
+----------
+
+Name: OPACItemsResultsDisplay
+
+----------
+
+Options:  
+
+----------
+
+Description: If No, show only the status of items in result list. If Yes, show full location of items (branchlocation+callnumber) as in staff interface
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

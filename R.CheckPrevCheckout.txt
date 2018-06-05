@@ -1,0 +1,22 @@
+R.CheckPrevCheckout
+
+----------
+
+Name: CheckPrevCheckout
+
+----------
+
+Options: hardyes|softyes|softno|hardno
+
+----------
+
+Description: By default, for every item checked out, should we warn if the patron has checked out that item in the past?
+
+----------
+
+Type: Choice
+
+----------
+
+hardno
+

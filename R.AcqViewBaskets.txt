@@ -1,0 +1,22 @@
+R.AcqViewBaskets
+
+----------
+
+Name: AcqViewBaskets
+
+----------
+
+Options: user|branch|all
+
+----------
+
+Description: Define which baskets a user is allowed to view: his own only, any within his branch or all
+
+----------
+
+Type: Choice
+
+----------
+
+branch
+

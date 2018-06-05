@@ -1,0 +1,22 @@
+R.HTML5MediaExtensions
+
+----------
+
+Name: HTML5MediaExtensions
+
+----------
+
+Options: 
+
+----------
+
+Description: Media file extensions
+
+----------
+
+Type: free
+
+----------
+
+webm|ogg|ogv|oga|vtt
+

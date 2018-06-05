@@ -1,0 +1,22 @@
+R.SeparateHoldings
+
+----------
+
+Name: SeparateHoldings
+
+----------
+
+Options:  
+
+----------
+
+Description: Separate current branch holdings from other holdings
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

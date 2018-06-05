@@ -1,0 +1,22 @@
+R.GoogleOpenIDConnectDomain
+
+----------
+
+Name: GoogleOpenIDConnectDomain
+
+----------
+
+Options: Restrict OpenID Connect to this domain (or subdomains of this domain). Leave blank for all Google domains
+
+----------
+
+Description:  
+
+----------
+
+Type: Free
+
+----------
+
+
+

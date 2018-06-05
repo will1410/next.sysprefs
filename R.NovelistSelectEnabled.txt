@@ -1,0 +1,22 @@
+R.NovelistSelectEnabled
+
+----------
+
+Name: NovelistSelectEnabled
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable Novelist Select content.  Requires Novelist Profile and Password
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

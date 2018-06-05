@@ -1,0 +1,22 @@
+R.AllowNotForLoanOverride
+
+----------
+
+Name: AllowNotForLoanOverride
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Koha will allow the librarian to loan a not for loan item.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

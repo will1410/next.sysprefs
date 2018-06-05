@@ -1,0 +1,22 @@
+R.SMSSendUsername
+
+----------
+
+Name: SMSSendUsername
+
+----------
+
+Options: 
+
+----------
+
+Description: Username/Login used to send SMS messages
+
+----------
+
+Type: free
+
+----------
+
+
+

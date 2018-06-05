@@ -1,0 +1,22 @@
+R.OpacAdvSearchMoreOptions
+
+----------
+
+Name: OpacAdvSearchMoreOptions
+
+----------
+
+Options: pubdate|itemtype|language|subtype|sorting|location
+
+----------
+
+Description: Show search options for the expanded view (More options)
+
+----------
+
+Type: multiple
+
+----------
+
+itemtype,location,pubdate,sorting
+

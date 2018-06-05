@@ -1,0 +1,22 @@
+R.AllowReturnToBranch
+
+----------
+
+Name: AllowReturnToBranch
+
+----------
+
+Options: anywhere|homebranch|holdingbranch|homeorholdingbranch
+
+----------
+
+Description: Where an item may be returned
+
+----------
+
+Type: Choice
+
+----------
+
+anywhere
+

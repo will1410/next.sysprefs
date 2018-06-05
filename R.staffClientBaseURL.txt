@@ -1,0 +1,22 @@
+R.staffClientBaseURL
+
+----------
+
+Name: staffClientBaseURL
+
+----------
+
+Options: 
+
+----------
+
+Description: Specify the base URL of the staff client
+
+----------
+
+Type: free
+
+----------
+
+staff.nexpresslibrary.org
+

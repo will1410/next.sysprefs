@@ -1,0 +1,22 @@
+R.OwedNotificationValue
+
+----------
+
+Name: OwedNotificationValue
+
+----------
+
+Options:  
+
+----------
+
+Description: Amount owed to receive a notification.  To work,EnableOwedNotification syspref will need to be turned ON.
+
+----------
+
+Type: free
+
+----------
+
+25.00
+

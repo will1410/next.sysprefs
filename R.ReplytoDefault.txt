@@ -1,0 +1,22 @@
+R.ReplytoDefault
+
+----------
+
+Name: ReplytoDefault
+
+----------
+
+Options:  
+
+----------
+
+Description: The default email address to be set as replyto.
+
+----------
+
+Type: Free
+
+----------
+
+
+

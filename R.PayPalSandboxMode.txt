@@ -1,0 +1,22 @@
+R.PayPalSandboxMode
+
+----------
+
+Name: PayPalSandboxMode
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, the system will use PayPal's sandbox server for testing, rather than the production server.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

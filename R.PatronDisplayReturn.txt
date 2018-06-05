@@ -1,0 +1,22 @@
+R.PatronDisplayReturn
+
+----------
+
+Name: PatronDisplayReturn
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON,allows items to be returned in the patron details display checkout list.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

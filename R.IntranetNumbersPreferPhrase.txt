@@ -1,0 +1,22 @@
+R.IntranetNumbersPreferPhrase
+
+----------
+
+Name: IntranetNumbersPreferPhrase
+
+----------
+
+Options:  
+
+----------
+
+Description: Control the use of phr operator in callnumber and standard number staff client searches
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

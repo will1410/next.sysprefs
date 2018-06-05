@@ -1,0 +1,22 @@
+R.RenewSerialAddsSuggestion
+
+----------
+
+Name: RenewSerialAddsSuggestion
+
+----------
+
+Options:  
+
+----------
+
+Description: if ON, adds a new suggestion at serial subscription renewal
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

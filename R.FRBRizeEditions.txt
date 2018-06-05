@@ -1,0 +1,22 @@
+R.FRBRizeEditions
+
+----------
+
+Name: FRBRizeEditions
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Koha will query one or more ISBN web services for associated ISBNs and display an Editions tab on the details pages
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

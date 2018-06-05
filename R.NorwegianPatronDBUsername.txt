@@ -1,0 +1,22 @@
+R.NorwegianPatronDBUsername
+
+----------
+
+Name: NorwegianPatronDBUsername
+
+----------
+
+Options:  
+
+----------
+
+Description: Username for communication with the Norwegian national patron database.
+
+----------
+
+Type: Free
+
+----------
+
+
+

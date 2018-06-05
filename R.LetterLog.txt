@@ -1,0 +1,22 @@
+R.LetterLog
+
+----------
+
+Name: LetterLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, log all notices sent
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

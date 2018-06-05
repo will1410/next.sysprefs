@@ -1,0 +1,22 @@
+R.LinkerModule
+
+----------
+
+Name: LinkerModule
+
+----------
+
+Options: Default|FirstMatchLastMatch
+
+----------
+
+Description: Chooses which linker module to use (see documentation).
+
+----------
+
+Type: Choice
+
+----------
+
+Default
+

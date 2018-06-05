@@ -1,0 +1,22 @@
+R.AggressiveMatchOnISBN
+
+----------
+
+Name: AggressiveMatchOnISBN
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, attempt to match aggressively by trying all variations of the ISBNs in the imported record as a phrase in the ISBN fields of already cataloged records when matching on ISBN with the record import tool
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

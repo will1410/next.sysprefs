@@ -1,0 +1,22 @@
+R.displayFacetCount
+
+----------
+
+Name: displayFacetCount
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

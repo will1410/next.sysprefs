@@ -1,0 +1,22 @@
+R.ExpireReservesMaxPickUpDelay
+
+----------
+
+Name: ExpireReservesMaxPickUpDelay
+
+----------
+
+Options: 
+
+----------
+
+Description: Enabling this allows holds to expire automatically if they have not been picked by within the time period specified in ReservesMaxPickUpDelay
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

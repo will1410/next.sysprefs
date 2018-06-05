@@ -1,0 +1,22 @@
+R.AmazonLocale
+
+----------
+
+Name: AmazonLocale
+
+----------
+
+Options: US|CA|DE|FR|JP|UK
+
+----------
+
+Description: Use to set the Locale of your Amazon.com Web Services
+
+----------
+
+Type: Choice
+
+----------
+
+US
+

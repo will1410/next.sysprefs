@@ -1,0 +1,22 @@
+R.ExportCircHistory
+
+----------
+
+Name: ExportCircHistory
+
+----------
+
+Options:  
+
+----------
+
+Description: Display the export circulation options
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

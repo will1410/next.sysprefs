@@ -1,0 +1,22 @@
+R.AuthorityMergeLimit
+
+----------
+
+Name: AuthorityMergeLimit
+
+----------
+
+Options:  
+
+----------
+
+Description: Maximum number of biblio records updated immediately when an authority record has been modified.
+
+----------
+
+Type: integer
+
+----------
+
+0
+

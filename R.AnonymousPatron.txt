@@ -1,0 +1,22 @@
+R.AnonymousPatron
+
+----------
+
+Name: AnonymousPatron
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the identifier (borrowernumber) of the 'Mister anonymous' patron. Used for Suggestion and reading history privacy
+
+----------
+
+Type: 
+
+----------
+
+239500
+

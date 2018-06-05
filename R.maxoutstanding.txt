@@ -1,0 +1,22 @@
+R.maxoutstanding
+
+----------
+
+Name: maxoutstanding
+
+----------
+
+Options: 
+
+----------
+
+Description: maximum amount withstanding to be able make reserves
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

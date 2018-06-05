@@ -1,0 +1,22 @@
+R.SubscriptionHistory
+
+----------
+
+Name: SubscriptionHistory
+
+----------
+
+Options: simplified|full
+
+----------
+
+Description: Define the display preference for serials issue history in OPAC
+
+----------
+
+Type: Choice
+
+----------
+
+;
+

@@ -1,0 +1,22 @@
+R.OPACdefaultSortOrder
+
+----------
+
+Name: OPACdefaultSortOrder
+
+----------
+
+Options: asc|dsc|za|az
+
+----------
+
+Description: Specify the default sort order
+
+----------
+
+Type: Choice
+
+----------
+
+
+

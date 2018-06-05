@@ -1,0 +1,22 @@
+R.UsageStatsID
+
+----------
+
+Name: UsageStatsID
+
+----------
+
+Options:  
+
+----------
+
+Description: This preference is part of Koha but it should not be deleted or updated manually.
+
+----------
+
+Type: Systempreference
+
+----------
+
+1t/0c1IdHZX+cbTPyF5MFg
+

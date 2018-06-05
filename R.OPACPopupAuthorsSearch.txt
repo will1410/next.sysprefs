@@ -1,0 +1,22 @@
+R.OPACPopupAuthorsSearch
+
+----------
+
+Name: OPACPopupAuthorsSearch
+
+----------
+
+Options: 
+
+----------
+
+Description: Display the list of authors when clicking on one author.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

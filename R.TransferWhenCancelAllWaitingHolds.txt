@@ -1,0 +1,22 @@
+R.TransferWhenCancelAllWaitingHolds
+
+----------
+
+Name: TransferWhenCancelAllWaitingHolds
+
+----------
+
+Options:  
+
+----------
+
+Description: Transfer items when cancelling all waiting holds
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

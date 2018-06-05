@@ -1,0 +1,22 @@
+R.CircFinesBreakdown
+
+----------
+
+Name: CircFinesBreakdown
+
+----------
+
+Options: 
+
+----------
+
+Description: Show a breakdown of fines by type on the checkout page
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

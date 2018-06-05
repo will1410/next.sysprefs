@@ -1,0 +1,22 @@
+R.marcflavour
+
+----------
+
+Name: marcflavour
+
+----------
+
+Options: MARC21|UNIMARC
+
+----------
+
+Description: Define global MARC flavor (MARC21 or UNIMARC) used for character encoding
+
+----------
+
+Type: Choice
+
+----------
+
+MARC21
+

@@ -1,0 +1,22 @@
+R.expandedSearchOption
+
+----------
+
+Name: expandedSearchOption
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, set advanced search to be expanded by default
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

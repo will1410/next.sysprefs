@@ -1,0 +1,22 @@
+R.BorrowerRenewalPeriodBase
+
+----------
+
+Name: BorrowerRenewalPeriodBase
+
+----------
+
+Options: now|dateexpiry|combination
+
+----------
+
+Description: Set whether the borrower renewal date should be counted from the dateexpiry, from the current date or by combination: if the dateexpiry is in future use dateexpiry, else use current date 
+
+----------
+
+Type: Choice
+
+----------
+
+now
+

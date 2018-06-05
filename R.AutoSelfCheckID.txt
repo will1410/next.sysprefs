@@ -1,0 +1,22 @@
+R.AutoSelfCheckID
+
+----------
+
+Name: AutoSelfCheckID
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Staff ID with circulation rights to be used for automatic web-based self-check. Only applies if AutoSelfCheckAllowed syspref is turned on.
+
+----------
+
+Type: Systempreference
+
+----------
+
+
+

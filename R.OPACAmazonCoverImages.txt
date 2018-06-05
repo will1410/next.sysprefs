@@ -1,0 +1,22 @@
+R.OPACAmazonCoverImages
+
+----------
+
+Name: OPACAmazonCoverImages
+
+----------
+
+Options: 
+
+----------
+
+Description: Display cover images on OPAC from Amazon Web Services
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

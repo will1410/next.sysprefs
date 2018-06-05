@@ -1,0 +1,22 @@
+R.GoogleOAuth2ClientID
+
+----------
+
+Name: GoogleOAuth2ClientID
+
+----------
+
+Options: Client ID for the web app registered with Google
+
+----------
+
+Description:  
+
+----------
+
+Type: Free
+
+----------
+
+
+

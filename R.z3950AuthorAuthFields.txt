@@ -1,0 +1,22 @@
+R.z3950AuthorAuthFields
+
+----------
+
+Name: z3950AuthorAuthFields
+
+----------
+
+Options:  
+
+----------
+
+Description: Define the MARC biblio fields for Personal Name Authorities to fill biblio.author
+
+----------
+
+Type: free
+
+----------
+
+701,702,700
+

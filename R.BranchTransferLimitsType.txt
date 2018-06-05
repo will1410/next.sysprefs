@@ -1,0 +1,22 @@
+R.BranchTransferLimitsType
+
+----------
+
+Name: BranchTransferLimitsType
+
+----------
+
+Options: itemtype|ccode
+
+----------
+
+Description: When using branch transfer limits, choose whether to limit by itemtype or collection code.
+
+----------
+
+Type: Choice
+
+----------
+
+ccode
+

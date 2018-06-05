@@ -1,0 +1,22 @@
+R.AllowHoldDateInFuture
+
+----------
+
+Name: AllowHoldDateInFuture
+
+----------
+
+Options: 
+
+----------
+
+Description: If set a date field is displayed on the Hold screen of the Staff Interface, allowing the hold date to be set in the future.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

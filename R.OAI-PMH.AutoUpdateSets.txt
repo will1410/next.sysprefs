@@ -1,0 +1,22 @@
+R.OAI-PMH:AutoUpdateSets
+
+----------
+
+Name: OAI-PMH:AutoUpdateSets
+
+----------
+
+Options: 
+
+----------
+
+Description: Automatically update OAI sets when a bibliographic record is created or updated
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

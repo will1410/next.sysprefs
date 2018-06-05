@@ -1,0 +1,22 @@
+R.LocalHoldsPriorityItemControl
+
+----------
+
+Name: LocalHoldsPriorityItemControl
+
+----------
+
+Options: holdingbranch|homebranch
+
+----------
+
+Description: decides if the feature operates using the item's home or holding library.
+
+----------
+
+Type: Choice
+
+----------
+
+homebranch
+

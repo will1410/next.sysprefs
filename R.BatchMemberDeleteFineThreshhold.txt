@@ -1,0 +1,22 @@
+R.BatchMemberDeleteFineThreshhold
+
+----------
+
+Name: BatchMemberDeleteFineThreshhold
+
+----------
+
+Options: 
+
+----------
+
+Description: Any borrower with an amount of fines greater than this value cannot be deleted via batch borrower deleting.
+
+----------
+
+Type: Float
+
+----------
+
+0.0
+

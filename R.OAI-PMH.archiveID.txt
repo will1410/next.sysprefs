@@ -1,0 +1,22 @@
+R.OAI-PMH:archiveID
+
+----------
+
+Name: OAI-PMH:archiveID
+
+----------
+
+Options:  
+
+----------
+
+Description: OAI-PMH archive identification
+
+----------
+
+Type: Free
+
+----------
+
+KOHA-OAI-TEST
+

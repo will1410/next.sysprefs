@@ -1,0 +1,22 @@
+R.NovelistSelectView
+
+----------
+
+Name: NovelistSelectView
+
+----------
+
+Options: tab|above|below|right
+
+----------
+
+Description: Where to display Novelist Select content
+
+----------
+
+Type: Choice
+
+----------
+
+right
+

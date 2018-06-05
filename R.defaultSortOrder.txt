@@ -1,0 +1,22 @@
+R.defaultSortOrder
+
+----------
+
+Name: defaultSortOrder
+
+----------
+
+Options: asc|dsc|az|za
+
+----------
+
+Description: Specify the default sort order
+
+----------
+
+Type: Choice
+
+----------
+
+
+

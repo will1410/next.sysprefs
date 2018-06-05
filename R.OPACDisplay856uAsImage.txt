@@ -1,0 +1,22 @@
+R.OPACDisplay856uAsImage
+
+----------
+
+Name: OPACDisplay856uAsImage
+
+----------
+
+Options: OFF|Details|Results|Both
+
+----------
+
+Description: Display the URI in the 856u field as an image, the corresponding OPACXSLT option must be on
+
+----------
+
+Type: Choice
+
+----------
+
+OFF
+

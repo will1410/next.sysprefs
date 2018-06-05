@@ -1,0 +1,22 @@
+R.patronbarcodelength
+
+----------
+
+Name: patronbarcodelength
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of characters in system-wide barcode schema (patron cardnumbers).
+
+----------
+
+Type: Integer
+
+----------
+
+
+

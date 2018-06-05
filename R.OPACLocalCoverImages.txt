@@ -1,0 +1,22 @@
+R.OPACLocalCoverImages
+
+----------
+
+Name: OPACLocalCoverImages
+
+----------
+
+Options: 1
+
+----------
+
+Description: Display local cover images on OPAC search and details pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

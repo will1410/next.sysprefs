@@ -1,0 +1,22 @@
+R.OAI-PMH:ConfFile
+
+----------
+
+Name: OAI-PMH:ConfFile
+
+----------
+
+Options: 
+
+----------
+
+Description: If empty, Koha OAI Server operates in normal mode, otherwise it operates in extended mode.
+
+----------
+
+Type: File
+
+----------
+
+
+

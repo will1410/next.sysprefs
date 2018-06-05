@@ -1,0 +1,22 @@
+R.RenewalSendNotice
+
+----------
+
+Name: RenewalSendNotice
+
+----------
+
+Options: 
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

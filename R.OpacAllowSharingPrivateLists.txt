@@ -1,0 +1,22 @@
+R.OpacAllowSharingPrivateLists
+
+----------
+
+Name: OpacAllowSharingPrivateLists
+
+----------
+
+Options:  
+
+----------
+
+Description: If set, allows opac users to share private lists with other patrons
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

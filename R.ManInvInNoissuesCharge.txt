@@ -1,0 +1,22 @@
+R.ManInvInNoissuesCharge
+
+----------
+
+Name: ManInvInNoissuesCharge
+
+----------
+
+Options:  
+
+----------
+
+Description: MANUAL_INV charges block checkouts (added to noissuescharge).
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

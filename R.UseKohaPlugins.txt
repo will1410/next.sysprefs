@@ -1,0 +1,22 @@
+R.UseKohaPlugins
+
+----------
+
+Name: UseKohaPlugins
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or disable the ability to use Koha Plugins.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

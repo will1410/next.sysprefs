@@ -1,0 +1,22 @@
+R.OpacNewsLibrarySelect
+
+----------
+
+Name: OpacNewsLibrarySelect
+
+----------
+
+Options: 
+
+----------
+
+Description: Show selector for branches on OPAC news page
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

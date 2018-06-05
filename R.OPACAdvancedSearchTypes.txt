@@ -1,0 +1,22 @@
+R.OPACAdvancedSearchTypes
+
+----------
+
+Name: OPACAdvancedSearchTypes
+
+----------
+
+Options: itemtypes|ccode|none
+
+----------
+
+Description: Select which set of fields comprise the Type limit in the OPAC advanced search
+
+----------
+
+Type: Choice
+
+----------
+
+ccode
+

@@ -1,0 +1,22 @@
+R.BatchMemberDeletePaidDebtCollections
+
+----------
+
+Name: BatchMemberDeletePaidDebtCollections
+
+----------
+
+Options: 
+
+----------
+
+Description: If on,the batch delete will refuse to delete members with unpaid fines before being put in debt collections.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

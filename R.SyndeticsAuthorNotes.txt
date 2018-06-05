@@ -1,0 +1,22 @@
+R.SyndeticsAuthorNotes
+
+----------
+
+Name: SyndeticsAuthorNotes
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Notes about the Author on OPAC from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

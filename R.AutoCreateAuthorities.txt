@@ -1,0 +1,22 @@
+R.AutoCreateAuthorities
+
+----------
+
+Name: AutoCreateAuthorities
+
+----------
+
+Options:  
+
+----------
+
+Description: Automatically create authorities that do not exist when cataloging records.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

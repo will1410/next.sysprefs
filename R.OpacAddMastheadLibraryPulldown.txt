@@ -1,0 +1,22 @@
+R.OpacAddMastheadLibraryPulldown
+
+----------
+
+Name: OpacAddMastheadLibraryPulldown
+
+----------
+
+Options: 
+
+----------
+
+Description: Adds a pulldown menu to select the library to search on the opac masthead.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.OpenLibrarySearch
+
+----------
+
+Name: OpenLibrarySearch
+
+----------
+
+Options:  
+
+----------
+
+Description: If Yes Open Library search results will show in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

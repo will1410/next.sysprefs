@@ -1,0 +1,22 @@
+R.AllowTooManyOverride
+
+----------
+
+Name: AllowTooManyOverride
+
+----------
+
+Options: 
+
+----------
+
+Description: If on, allow staff to override and check out items when the patron has reached the maximum number of allowed checkouts
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

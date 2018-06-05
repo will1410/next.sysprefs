@@ -1,0 +1,27 @@
+R.OpacHiddenItems
+
+----------
+
+Name: OpacHiddenItems
+
+----------
+
+Options: 
+
+----------
+
+Description: This syspref allows to define custom rules for hiding specific items at opac. See docs/opac/OpacHiddenItems.txt for more informations.
+
+----------
+
+Type: Textarea
+
+----------
+
+withdrawn: [1, 2, 3]
+ccode: [ILL]
+itemlost: [1, 2, 3, 4, 5, IP]
+damaged: [1, 2, 3, 4]
+homebranch: [PHAXTELL,PHSES,PHSHS,PHSMS,PHWAC]
+itype: [ILL]
+

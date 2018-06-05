@@ -1,0 +1,22 @@
+R.OPACResultsLibrary
+
+----------
+
+Name: OPACResultsLibrary
+
+----------
+
+Options: homebranch|holdingbranch
+
+----------
+
+Description: Defines whether the OPAC displays the holding or home branch in search results when using XSLT
+
+----------
+
+Type: Choice
+
+----------
+
+homebranch
+

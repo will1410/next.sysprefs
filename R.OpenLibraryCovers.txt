@@ -1,0 +1,22 @@
+R.OpenLibraryCovers
+
+----------
+
+Name: OpenLibraryCovers
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON Openlibrary book covers will be show
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

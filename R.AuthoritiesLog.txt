@@ -1,0 +1,22 @@
+R.AuthoritiesLog
+
+----------
+
+Name: AuthoritiesLog
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, log edit/create/delete actions on authorities.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

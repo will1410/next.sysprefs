@@ -1,0 +1,22 @@
+R.AlternateHoldingsSeparator
+
+----------
+
+Name: AlternateHoldingsSeparator
+
+----------
+
+Options:  
+
+----------
+
+Description: The string to use to separate subfields in alternate holdings displays.
+
+----------
+
+Type: free
+
+----------
+
+
+

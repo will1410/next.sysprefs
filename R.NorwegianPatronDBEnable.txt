@@ -1,0 +1,22 @@
+R.NorwegianPatronDBEnable
+
+----------
+
+Name: NorwegianPatronDBEnable
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable communication with the Norwegian national patron database.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

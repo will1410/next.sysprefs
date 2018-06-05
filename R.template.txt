@@ -1,0 +1,22 @@
+R.template
+
+----------
+
+Name: template
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the preferred staff interface template
+
+----------
+
+Type: Themes
+
+----------
+
+prog
+

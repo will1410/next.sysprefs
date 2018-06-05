@@ -1,0 +1,22 @@
+R.MaxOpenSuggestions
+
+----------
+
+Name: MaxOpenSuggestions
+
+----------
+
+Options:  
+
+----------
+
+Description: Limit the number of open suggestions a patron can have at once, unlimited if blank
+
+----------
+
+Type: Integer
+
+----------
+
+
+

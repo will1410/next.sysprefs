@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationDefaultCategory
+
+----------
+
+Name: PatronSelfRegistrationDefaultCategory
+
+----------
+
+Options: 
+
+----------
+
+Description: A patron registered via the OPAC will receive a borrower category code set in this system preference.
+
+----------
+
+Type: free
+
+----------
+
+
+

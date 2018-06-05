@@ -1,0 +1,22 @@
+R.HTML5MediaYouTube
+
+----------
+
+Name: HTML5MediaYouTube
+
+----------
+
+Options: YouTube links as videos
+
+----------
+
+Description: Embed|Don't embed
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

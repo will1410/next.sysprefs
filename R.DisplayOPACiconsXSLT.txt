@@ -1,0 +1,22 @@
+R.DisplayOPACiconsXSLT
+
+----------
+
+Name: DisplayOPACiconsXSLT
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, displays the format, audience, type icons in XSLT MARC21 results and display pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

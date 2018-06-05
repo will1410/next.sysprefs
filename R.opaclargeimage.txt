@@ -1,0 +1,22 @@
+R.opaclargeimage
+
+----------
+
+Name: opaclargeimage
+
+----------
+
+Options: 
+
+----------
+
+Description: Define a URL to an image to display instead of the Koha logo on OPAC
+
+----------
+
+Type: free
+
+----------
+
+
+

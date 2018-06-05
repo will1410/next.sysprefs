@@ -1,0 +1,22 @@
+R.AllowHoldItemTypeSelection
+
+----------
+
+Name: AllowHoldItemTypeSelection
+
+----------
+
+Options: 
+
+----------
+
+Description: If enabled, patrons and staff will be able to select the itemtype when placing a hold
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

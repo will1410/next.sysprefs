@@ -1,0 +1,22 @@
+R.NumSavedReports
+
+----------
+
+Name: NumSavedReports
+
+----------
+
+Options:  
+
+----------
+
+Description: By default, show this number of saved reports.
+
+----------
+
+Type: Integer
+
+----------
+
+20
+

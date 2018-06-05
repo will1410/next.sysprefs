@@ -1,0 +1,22 @@
+R.OpacLocationBranchToDisplayShelving
+
+----------
+
+Name: OpacLocationBranchToDisplayShelving
+
+----------
+
+Options: holding|home|both
+
+----------
+
+Description: In the OPAC, display the shelving location under which which column
+
+----------
+
+Type: Choice
+
+----------
+
+both
+

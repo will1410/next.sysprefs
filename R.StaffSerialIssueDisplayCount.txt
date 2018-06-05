@@ -1,0 +1,22 @@
+R.StaffSerialIssueDisplayCount
+
+----------
+
+Name: StaffSerialIssueDisplayCount
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of serial issues to display per subscription in the Staff client
+
+----------
+
+Type: Integer
+
+----------
+
+3
+

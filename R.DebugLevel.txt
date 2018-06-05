@@ -1,0 +1,22 @@
+R.DebugLevel
+
+----------
+
+Name: DebugLevel
+
+----------
+
+Options: 0|1|2
+
+----------
+
+Description: Define the level of debugging information sent to the browser when errors are encountered (set to 0 in production). 0=none, 1=some, 2=most
+
+----------
+
+Type: Choice
+
+----------
+
+2
+

@@ -1,0 +1,22 @@
+R.ILS-DI:AuthorizedIPs
+
+----------
+
+Name: ILS-DI:AuthorizedIPs
+
+----------
+
+Options: 
+
+----------
+
+Description: A comma separated list of IP addresses authorized to access the web services.
+
+----------
+
+Type: free
+
+----------
+
+127.0.0.1,10.208.131.107
+

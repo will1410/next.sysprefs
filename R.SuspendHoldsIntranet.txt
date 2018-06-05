@@ -1,0 +1,22 @@
+R.SuspendHoldsIntranet
+
+----------
+
+Name: SuspendHoldsIntranet
+
+----------
+
+Options: Allow holds to be suspended from the intranet.
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

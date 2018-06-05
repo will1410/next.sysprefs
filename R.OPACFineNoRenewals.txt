@@ -1,0 +1,22 @@
+R.OPACFineNoRenewals
+
+----------
+
+Name: OPACFineNoRenewals
+
+----------
+
+Options: 
+
+----------
+
+Description: Fine limit above which user cannot renew books via OPAC
+
+----------
+
+Type: Integer
+
+----------
+
+99999
+

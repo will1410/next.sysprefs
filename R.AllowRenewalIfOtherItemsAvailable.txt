@@ -1,0 +1,22 @@
+R.AllowRenewalIfOtherItemsAvailable
+
+----------
+
+Name: AllowRenewalIfOtherItemsAvailable
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, allow a patron to renew an item with unfilled holds if other available items can fill that hold.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

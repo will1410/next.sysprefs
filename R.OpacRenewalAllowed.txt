@@ -1,0 +1,22 @@
+R.OpacRenewalAllowed
+
+----------
+
+Name: OpacRenewalAllowed
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, users can renew their issues directly from their OPAC account
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.RenewalPeriodBase
+
+----------
+
+Name: RenewalPeriodBase
+
+----------
+
+Options: date_due|now
+
+----------
+
+Description: Set whether the renewal date should be counted from the date_due or from the moment the Patron asks for renewal 
+
+----------
+
+Type: Choice
+
+----------
+
+now
+

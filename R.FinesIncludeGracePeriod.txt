@@ -1,0 +1,22 @@
+R.FinesIncludeGracePeriod
+
+----------
+
+Name: FinesIncludeGracePeriod
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, fines calculations will include the grace period.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

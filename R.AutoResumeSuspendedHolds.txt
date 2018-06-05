@@ -1,0 +1,22 @@
+R.AutoResumeSuspendedHolds
+
+----------
+
+Name: AutoResumeSuspendedHolds
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow suspended holds to be automatically resumed by a set date.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

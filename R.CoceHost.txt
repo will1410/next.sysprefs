@@ -1,0 +1,22 @@
+R.CoceHost
+
+----------
+
+Name: CoceHost
+
+----------
+
+Options:  
+
+----------
+
+Description: Coce server URL
+
+----------
+
+Type: Free
+
+----------
+
+https://coce.bywatersolutions.com
+

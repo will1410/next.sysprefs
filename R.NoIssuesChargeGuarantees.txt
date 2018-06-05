@@ -1,0 +1,22 @@
+R.NoIssuesChargeGuarantees
+
+----------
+
+Name: NoIssuesChargeGuarantees
+
+----------
+
+Options: 
+
+----------
+
+Description: Define maximum amount withstanding before check outs are blocked
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

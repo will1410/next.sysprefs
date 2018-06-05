@@ -1,0 +1,22 @@
+R.EnableSearchHistory
+
+----------
+
+Name: EnableSearchHistory
+
+----------
+
+Options: Enable or disable search history
+
+----------
+
+Description: 
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

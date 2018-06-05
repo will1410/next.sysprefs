@@ -1,0 +1,22 @@
+R.UseBranchTransferLimits
+
+----------
+
+Name: UseBranchTransferLimits
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, Koha will will use the rules defined in branch_transfer_limits to decide if an item transfer should be allowed.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

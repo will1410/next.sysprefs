@@ -1,0 +1,22 @@
+R.FacetLabelTruncationLength
+
+----------
+
+Name: FacetLabelTruncationLength
+
+----------
+
+Options: 
+
+----------
+
+Description: Truncate facets length to
+
+----------
+
+Type: free
+
+----------
+
+20
+

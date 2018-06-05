@@ -1,0 +1,22 @@
+R.SubfieldsToUseWhenPrefill
+
+----------
+
+Name: SubfieldsToUseWhenPrefill
+
+----------
+
+Options: 
+
+----------
+
+Description: Define a list of subfields to use when prefilling items (separated by space)
+
+----------
+
+Type: Free
+
+----------
+
+
+

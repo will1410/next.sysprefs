@@ -1,0 +1,22 @@
+R.NoticeCSS
+
+----------
+
+Name: NoticeCSS
+
+----------
+
+Options:  
+
+----------
+
+Description: Notices CSS url.
+
+----------
+
+Type: free
+
+----------
+
+
+

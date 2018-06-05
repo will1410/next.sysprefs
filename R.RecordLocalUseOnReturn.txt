@@ -1,0 +1,22 @@
+R.RecordLocalUseOnReturn
+
+----------
+
+Name: RecordLocalUseOnReturn
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, statistically record returns of unissued items as local use, instead of return
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

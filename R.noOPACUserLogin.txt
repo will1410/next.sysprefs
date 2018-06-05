@@ -1,0 +1,22 @@
+R.noOPACUserLogin
+
+----------
+
+Name: noOPACUserLogin
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, disables the OPAC User Login
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

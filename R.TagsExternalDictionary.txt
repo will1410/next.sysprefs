@@ -1,0 +1,22 @@
+R.TagsExternalDictionary
+
+----------
+
+Name: TagsExternalDictionary
+
+----------
+
+Options: 
+
+----------
+
+Description: Path on server to local ispell executable, used to set $Lingua::Ispell::path <br />This dictionary is used as a "whitelist" of pre-allowed tags.
+
+----------
+
+Type: 
+
+----------
+
+
+

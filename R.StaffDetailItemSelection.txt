@@ -1,0 +1,22 @@
+R.StaffDetailItemSelection
+
+----------
+
+Name: StaffDetailItemSelection
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable item selection in record detail page
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

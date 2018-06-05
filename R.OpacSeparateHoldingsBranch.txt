@@ -1,0 +1,22 @@
+R.OpacSeparateHoldingsBranch
+
+----------
+
+Name: OpacSeparateHoldingsBranch
+
+----------
+
+Options: homebranch|holdingbranch
+
+----------
+
+Description: Branch used to separate holdings (OPAC)
+
+----------
+
+Type: Choice
+
+----------
+
+homebranch
+

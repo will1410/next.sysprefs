@@ -1,0 +1,22 @@
+R.NorwegianPatronDBEndpoint
+
+----------
+
+Name: NorwegianPatronDBEndpoint
+
+----------
+
+Options:  
+
+----------
+
+Description: Which NL endpoint to use.
+
+----------
+
+Type: Free
+
+----------
+
+
+

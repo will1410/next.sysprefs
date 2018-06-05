@@ -1,0 +1,22 @@
+R.MembershipExpiryDaysNotice
+
+----------
+
+Name: MembershipExpiryDaysNotice
+
+----------
+
+Options:  
+
+----------
+
+Description: Send an account expiration notice that a patron's card is about to expire after
+
+----------
+
+Type: Integer
+
+----------
+
+30
+

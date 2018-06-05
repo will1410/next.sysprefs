@@ -1,0 +1,22 @@
+R.intranetstylesheet
+
+----------
+
+Name: intranetstylesheet
+
+----------
+
+Options: 50
+
+----------
+
+Description: Enter a complete URL to use an alternate layout stylesheet in Intranet
+
+----------
+
+Type: free
+
+----------
+
+
+

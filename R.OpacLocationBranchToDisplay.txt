@@ -1,0 +1,22 @@
+R.OpacLocationBranchToDisplay
+
+----------
+
+Name: OpacLocationBranchToDisplay
+
+----------
+
+Options: holding|home|both
+
+----------
+
+Description: In the OPAC, under location show which branch for Location in the record details.
+
+----------
+
+Type: Choice
+
+----------
+
+both
+

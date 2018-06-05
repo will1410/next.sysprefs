@@ -1,0 +1,22 @@
+R.Babeltheque_url_js
+
+----------
+
+Name: Babeltheque_url_js
+
+----------
+
+Options: 
+
+----------
+
+Description: Url for Babeltheque javascript (e.g. http://www.babeltheque.com/bw_XX.js
+
+----------
+
+Type: Free
+
+----------
+
+
+

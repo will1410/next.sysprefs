@@ -1,0 +1,22 @@
+R.AuthoritySeparator
+
+----------
+
+Name: AuthoritySeparator
+
+----------
+
+Options: 10
+
+----------
+
+Description: Used to separate a list of authorities in a display. Usually --
+
+----------
+
+Type: free
+
+----------
+
+--
+

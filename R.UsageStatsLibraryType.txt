@@ -1,0 +1,22 @@
+R.UsageStatsLibraryType
+
+----------
+
+Name: UsageStatsLibraryType
+
+----------
+
+Options: public|school|academic|research|private|societyAssociation|corporate|government|religiousOrg|subscription
+
+----------
+
+Description: The library type to be shown on the Hea Koha community website
+
+----------
+
+Type: Choice
+
+----------
+
+public
+

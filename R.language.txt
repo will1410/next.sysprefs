@@ -1,0 +1,22 @@
+R.language
+
+----------
+
+Name: language
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the default language in the staff client.
+
+----------
+
+Type: Languages
+
+----------
+
+es-ES,en
+

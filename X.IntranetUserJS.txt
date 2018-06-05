@@ -1,0 +1,22 @@
+R.IntranetUserJS
+
+----------
+
+Name: IntranetUserJS
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Custom javascript for inclusion in Intranet
+
+----------
+
+Type: Free
+
+----------
+
+Too large to process
+

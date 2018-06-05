@@ -1,0 +1,22 @@
+R.maxItemsInSearchResults
+
+----------
+
+Name: maxItemsInSearchResults
+
+----------
+
+Options: 
+
+----------
+
+Description: Specify the maximum number of items to display for each result on a page of results
+
+----------
+
+Type: free
+
+----------
+
+300
+

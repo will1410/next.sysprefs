@@ -1,0 +1,22 @@
+R.NotesBlacklist
+
+----------
+
+Name: NotesBlacklist
+
+----------
+
+Options:  
+
+----------
+
+Description: List of notes fields that should not appear in the title notes/description separator of details
+
+----------
+
+Type: free
+
+----------
+
+
+

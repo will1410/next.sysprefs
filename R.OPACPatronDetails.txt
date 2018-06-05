@@ -1,0 +1,22 @@
+R.OPACPatronDetails
+
+----------
+
+Name: OPACPatronDetails
+
+----------
+
+Options: 
+
+----------
+
+Description: If OFF the patron details tab in the OPAC is disabled.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

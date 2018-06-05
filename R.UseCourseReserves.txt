@@ -1,0 +1,22 @@
+R.UseCourseReserves
+
+----------
+
+Name: UseCourseReserves
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable the course reserves feature.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

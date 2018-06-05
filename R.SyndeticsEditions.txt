@@ -1,0 +1,22 @@
+R.SyndeticsEditions
+
+----------
+
+Name: SyndeticsEditions
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Editions from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

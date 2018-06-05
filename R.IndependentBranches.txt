@@ -1,0 +1,22 @@
+R.IndependentBranches
+
+----------
+
+Name: IndependentBranches
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, increases security between libraries
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.BakerTaylorBookstoreURL
+
+----------
+
+Name: BakerTaylorBookstoreURL
+
+----------
+
+Options: 
+
+----------
+
+Description: URL template for "My Libary Bookstore" links, to which the "key" value is appended, and "https://" is prepended.  It should include your hostname and "Parent Number".  Make this variable empty to turn MLB links off.<br /> Example: ocls.mylibrarybookstore.com/MLB/actions/searchHandler.do?nextPage=bookDetails&parentNum=10923&key=
+
+----------
+
+Type: 
+
+----------
+
+
+

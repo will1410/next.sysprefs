@@ -1,0 +1,22 @@
+R.UNIMARCAuthorityField100
+
+----------
+
+Name: UNIMARCAuthorityField100
+
+----------
+
+Options:  
+
+----------
+
+Description: Define the contents of UNIMARC authority control field 100 position 08-35
+
+----------
+
+Type: Textarea
+
+----------
+
+afrey50      ba0
+

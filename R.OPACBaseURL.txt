@@ -1,0 +1,22 @@
+R.OPACBaseURL
+
+----------
+
+Name: OPACBaseURL
+
+----------
+
+Options: 
+
+----------
+
+Description: Specify the Base URL of the OPAC, e.g., http://opac.mylibrary.com, including the protocol (http:// or https://). Otherwise, the http:// will be added automatically by Koha upon saving.
+
+----------
+
+Type: Free
+
+----------
+
+https://catalog.nexpresslibrary.org/
+

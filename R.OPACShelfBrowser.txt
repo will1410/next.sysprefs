@@ -1,0 +1,22 @@
+R.OPACShelfBrowser
+
+----------
+
+Name: OPACShelfBrowser
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable/disable Shelf Browser on item details page. WARNING: this feature is very resource consuming on collections with large numbers of items.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

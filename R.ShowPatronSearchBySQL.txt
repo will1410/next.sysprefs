@@ -1,0 +1,22 @@
+R.ShowPatronSearchBySQL
+
+----------
+
+Name: ShowPatronSearchBySQL
+
+----------
+
+Options: 
+
+----------
+
+Description: If turned on,a search by sql box will appear on the Patrons search pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

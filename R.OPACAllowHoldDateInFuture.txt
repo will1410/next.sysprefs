@@ -1,0 +1,22 @@
+R.OPACAllowHoldDateInFuture
+
+----------
+
+Name: OPACAllowHoldDateInFuture
+
+----------
+
+Options: 
+
+----------
+
+Description: If set, along with the AllowHoldDateInFuture system preference, OPAC users can set the date of a hold to be in the future.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

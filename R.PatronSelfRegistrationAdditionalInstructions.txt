@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationAdditionalInstructions
+
+----------
+
+Name: PatronSelfRegistrationAdditionalInstructions
+
+----------
+
+Options:  
+
+----------
+
+Description: A free text field to display additional instructions to newly self registered patrons.
+
+----------
+
+Type: free
+
+----------
+
+
+

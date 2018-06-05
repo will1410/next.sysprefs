@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationExpireTemporaryAccountsDelay
+
+----------
+
+Name: PatronSelfRegistrationExpireTemporaryAccountsDelay
+
+----------
+
+Options:  
+
+----------
+
+Description: If PatronSelfRegistrationDefaultCategory is enabled, this system preference controls how long a patron can have a temporary status before the account is deleted automatically. It is an integer value representing a number of days to wait before deleting a temporary patron account. Setting it to 0 disables the deleting of temporary accounts.
+
+----------
+
+Type: Integer
+
+----------
+
+
+

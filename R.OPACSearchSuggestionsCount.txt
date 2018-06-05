@@ -1,0 +1,22 @@
+R.OPACSearchSuggestionsCount
+
+----------
+
+Name: OPACSearchSuggestionsCount
+
+----------
+
+Options:  
+
+----------
+
+Description: If greater than 0, sets the number of search suggestions provided.
+
+----------
+
+Type: Integer
+
+----------
+
+5
+

@@ -1,0 +1,22 @@
+R.EnableOpacSearchHistory
+
+----------
+
+Name: EnableOpacSearchHistory
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or disable opac search history
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

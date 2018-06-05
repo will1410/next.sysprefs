@@ -1,0 +1,22 @@
+R.advancedMARCeditor
+
+----------
+
+Name: advancedMARCeditor
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, the MARC editor won't display field/subfield descriptions
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

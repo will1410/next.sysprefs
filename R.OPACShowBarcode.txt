@@ -1,0 +1,22 @@
+R.OPACShowBarcode
+
+----------
+
+Name: OPACShowBarcode
+
+----------
+
+Options: 
+
+----------
+
+Description: Show items barcode in holding tab
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

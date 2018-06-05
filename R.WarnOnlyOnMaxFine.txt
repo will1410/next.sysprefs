@@ -1,0 +1,22 @@
+R.WarnOnlyOnMaxFine
+
+----------
+
+Name: WarnOnlyOnMaxFine
+
+----------
+
+Options: 
+
+----------
+
+Description: If UseGranularMaxFines and WarnOnlyOnMaxFine are both enabled,fine warnings will only occur when the fine for an item hits the max_fine attribute set in issuingrules.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

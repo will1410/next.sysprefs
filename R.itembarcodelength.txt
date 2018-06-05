@@ -1,0 +1,22 @@
+R.itembarcodelength
+
+----------
+
+Name: itembarcodelength
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of characters in system-wide barcode schema (item barcodes).
+
+----------
+
+Type: Integer
+
+----------
+
+
+

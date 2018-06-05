@@ -1,0 +1,22 @@
+R.MarcFieldsToOrder
+
+----------
+
+Name: MarcFieldsToOrder
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the mapping values for a new order line created from a MARC record in a staged file. In a YAML format.
+
+----------
+
+Type: textarea
+
+----------
+
+
+

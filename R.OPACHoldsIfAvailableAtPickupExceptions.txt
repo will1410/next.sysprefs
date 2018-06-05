@@ -1,0 +1,22 @@
+R.OPACHoldsIfAvailableAtPickupExceptions
+
+----------
+
+Name: OPACHoldsIfAvailableAtPickupExceptions
+
+----------
+
+Options: List the patron categories not affected by OPACHoldsIfAvailableAtPickup if off
+
+----------
+
+Description: 
+
+----------
+
+Type: Free
+
+----------
+
+
+

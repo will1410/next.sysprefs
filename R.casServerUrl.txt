@@ -1,0 +1,22 @@
+R.casServerUrl
+
+----------
+
+Name: casServerUrl
+
+----------
+
+Options: 
+
+----------
+
+Description: URL of the cas server
+
+----------
+
+Type: Free
+
+----------
+
+https://localhost:8443/cas
+

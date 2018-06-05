@@ -1,0 +1,22 @@
+R.PatronSelfRegistrationBorrowerMandatoryField
+
+----------
+
+Name: PatronSelfRegistrationBorrowerMandatoryField
+
+----------
+
+Options:  
+
+----------
+
+Description: Choose the mandatory fields for a patron's account, when registering via the OPAC.
+
+----------
+
+Type: free
+
+----------
+
+
+

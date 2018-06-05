@@ -1,0 +1,22 @@
+R.AcquisitionDetails
+
+----------
+
+Name: AcquisitionDetails
+
+----------
+
+Options: 
+
+----------
+
+Description: Hide/Show acquisition details on the biblio detail page.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

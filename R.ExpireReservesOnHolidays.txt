@@ -1,0 +1,22 @@
+R.ExpireReservesOnHolidays
+
+----------
+
+Name: ExpireReservesOnHolidays
+
+----------
+
+Options:  
+
+----------
+
+Description: If false, reserves at a library will not be canceled on days the library is not open.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

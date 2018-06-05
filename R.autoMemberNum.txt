@@ -1,0 +1,22 @@
+R.autoMemberNum
+
+----------
+
+Name: autoMemberNum
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, patron number is auto-calculated
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.BorrowersLog
+
+----------
+
+Name: BorrowersLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, log edit/create/delete actions on patron data
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

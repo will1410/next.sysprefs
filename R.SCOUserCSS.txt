@@ -1,0 +1,30 @@
+R.SCOUserCSS
+
+----------
+
+Name: SCOUserCSS
+
+----------
+
+Options:  
+
+----------
+
+Description: Add CSS to be included in the SCO module in an embedded <style> tag.
+
+----------
+
+Type: free
+
+----------
+
+#scopage {
+background-color:red;
+}
+#opacheader{
+display:none;
+}
+#opaccredits {
+display:none;
+}
+

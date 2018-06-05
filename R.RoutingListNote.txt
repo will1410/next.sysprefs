@@ -1,0 +1,22 @@
+R.RoutingListNote
+
+----------
+
+Name: RoutingListNote
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Define a note to be shown on all routing lists
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

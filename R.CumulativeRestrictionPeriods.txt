@@ -1,0 +1,22 @@
+R.CumulativeRestrictionPeriods
+
+----------
+
+Name: CumulativeRestrictionPeriods
+
+----------
+
+Options:  
+
+----------
+
+Description: Cumulate the restriction periods instead of keeping the highest
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

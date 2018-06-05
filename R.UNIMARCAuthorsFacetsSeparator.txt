@@ -1,0 +1,22 @@
+R.UNIMARCAuthorsFacetsSeparator
+
+----------
+
+Name: UNIMARCAuthorsFacetsSeparator
+
+----------
+
+Options:  
+
+----------
+
+Description: UNIMARC authors facets separator
+
+----------
+
+Type: short
+
+----------
+
+, 
+

@@ -1,0 +1,22 @@
+R.TagsInputOnDetail
+
+----------
+
+Name: TagsInputOnDetail
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow users to input tags from the detail page.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

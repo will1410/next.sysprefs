@@ -1,0 +1,22 @@
+R.ClaimsBccCopy
+
+----------
+
+Name: ClaimsBccCopy
+
+----------
+
+Options: 
+
+----------
+
+Description: Bcc the ClaimAcquisition and ClaimIssues alerts
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

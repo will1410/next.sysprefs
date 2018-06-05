@@ -1,0 +1,22 @@
+R.UseGranularMaxHolds
+
+----------
+
+Name: UseGranularMaxHolds
+
+----------
+
+Options: 
+
+----------
+
+Description: If enabled,this allows you to define the maximum number of holds by a combination of itemtype & patroncategory.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

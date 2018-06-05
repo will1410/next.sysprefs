@@ -1,0 +1,22 @@
+R.UpdateTotalIssuesOnCirc
+
+----------
+
+Name: UpdateTotalIssuesOnCirc
+
+----------
+
+Options:  
+
+----------
+
+Description: Whether to update the totalissues field in the biblio on each circ.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

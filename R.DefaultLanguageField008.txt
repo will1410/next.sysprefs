@@ -1,0 +1,22 @@
+R.DefaultLanguageField008
+
+----------
+
+Name: DefaultLanguageField008
+
+----------
+
+Options: 
+
+----------
+
+Description: Fill in the default language for field 008 Range 35-37 (e.g. eng, nor, ger, see www.loc.gov/marc/languages/language_code.html)
+
+----------
+
+Type: Free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.NotifyBorrowerDeparture
+
+----------
+
+Name: NotifyBorrowerDeparture
+
+----------
+
+Options:  
+
+----------
+
+Description: Define number of days before expiry where circulation is warned about patron account expiry
+
+----------
+
+Type: Systempreference
+
+----------
+
+31
+

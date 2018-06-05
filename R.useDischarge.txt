@@ -1,0 +1,22 @@
+R.useDischarge
+
+----------
+
+Name: useDischarge
+
+----------
+
+Options: 
+
+----------
+
+Description: Allows librarians to discharge borrowers and borrowers to request a discharge
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

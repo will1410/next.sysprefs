@@ -1,0 +1,22 @@
+R.MergeReportFields
+
+----------
+
+Name: MergeReportFields
+
+----------
+
+Options:  
+
+----------
+
+Description: Displayed fields for deleted MARC records after merge
+
+----------
+
+Type: Free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.EnableOverdueAccruedAmount
+
+----------
+
+Name: EnableOverdueAccruedAmount
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON,splits fines and charges into amount due and overdue accrued amount.  The latter amount can not be paid until the item is checked in.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.CronjobLog
+
+----------
+
+Name: CronjobLog
+
+----------
+
+Options: If ON, log information from cron jobs.
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

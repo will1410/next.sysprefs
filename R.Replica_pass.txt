@@ -1,0 +1,22 @@
+R.Replica_pass
+
+----------
+
+Name: Replica_pass
+
+----------
+
+Options: 
+
+----------
+
+Description: Password for reporting database replica
+
+----------
+
+Type: Textarea
+
+----------
+
+ir0mwEwA
+

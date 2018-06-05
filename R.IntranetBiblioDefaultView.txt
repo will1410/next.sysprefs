@@ -1,0 +1,22 @@
+R.IntranetBiblioDefaultView
+
+----------
+
+Name: IntranetBiblioDefaultView
+
+----------
+
+Options: normal|marc|isbd|labeled_marc
+
+----------
+
+Description: Choose the default detail view in the staff interface; choose between normal, labeled_marc, marc or isbd
+
+----------
+
+Type: Choice
+
+----------
+
+normal
+

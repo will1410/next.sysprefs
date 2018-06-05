@@ -1,0 +1,22 @@
+R.OPACShowUnusedAuthorities
+
+----------
+
+Name: OPACShowUnusedAuthorities
+
+----------
+
+Options: 
+
+----------
+
+Description: Show authorities that are not being used in the OPAC.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

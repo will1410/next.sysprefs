@@ -1,0 +1,22 @@
+R.CircAutocompl
+
+----------
+
+Name: CircAutocompl
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, autocompletion is enabled for the Circulation input
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

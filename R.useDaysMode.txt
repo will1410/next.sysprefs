@@ -1,0 +1,22 @@
+R.useDaysMode
+
+----------
+
+Name: useDaysMode
+
+----------
+
+Options: Calendar|Days|Datedue
+
+----------
+
+Description: Choose the method for calculating due date: select Calendar to use the holidays module, and Days to ignore the holidays module
+
+----------
+
+Type: Choice
+
+----------
+
+Calendar
+

@@ -1,0 +1,22 @@
+R.OpacBrowser
+
+----------
+
+Name: OpacBrowser
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables subject authorities browser on OPAC (needs to set misc/cronjob/build_browser.pl)
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

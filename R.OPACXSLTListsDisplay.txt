@@ -1,0 +1,22 @@
+R.OPACXSLTListsDisplay
+
+----------
+
+Name: OPACXSLTListsDisplay
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable XSLT stylesheet control over lists pages display on OPAC
+
+----------
+
+Type: Free
+
+----------
+
+/var/lib/koha/nekls/nekls-sftp/incoming/neklscustomOPACResults.xsl
+

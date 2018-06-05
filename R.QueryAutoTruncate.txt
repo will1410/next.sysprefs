@@ -1,0 +1,22 @@
+R.QueryAutoTruncate
+
+----------
+
+Name: QueryAutoTruncate
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, query truncation is enabled by default
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

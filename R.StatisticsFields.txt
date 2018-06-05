@@ -1,0 +1,22 @@
+R.StatisticsFields
+
+----------
+
+Name: StatisticsFields
+
+----------
+
+Options: location|itype|ccode
+
+----------
+
+Description: Define Fields (from the items table) used for statistics members
+
+----------
+
+Type: free
+
+----------
+
+location|itype|ccode
+

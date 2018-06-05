@@ -1,0 +1,22 @@
+R.UploadPurgeTemporaryFilesDays
+
+----------
+
+Name: UploadPurgeTemporaryFilesDays
+
+----------
+
+Options:  
+
+----------
+
+Description: If not empty, number of days used when automatically deleting temporary uploads
+
+----------
+
+Type: integer
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.SubscriptionDuplicateDroppedInput
+
+----------
+
+Name: SubscriptionDuplicateDroppedInput
+
+----------
+
+Options: 
+
+----------
+
+Description: List of fields which must not be rewritten when a subscription is duplicated (Separated by pipe |)
+
+----------
+
+Type: Free
+
+----------
+
+
+

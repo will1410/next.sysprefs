@@ -1,0 +1,136 @@
+R.IntranetUserCSS
+
+----------
+
+Name: IntranetUserCSS
+
+----------
+
+Options:  
+
+----------
+
+Description: Add CSS to be included in the Intranet
+
+----------
+
+Type: free
+
+----------
+
+/* KOHA > * (all pages) */
+  /* Hide My Account and My Checkouts from drop-down menu */
+    #firefox-screenshots-preselection-iframe {display: none;}
+  /* Remove old logo */
+    #logo, #login > h1 {display: none;}
+
+#toplevelnav {
+float: left;
+
+margin-left: .5em;
+width: 60em;
+}
+
+#circ_circulation .ColVis.TableTools {
+display: none;
+}
+
+.results_summary {
+font-size: 100%;
+color: #000000;
+line-height: 14px;
+}
+
+.results_summary .label {
+font-weight: bold;
+color: #000;
+}
+
+.results_summary.subjects {
+font-size: 85%;
+}
+
+.results_summary.contents {
+font-size: 85%;
+}
+.results_summary.online_resources {
+font-size: 85%;
+}
+
+h5.author {
+font-size: 110% !important; 
+}
+
+<-- .patronbriefinfo .patronattribute {
+font-weight: bold;
+} -->
+
+
+.dropdown-menu ul li ul{
+   max-height:250px;
+   overflow-x:hidden;
+   overflow-y:auto;
+} 
+
+/* -Home- Changes background of the news area (makes it easier to read) */
+#area-news { 
+    background-color: #E0ECF8;
+}
+
+/* -Administration › Circulation and fine rules- hides columns in circulation rules (requires accompanying jQuery) */
+th.hiderule, td.hiderule {
+    max-width: 10px;
+    text-indent: -9999px;
+}
+
+/* -Catalog > Details for TITLE- for collapsing "Contents" area - (requires corresponding jQuery) */
+<-- (for collapsing content area) -->
+#show_content {
+    color: #004d99;
+    display: inline;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+/* - Catalog › Search for SEARCHTERMS- Removes "No image available" placeholders in search results */
+.no-image {
+display: none;
+}
+
+/* -Circulation › Checkouts › -PATRONNAME-- hides checkin column
+#issues-table th:last-child {
+  display: none;
+} 
+#issues-table tbody td:last-child {
+  display: none;
+}
+ */
+div.lastchecked {
+  background-color: lightgreen;
+}
+
+
+/* -Circulation › Checkouts › -PATRONNAME-- and all other pages with the "patroninfo" block - highlights patron attributes in yellow */
+.patronattribute {background-color: #ffff00;}
+
+/* Home › Reports › Guided reports wizard › Saved reports */
+/* Hides columns: checkboxs, type, cache expiry, saved results, json */
+/* Needs update for 17.11 */
+.report_json_url,
+#table_reports > thead > tr > th:nth-child(1), #table_reports > tbody > tr > td:nth-child(1),
+#table_reports > thead > tr > th:nth-child(4), #table_reports > tbody > tr > td:nth-child(4),
+#table_reports > thead > tr > th:nth-child(13), #table_reports > tbody > tr > td:nth-child(13),
+#table_reports > thead > tr > th:nth-child(14), #table_reports > tbody > tr > td:nth-child(14)
+{display: none;}
+
+/* Hides delete button */
+#reports_form > fieldset > input[type='submit'] {display: none}
+
+/* Home › Reports › Guided reports wizard › Saved reports - gives reportinfo div same style as rest of table */
+.rep .yui-t1 #bd #yui-main .yui-b td #reportinfo {font-size: inherit; font-weight: inherit; background-color: inherit;}
+
+/* Home › Reports › Guided reports wizard › Saved reports › NAME - gives reportinfo div its own style  */
+.rep .yui-t1 #bd #yui-main .yui-b #reportinfo {font-size: 14px; font-weight: normal; background-color: #FFFF66;}
+
+#issues-table td:nth-child(1), #issues-table td:nth-child(2) {}
+

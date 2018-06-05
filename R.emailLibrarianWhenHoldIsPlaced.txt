@@ -1,0 +1,22 @@
+R.emailLibrarianWhenHoldIsPlaced
+
+----------
+
+Name: emailLibrarianWhenHoldIsPlaced
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, emails the librarian whenever a hold is placed
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

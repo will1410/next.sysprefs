@@ -1,0 +1,22 @@
+R.OpacItemLocation
+
+----------
+
+Name: OpacItemLocation
+
+----------
+
+Options: callnum|ccode|location
+
+----------
+
+Description: Show the shelving location of items in the opac
+
+----------
+
+Type: Choice
+
+----------
+
+callnum
+

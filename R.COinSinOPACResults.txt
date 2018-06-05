@@ -1,0 +1,22 @@
+R.COinSinOPACResults
+
+----------
+
+Name: COinSinOPACResults
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, use COinS in OPAC search results page.  NOTE: this can slow down search response time significantly
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

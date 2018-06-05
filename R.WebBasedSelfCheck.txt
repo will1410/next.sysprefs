@@ -1,0 +1,22 @@
+R.WebBasedSelfCheck
+
+----------
+
+Name: WebBasedSelfCheck
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables the web-based self-check system
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.SelfCheckReceiptPrompt
+
+----------
+
+Name: SelfCheckReceiptPrompt
+
+----------
+
+Options: NULL
+
+----------
+
+Description: If ON, print receipt dialog pops up when self checkout is finished.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

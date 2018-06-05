@@ -1,0 +1,22 @@
+R.intranetbookbag
+
+----------
+
+Name: intranetbookbag
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables display of Cart feature in the intranet
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

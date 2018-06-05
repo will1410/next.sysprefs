@@ -1,0 +1,22 @@
+R.FeeOnChangePatronCategory
+
+----------
+
+Name: FeeOnChangePatronCategory
+
+----------
+
+Options: 
+
+----------
+
+Description: If set, when a patron changes to a category with enrolment fee, a fee is charged
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

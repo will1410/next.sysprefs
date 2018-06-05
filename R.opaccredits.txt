@@ -1,0 +1,25 @@
+R.opaccredits
+
+----------
+
+Name: opaccredits
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Define HTML Credits at the bottom of the OPAC page
+
+----------
+
+Type: Textarea
+
+----------
+
+<div id ="footerlinks">
+<center>NExpress is a catalog of loanable media and materials for the patrons of participating libraries in Northeast Kansas, and is a service of
+<a href="http://www.nekls.org" target="_blank">Northeast Kansas Library System</a>.</center>
+</div>
+

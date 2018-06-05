@@ -1,0 +1,22 @@
+R.SelfCheckTimeout
+
+----------
+
+Name: SelfCheckTimeout
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the number of seconds before the Web-based Self Checkout times out a patron
+
+----------
+
+Type: Integer
+
+----------
+
+60
+

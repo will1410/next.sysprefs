@@ -1,0 +1,22 @@
+R.borrowerRelationship
+
+----------
+
+Name: borrowerRelationship
+
+----------
+
+Options: 
+
+----------
+
+Description: Define valid relationships between a guarantor & a guarantee (separated by | or ,)
+
+----------
+
+Type: free
+
+----------
+
+Parent|Grandparent|Legal Guardian|Employer|Other
+

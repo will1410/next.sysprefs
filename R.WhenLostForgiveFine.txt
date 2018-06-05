@@ -1,0 +1,22 @@
+R.WhenLostForgiveFine
+
+----------
+
+Name: WhenLostForgiveFine
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, Forgives the fines on an item when it is lost.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

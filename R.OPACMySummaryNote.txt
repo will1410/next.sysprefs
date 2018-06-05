@@ -1,0 +1,22 @@
+R.OPACMySummaryNote
+
+----------
+
+Name: OPACMySummaryNote
+
+----------
+
+Options: Note to display on the patron summary page. This note only appears if the patron is connected.
+
+----------
+
+Description: 
+
+----------
+
+Type: Free
+
+----------
+
+
+

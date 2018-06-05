@@ -1,0 +1,22 @@
+R.StaffSearchResultsDisplayBranch
+
+----------
+
+Name: StaffSearchResultsDisplayBranch
+
+----------
+
+Options: homebranch|holdingbranch
+
+----------
+
+Description: Controls the display of the home or holding branch for staff search results
+
+----------
+
+Type: choice
+
+----------
+
+homebranch
+

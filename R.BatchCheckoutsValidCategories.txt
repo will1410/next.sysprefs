@@ -1,0 +1,22 @@
+R.BatchCheckoutsValidCategories
+
+----------
+
+Name: BatchCheckoutsValidCategories
+
+----------
+
+Options:  
+
+----------
+
+Description: Patron categories allowed to checkout in a batch
+
+----------
+
+Type: Free
+
+----------
+
+ADULT|CHILD|COLLEGE|STATISTIC|HOMEBOUND|HOOPLA|HORT-FAMLO|HORT-FAMLY|HORT-SPCL|INHOUSE|ILL|ASSOCIATE|BOARD|MILADULT|MILCHILD|NEKLSTEST|OSAW-STUD|OTHERADULT|OTHERCHILD|TEACHER
+

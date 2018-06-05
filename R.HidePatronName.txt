@@ -1,0 +1,22 @@
+R.HidePatronName
+
+----------
+
+Name: HidePatronName
+
+----------
+
+Options: 
+
+----------
+
+Description: If this is switched on, patron's cardnumber will be shown instead of their name on the holds and catalog screens
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

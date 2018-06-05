@@ -1,0 +1,22 @@
+R.DisplayOthernames
+
+----------
+
+Name: DisplayOthernames
+
+----------
+
+Options: 
+
+----------
+
+Description: Ability to turn the othernames field on/off in patron screen
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

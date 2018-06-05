@@ -1,0 +1,22 @@
+R.DisplayClearScreenButton
+
+----------
+
+Name: DisplayClearScreenButton
+
+----------
+
+Options: If set to yes, a clear screen button will appear on the circulation page.
+
+----------
+
+Description: If set to ON, a clear screen button will appear on the circulation page.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

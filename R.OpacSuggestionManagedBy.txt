@@ -1,0 +1,22 @@
+R.OpacSuggestionManagedBy
+
+----------
+
+Name: OpacSuggestionManagedBy
+
+----------
+
+Options: 
+
+----------
+
+Description: Show the name of the staff member who managed a suggestion in OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

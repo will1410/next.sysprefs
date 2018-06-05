@@ -1,0 +1,22 @@
+R.AutoRemoveOverduesRestrictions
+
+----------
+
+Name: AutoRemoveOverduesRestrictions
+
+----------
+
+Options:  
+
+----------
+
+Description: Defines whether an OVERDUES debarment should be lifted automatically if all overdue items are returned by the patron.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

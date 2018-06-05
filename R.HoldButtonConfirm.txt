@@ -1,0 +1,22 @@
+R.HoldButtonConfirm
+
+----------
+
+Name: HoldButtonConfirm
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Confirm button when hold triggered. Leave either this setting or HoldButtonPrintConfirm on.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

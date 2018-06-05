@@ -1,0 +1,22 @@
+R.Babeltheque_url_update
+
+----------
+
+Name: Babeltheque_url_update
+
+----------
+
+Options: 
+
+----------
+
+Description: Url for Babeltheque update (E.G. http://www.babeltheque.com/.../file.csv.bz2)
+
+----------
+
+Type: Free
+
+----------
+
+
+

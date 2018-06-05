@@ -1,0 +1,22 @@
+R.LibraryThingForLibrariesID
+
+----------
+
+Name: LibraryThingForLibrariesID
+
+----------
+
+Options: 
+
+----------
+
+Description: See:http://librarything.com/forlibraries/
+
+----------
+
+Type: free
+
+----------
+
+
+

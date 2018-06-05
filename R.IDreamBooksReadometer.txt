@@ -1,0 +1,22 @@
+R.IDreamBooksReadometer
+
+----------
+
+Name: IDreamBooksReadometer
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Readometer from IDreamBooks.com
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

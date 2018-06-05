@@ -1,0 +1,22 @@
+R.OpacAdditionalStylesheet
+
+----------
+
+Name: OpacAdditionalStylesheet
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the color stylesheet to use in the OPAC
+
+----------
+
+Type: free
+
+----------
+
+
+

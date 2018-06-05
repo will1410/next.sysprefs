@@ -1,0 +1,22 @@
+R.AuthorityMergeMode
+
+----------
+
+Name: AuthorityMergeMode
+
+----------
+
+Options: loose|strict
+
+----------
+
+Description: Authority merge mode
+
+----------
+
+Type: Choice
+
+----------
+
+loose
+

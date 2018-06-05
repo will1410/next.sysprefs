@@ -1,0 +1,22 @@
+R.maxRecordsForFacets
+
+----------
+
+Name: maxRecordsForFacets
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type: Integer
+
+----------
+
+100
+

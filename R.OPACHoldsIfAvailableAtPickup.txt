@@ -1,0 +1,22 @@
+R.OPACHoldsIfAvailableAtPickup
+
+----------
+
+Name: OPACHoldsIfAvailableAtPickup
+
+----------
+
+Options: Allow to pickup up holds at libraries where the item is available
+
+----------
+
+Description: 
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

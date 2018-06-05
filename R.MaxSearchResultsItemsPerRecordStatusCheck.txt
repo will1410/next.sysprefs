@@ -1,0 +1,22 @@
+R.MaxSearchResultsItemsPerRecordStatusCheck
+
+----------
+
+Name: MaxSearchResultsItemsPerRecordStatusCheck
+
+----------
+
+Options: 
+
+----------
+
+Description: Max number of items per record for which to check transit and hold status
+
+----------
+
+Type: Integer
+
+----------
+
+
+

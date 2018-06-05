@@ -1,0 +1,22 @@
+R.OpacSeparateHoldings
+
+----------
+
+Name: OpacSeparateHoldings
+
+----------
+
+Options:  
+
+----------
+
+Description: Separate current branch holdings from other holdings (OPAC)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

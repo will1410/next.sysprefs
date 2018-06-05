@@ -1,0 +1,22 @@
+R.OpacPublic
+
+----------
+
+Name: OpacPublic
+
+----------
+
+Options: 
+
+----------
+
+Description: If set to OFF and user is not logged in, all  OPAC pages require authentication, and OPAC searchbar is removed)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.opacserialdefaulttab
+
+----------
+
+Name: opacserialdefaulttab
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type:  
+
+----------
+
+holdings
+

@@ -1,0 +1,22 @@
+R.AllowMultipleCovers
+
+----------
+
+Name: AllowMultipleCovers
+
+----------
+
+Options: 1
+
+----------
+
+Description: Allow multiple cover images to be attached to each bibliographic record.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

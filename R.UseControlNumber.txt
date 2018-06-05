@@ -1,0 +1,22 @@
+R.UseControlNumber
+
+----------
+
+Name: UseControlNumber
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, record control number (w subfields) and control number (001) are used for linking of bibliographic records.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

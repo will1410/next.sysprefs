@@ -1,0 +1,22 @@
+R.CircAutoPrintQuickSlip
+
+----------
+
+Name: CircAutoPrintQuickSlip
+
+----------
+
+Options:  
+
+----------
+
+Description: Choose what should happen when an empty barcode field is submitted in circulation: Display a print quick slip window, Display a print slip window or Clear the screen.
+
+----------
+
+Type: Choice
+
+----------
+
+qslip
+

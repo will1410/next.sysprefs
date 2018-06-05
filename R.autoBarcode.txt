@@ -1,0 +1,22 @@
+R.autoBarcode
+
+----------
+
+Name: autoBarcode
+
+----------
+
+Options: incremental|annual|hbyymmincr|OFF|EAN13
+
+----------
+
+Description: Used to autogenerate a barcode: incremental will be of the form 1, 2, 3; annual of the form 2007-0001, 2007-0002; hbyymmincr of the form HB08010001 where HB=Home Branch; EAN13 - incremental
+
+----------
+
+Type: Choice
+
+----------
+
+OFF
+

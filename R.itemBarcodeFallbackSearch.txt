@@ -1,0 +1,22 @@
+R.itemBarcodeFallbackSearch
+
+----------
+
+Name: itemBarcodeFallbackSearch
+
+----------
+
+Options:  
+
+----------
+
+Description: If set, enables the automatic use of a keyword catalog search if the phrase entered as a barcode on the checkout page does not turn up any results during an item barcode search
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

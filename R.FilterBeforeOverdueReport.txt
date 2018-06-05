@@ -1,0 +1,22 @@
+R.FilterBeforeOverdueReport
+
+----------
+
+Name: FilterBeforeOverdueReport
+
+----------
+
+Options: 
+
+----------
+
+Description: Do not run overdue report until filter selected
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

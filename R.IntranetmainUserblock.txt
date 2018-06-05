@@ -1,0 +1,385 @@
+R.IntranetmainUserblock
+
+----------
+
+Name: IntranetmainUserblock
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Add a block of HTML that will display on the intranet home page
+
+----------
+
+Type: Textarea
+
+----------
+
+<style type="text/css">
+  ul#mptabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+  ul#mptabs li { display: inline; }
+  ul#mptabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+  ul#mptabs li a:hover { background-color: #f1f0ee; }
+  ul#mptabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+  div.mptabContent { border: 1px solid #c9c3ba; padding: 0.5em; background-color: #f1f0ee; }
+  div.mptabContent.hide { display: none; }
+  
+  #stat1 {background-color: #d8d8d6;}
+  #stat2 {background-color: #c0c0be;}
+  #stat3 {background-color: #a8a8a6;}
+  .futrow {display: none;}
+
+  h2 {text-decoration-line: underline;}
+</style>
+
+<script type="text/javascript">
+  //<![CDATA[
+  
+  var mptabLinks = new Array();
+  var contentDivs = new Array();
+  
+  function init() {
+  
+    // Grab the mptab links and content divs from the page
+    var mptabListItems = document.getElementById('mptabs').childNodes;
+    for ( var i = 0; i < mptabListItems.length; i++ ) {
+      if ( mptabListItems[i].nodeName == "LI" ) {
+        var mptabLink = getFirstChildWithTagName( mptabListItems[i], 'A' );
+        var id = getHash( mptabLink.getAttribute('href') );
+        mptabLinks[id] = mptabLink;
+        contentDivs[id] = document.getElementById( id );
+      }
+    }
+  
+    // Assign onclick events to the mptab links, and
+    // highlight the first mptab
+    var i = 0;
+  
+    for ( var id in mptabLinks ) {
+      mptabLinks[id].onclick = showmptab;
+      mptabLinks[id].onfocus = function() { this.blur() };
+      if ( i == 0 ) mptabLinks[id].className = 'selected';
+      i++;
+    }
+  
+    // Hide all content divs except the first
+    var i = 0;
+  
+    for ( var id in contentDivs ) {
+      if ( i != 0 ) contentDivs[id].className = 'mptabContent hide';
+      i++;
+    }
+  }
+  
+  function showmptab() {
+    var selectedId = getHash( this.getAttribute('href') );
+  
+    // Highlight the selected mptab, and dim all others.
+    // Also show the selected content div, and hide all others.
+    for ( var id in contentDivs ) {
+      if ( id == selectedId ) {
+        mptabLinks[id].className = 'selected';
+        contentDivs[id].className = 'mptabContent';
+      } else {
+        mptabLinks[id].className = '';
+        contentDivs[id].className = 'mptabContent hide';
+      }
+    }
+  
+    // Stop the browser following the link
+    return false;
+  }
+  
+  function getFirstChildWithTagName( element, tagName ) {
+    for ( var i = 0; i < element.childNodes.length; i++ ) {
+      if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+    }
+  }
+  
+  function getHash( url ) {
+    var hashPos = url.lastIndexOf ( '#' );
+    return url.substring( hashPos + 1 );
+  }
+  
+  //]]>
+</script>
+
+<body onload="init()">
+
+  <h1>NExpress</h1>
+  <ul id="mptabs">
+    <li><a href="#tab01">General information and news</a></li>
+    <li><a href="#tab02">Statistics - 2018</a></li>
+    <li><a href="#tab03">Locked accounts</a></li>
+    <li><a href="#tab04" style="display: none;">Tab 4</a></li>
+    <li><a href="#tab05" style="display: none;">Tab 5</a></li>
+    <li><a href="#tab06" style="display: none;">Tab 6</a></li>
+  </ul>
+
+<!-- TAB01 -->
+
+  <div class="mptabContent" id="tab01">
+    <h2>General information and news</h2>
+    <div>
+      <p>NExpress documentation: <a href="http://libguides.nekls.org/nexpress" target="_blank">http://libguides.nekls.org/nexpress2015/toolbox/training</a></p>
+      <p>Send support requests, questions, and issues to <strong>nexpresshelp@nekls.org.</strong></p>
+      <p><em>Have an emergency after hours or on the weekend? Call <strong>785-813-1356</strong></em></p>
+      <p> </p>
+      <!-- start sw-rss-feed code --> 
+      <script type="text/javascript"> 
+      <!-- 
+      rssfeed_url = new Array(); 
+      rssfeed_url[0]="http://news.nexpresslibrary.org/";  
+      rssfeed_frame_width="100%"; 
+      rssfeed_frame_height="500"; 
+      rssfeed_scroll="off"; 
+      rssfeed_scroll_step="10"; 
+      rssfeed_scroll_bar="off"; 
+      rssfeed_target="_blank"; 
+      rssfeed_font_size="12"; 
+      rssfeed_font_face=""; 
+      rssfeed_border="on"; 
+      rssfeed_css_url=""; 
+      rssfeed_title="on"; 
+      rssfeed_title_name=""; 
+      rssfeed_title_bgcolor="#3366ff"; 
+      rssfeed_title_color="#fff"; 
+      rssfeed_title_bgimage=""; 
+      rssfeed_footer="off"; 
+      rssfeed_footer_name="rss feed"; 
+      rssfeed_footer_bgcolor="#fff"; 
+      rssfeed_footer_color="#333"; 
+      rssfeed_footer_bgimage=""; 
+      rssfeed_item_title_length="500"; 
+      rssfeed_item_title_color="#666"; 
+      rssfeed_item_bgcolor="#fff"; 
+      rssfeed_item_bgimage=""; 
+      rssfeed_item_border_bottom="on"; 
+      rssfeed_item_source_icon="off"; 
+      rssfeed_item_date="off"; 
+      rssfeed_item_description="on"; 
+      rssfeed_item_description_length="140"; 
+      rssfeed_item_description_color="#666"; 
+      rssfeed_item_description_link_color="#333"; 
+      rssfeed_item_description_tag="off"; 
+      rssfeed_no_items="0"; 
+      rssfeed_cache = "c1f5e1ad4957af9849759fb6feabc9de"; 
+      //--> 
+      </script> 
+      <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+      <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
+      <div style="text-align:right; width:230px;">powered by <a href="http://www.surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;font-size:10px">Surfing Waves</a></div> 
+      <!-- end sw-rss-feed code -->
+    </div>
+  </div>
+
+<!-- TABR02 -->
+
+  <div class="mptabContent" id="tab02" style="font-size: 110%;">
+    <h2>Statistics - 2018</h2>
+    <br />
+    <div>
+      <div id="stat1">
+        <h5>Spreadsheet reports</h5>
+        <p>Monthly statistics - Excel spreadsheet.</p>
+        <p><ins><a href="https://drive.google.com/uc?id=10OQb9V8xdlXLqxJ85VdcnJZxxFfIQyiT&export=download">2018 statistics (Excel file - switch tabs at the bottom of the screen to view different months)</a></ins></p>
+        <p>Updated 2018.06.01</p>
+        <p>-----</p>
+        <p>Request statistics - Excel spreadsheet.</p>
+        <p>Updated 2018.06.01</p>
+        <p><ins><a href="https://drive.google.com/uc?id=1-3n7UEQ2eKXk6tcmwBSXRxWrMkdNywEL&export=download">2018 request statistics (Excel file - switch tabs at the bottom of the screen to view different months)</a></ins></p>
+        <p>-----</p>
+      </div>
+      <div id="stat2">
+        <h5>Detailed reports</h5>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in this month.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose this month; year: choose this year and click "Run the report."<br />If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.</p>
+        <ul>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>-----</p>
+      </div>
+      <div id="stat3">
+        <h5>NExpress 2018 overall statistics</h5>
+        <table class="tg">
+          <tr>
+            <th>2018</th>
+            <th>Total items</th>
+            <th>Total titles</th>
+            <th>Total patrons</th>
+            <th>Total Circulation this month</th>
+            <th>Total Circ for 2018 through the end of this month</th>
+          </tr>
+          <tr class="futrow">
+            <td>December</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>November</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>October</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>September</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>August</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>July</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>June</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="futrow">
+            <td>May</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>April</td>
+            <td>1041794</td>
+            <td>411325</td>
+            <td>130687</td>
+            <td>120444</td>
+            <td>492743</td>
+          </tr>
+          <tr>
+            <td>March</td>
+            <td>1038195</td>
+            <td>410354</td>
+            <td>130269</td>
+            <td>130786</td>
+            <td>372299</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>1038217</td>
+            <td>409477</td>
+            <td>129761</td>
+            <td>115343</td>
+            <td>241513</td>
+          </tr>
+          <tr>
+            <td>January</td>
+            <td>1044433</td>
+            <td>410068</td>
+            <td>129209</td>
+            <td>126170</td>
+            <td>126170</td>
+          </tr>
+        </table>
+        <p>-----</p>
+      </div>
+    </div>
+  </div>
+
+<!-- TABR03 -->
+
+  <div class="mptabContent" id="tab03" style="font-size: 110%;">
+    <h2>Locked accounts</h2>
+    <div>
+      <p>For the full instruction sheet, <a href="http://guides.nekls.org/assets/users/_gwilliams/account.lockout.pdf" target="_blank">click here</a></p>
+      <h3>Locked account report:</h3>
+      <p>Run report 3019 to see all patrons who have been locked out of their accounts. (<a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3019&phase=Run%20this%20report"  target="_blank">Click here to run report 3019 in a new window</a>)</p>
+      <ul>
+        <li>If you wish to see all patrons who have been locked out, choose a library from the drop-down menu and leave the asterisk in the card number field.</li>
+        <li>If you wish to check a specific patron, leave the drop-down set to "All libraries" and enter the patron's barcode number in the card number field.</li>
+      </ul>
+      <p>If a patron does not appear on the list, their account has not been locked out.</p>
+      <h3>Re-setting an account</h3>
+      <p>To unlock an account from the staff client:</p>
+      <ol>
+        <li>Navigate to the patron's account</li>
+        <li>Click on the "Change password" button</li>
+        <li>Enter the new password in the password fields</li>
+      </ol>
+      <p>Please note that "SYSTEM login only" accounts, "Library Associate" accounts, and "NEKLS Test Account" accounts cannot be reset by other staff members (only system administrators can edit passwords for these types of accounts).</p>
+    </div>
+  </div>
+
+<!-- TABR04 -->
+
+  <div class="mptabContent" id="tab04">
+    <h2>Tab 4</h2>
+    <div>
+      <h3>Title</h3>
+      <p>Description</p>
+    </div>
+  </div>
+
+<!-- TABR05 -->
+
+  <div class="mptabContent" id="tab05">
+    <h2>Tab 5</h2>
+    <div>
+      <h3>Title</h3>
+      <p>Description</p>
+    </div>
+  </div>
+
+<!-- TABR06 -->
+
+  <div class="mptabContent" id="tab06">
+    <h2>Tab 6</h2>
+    <div>
+      <h3>Title</h3>
+      <p>Description</p>
+    </div>
+  </div>
+
+<!-- END -->
+
+</body>
+

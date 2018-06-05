@@ -1,0 +1,22 @@
+R.AgeRestrictionMarker
+
+----------
+
+Name: AgeRestrictionMarker
+
+----------
+
+Options:  
+
+----------
+
+Description: Markers for age restriction indication, e.g. FSK|PEGI|Age|. See: http://wiki.koha-community.org/wiki/Age_restriction
+
+----------
+
+Type: free
+
+----------
+
+
+

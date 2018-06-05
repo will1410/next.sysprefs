@@ -1,0 +1,22 @@
+R.OpacExportOptions
+
+----------
+
+Name: OpacExportOptions
+
+----------
+
+Options: 
+
+----------
+
+Description: Define available export options on OPAC detail page.
+
+----------
+
+Type: multiple
+
+----------
+
+bibtex,dc,marcxml,marc8,utf8,marcstd,mods,ris
+

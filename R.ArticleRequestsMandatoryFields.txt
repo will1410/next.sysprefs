@@ -1,0 +1,22 @@
+R.ArticleRequestsMandatoryFields
+
+----------
+
+Name: ArticleRequestsMandatoryFields
+
+----------
+
+Options:  
+
+----------
+
+Description: Comma delimited list of required fields for bibs where article requests rule = 'yes'
+
+----------
+
+Type: multiple
+
+----------
+
+
+

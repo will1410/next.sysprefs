@@ -1,0 +1,22 @@
+R.OCLCAffiliateID
+
+----------
+
+Name: OCLCAffiliateID
+
+----------
+
+Options: 
+
+----------
+
+Description: Use with FRBRizeEditions and XISBN. You can sign up for an AffiliateID here: http://www.worldcat.org/wcpa/do/AffiliateUserServices?method=initSelfRegister
+
+----------
+
+Type: free
+
+----------
+
+
+

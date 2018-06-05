@@ -1,0 +1,22 @@
+R.casAuthentication
+
+----------
+
+Name: casAuthentication
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or disable CAS authentication
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

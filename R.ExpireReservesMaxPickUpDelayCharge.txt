@@ -1,0 +1,22 @@
+R.ExpireReservesMaxPickUpDelayCharge
+
+----------
+
+Name: ExpireReservesMaxPickUpDelayCharge
+
+----------
+
+Options:  
+
+----------
+
+Description: If ExpireReservesMaxPickUpDelay is enabled, and this field has a non-zero value, than a borrower whose waiting hold has expired will be charged this amount.
+
+----------
+
+Type: free
+
+----------
+
+0
+

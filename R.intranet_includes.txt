@@ -1,0 +1,22 @@
+R.intranet_includes
+
+----------
+
+Name: intranet_includes
+
+----------
+
+Options:  
+
+----------
+
+Description: The includes directory you want for specific look of Koha (includes or includes_npl for example)
+
+----------
+
+Type: Free
+
+----------
+
+includes 
+

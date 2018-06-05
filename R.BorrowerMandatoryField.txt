@@ -1,0 +1,22 @@
+R.BorrowerMandatoryField
+
+----------
+
+Name: BorrowerMandatoryField
+
+----------
+
+Options: 
+
+----------
+
+Description: Choose the mandatory fields for a patron's account
+
+----------
+
+Type: free
+
+----------
+
+dateofbirth|surname|cardnumber|firstname|userid|password
+

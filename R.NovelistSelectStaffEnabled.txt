@@ -1,0 +1,22 @@
+R.NovelistSelectStaffEnabled
+
+----------
+
+Name: NovelistSelectStaffEnabled
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable  Novelist Select content to the Staff Interface (requires that you have entered in a user profile and password, which can be seen in image links)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.opacbookbagName
+
+----------
+
+Name: opacbookbagName
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Allows libraries to define a different name for the OPAC Cart feature,such as Bookbag or Personal Shelf. If no name is defined,it will default to Cart.
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

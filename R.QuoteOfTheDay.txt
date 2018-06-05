@@ -1,0 +1,22 @@
+R.QuoteOfTheDay
+
+----------
+
+Name: QuoteOfTheDay
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable or disable display of Quote of the Day on the OPAC home page
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

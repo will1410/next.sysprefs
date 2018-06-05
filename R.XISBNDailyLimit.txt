@@ -1,0 +1,22 @@
+R.XISBNDailyLimit
+
+----------
+
+Name: XISBNDailyLimit
+
+----------
+
+Options: 
+
+----------
+
+Description: The xISBN Web service is free for non-commercial use when usage does not exceed 500 requests per day
+
+----------
+
+Type: Integer
+
+----------
+
+499
+

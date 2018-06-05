@@ -1,0 +1,22 @@
+R.OpacRenewalBranch
+
+----------
+
+Name: OpacRenewalBranch
+
+----------
+
+Options: itemhomebranch|patronhomebranch|checkoutbranch|null
+
+----------
+
+Description: Choose how the branch for an OPAC renewal is recorded in statistics
+
+----------
+
+Type: Choice
+
+----------
+
+checkoutbranch
+

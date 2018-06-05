@@ -1,0 +1,22 @@
+R.LocalCoverImages
+
+----------
+
+Name: LocalCoverImages
+
+----------
+
+Options: 1
+
+----------
+
+Description: Display local cover images on intranet search and details pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

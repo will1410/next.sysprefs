@@ -1,0 +1,22 @@
+R.opacbookbag
+
+----------
+
+Name: opacbookbag
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, enables display of biblio basket (book bag)
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

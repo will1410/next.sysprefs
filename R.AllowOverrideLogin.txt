@@ -1,0 +1,22 @@
+R.AllowOverrideLogin
+
+----------
+
+Name: AllowOverrideLogin
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON,Koha will allow staff members to temporarily log in as a user with more rights in certain situations
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.SubfieldsToAllowForRestrictedEditing
+
+----------
+
+Name: SubfieldsToAllowForRestrictedEditing
+
+----------
+
+Options: 
+
+----------
+
+Description: Define a list of subfields for which edition is authorized when edit_items_restricted permission is enabled, separated by spaces. Example: 995$f 995$h 995$j
+
+----------
+
+Type: Free
+
+----------
+
+
+

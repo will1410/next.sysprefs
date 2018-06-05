@@ -1,0 +1,22 @@
+R.itemcallnumber
+
+----------
+
+Name: itemcallnumber
+
+----------
+
+Options:  
+
+----------
+
+Description: The MARC field/subfield that is used to calculate the itemcallnumber (Dewey would be 082ab or 092ab; LOC would be 050ab or 090ab) could be 852hi from an item record
+
+----------
+
+Type: free
+
+----------
+
+082ab
+

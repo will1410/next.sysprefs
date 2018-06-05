@@ -1,0 +1,22 @@
+R.DisplayIconsXSLT
+
+----------
+
+Name: DisplayIconsXSLT
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, displays the format, audience, and material type icons in XSLT MARC21 results and detail pages.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

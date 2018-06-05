@@ -1,0 +1,36 @@
+R.SCOUserJS
+
+----------
+
+Name: SCOUserJS
+
+----------
+
+Options:  
+
+----------
+
+Description: Define custom javascript for inclusion in the SCO module
+
+----------
+
+Type: free
+
+----------
+
+$(document).ready(function(){
+    $("body").attr('id', 'scopage');
+    $(".navbar").hide();
+    $(".navbar-static-top").hide();
+    $(".header-menu").hide();
+    $(".opaccredits").hide();
+
+    $('#patronlogin').keypress(function(e){
+        if (e.keyCode == 13){
+            $('#patronpw').focus();
+            return false;
+        }
+    });
+    
+});
+

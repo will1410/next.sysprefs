@@ -1,0 +1,22 @@
+R.HoldsInNoissuesCharge
+
+----------
+
+Name: HoldsInNoissuesCharge
+
+----------
+
+Options:  
+
+----------
+
+Description: Hold charges block checkouts (added to noissuescharge).
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.OPACAllowUserToChooseBranch
+
+----------
+
+Name: OPACAllowUserToChooseBranch
+
+----------
+
+Options: 1
+
+----------
+
+Description: Allow the user to choose the branch they want to pickup their hold from
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

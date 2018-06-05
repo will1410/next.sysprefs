@@ -1,0 +1,22 @@
+R.DefaultToLoggedInLibraryNoticesSlips
+
+----------
+
+Name: DefaultToLoggedInLibraryNoticesSlips
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled,slips and notices editor will default to the logged in library's rules, rather than the 'all libraries' rules.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

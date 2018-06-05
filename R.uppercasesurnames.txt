@@ -1,0 +1,22 @@
+R.uppercasesurnames
+
+----------
+
+Name: uppercasesurnames
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, surnames are converted to upper case in patron entry form
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.ProcessingFeeNote
+
+----------
+
+Name: ProcessingFeeNote
+
+----------
+
+Options:  
+
+----------
+
+Description: Set the text to be recorded in the column note, table accountlines when the processing fee (defined in item type) is applied
+
+----------
+
+Type: textarea
+
+----------
+
+
+

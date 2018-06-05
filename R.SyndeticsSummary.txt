@@ -1,0 +1,22 @@
+R.SyndeticsSummary
+
+----------
+
+Name: SyndeticsSummary
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Summary Information from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

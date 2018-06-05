@@ -1,0 +1,22 @@
+R.PayPalUser
+
+----------
+
+Name: PayPalUser
+
+----------
+
+Options:  
+
+----------
+
+Description: Your PayPal API username ( email address )
+
+----------
+
+Type: Free
+
+----------
+
+george_api1.nekls.org
+

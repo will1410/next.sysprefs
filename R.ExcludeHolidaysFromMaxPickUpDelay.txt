@@ -1,0 +1,22 @@
+R.ExcludeHolidaysFromMaxPickUpDelay
+
+----------
+
+Name: ExcludeHolidaysFromMaxPickUpDelay
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, reserves max pickup delay takes into account the closed days.
+
+----------
+
+Type: Integer
+
+----------
+
+
+

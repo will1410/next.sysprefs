@@ -1,0 +1,22 @@
+R.previousIssuesDefaultSortOrder
+
+----------
+
+Name: previousIssuesDefaultSortOrder
+
+----------
+
+Options: asc|desc
+
+----------
+
+Description: Specify the sort order of Previous Issues on the circulation page
+
+----------
+
+Type: Choice
+
+----------
+
+asc
+

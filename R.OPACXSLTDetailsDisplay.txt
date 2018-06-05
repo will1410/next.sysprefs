@@ -1,0 +1,22 @@
+R.OPACXSLTDetailsDisplay
+
+----------
+
+Name: OPACXSLTDetailsDisplay
+
+----------
+
+Options:  
+
+----------
+
+Description:  Enable XSL stylesheet control over details page display on OPAC
+
+----------
+
+Type: Free
+
+----------
+
+/var/lib/koha/nekls/nekls-sftp/incoming/neklscustomOPACDetail.xsl
+

@@ -1,0 +1,22 @@
+R.DefaultClassificationSource
+
+----------
+
+Name: DefaultClassificationSource
+
+----------
+
+Options: 
+
+----------
+
+Description: Default classification scheme used by the collection. E.g., Dewey, LCC, etc.
+
+----------
+
+Type: ClassSources
+
+----------
+
+ddc
+

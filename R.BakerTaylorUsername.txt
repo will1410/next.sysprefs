@@ -1,0 +1,22 @@
+R.BakerTaylorUsername
+
+----------
+
+Name: BakerTaylorUsername
+
+----------
+
+Options: 
+
+----------
+
+Description: Baker & Taylor Username for Content Cafe (external content)
+
+----------
+
+Type: Free
+
+----------
+
+
+

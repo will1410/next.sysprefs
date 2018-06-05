@@ -1,0 +1,22 @@
+R.TagsShowOnDetail
+
+----------
+
+Name: TagsShowOnDetail
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of tags to display on detail page.  0 is off.
+
+----------
+
+Type: Integer
+
+----------
+
+10
+

@@ -1,0 +1,22 @@
+R.OpacCustomSearch
+
+----------
+
+Name: OpacCustomSearch
+
+----------
+
+Options:  
+
+----------
+
+Description:  
+
+----------
+
+Type:  
+
+----------
+
+
+

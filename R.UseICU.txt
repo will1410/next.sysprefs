@@ -1,0 +1,22 @@
+R.UseICU
+
+----------
+
+Name: UseICU
+
+----------
+
+Options: 1
+
+----------
+
+Description: Tell Koha if ICU indexing is in use for Zebra or not.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

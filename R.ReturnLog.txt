@@ -1,0 +1,22 @@
+R.ReturnLog
+
+----------
+
+Name: ReturnLog
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, enables the circulation (returns) log
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

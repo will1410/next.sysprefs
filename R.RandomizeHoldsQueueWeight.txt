@@ -1,0 +1,22 @@
+R.RandomizeHoldsQueueWeight
+
+----------
+
+Name: RandomizeHoldsQueueWeight
+
+----------
+
+Options: 
+
+----------
+
+Description: if ON, the holds queue in circulation will be randomized, either based on all location codes, or by the location codes specified in StaticHoldsQueueWeight
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

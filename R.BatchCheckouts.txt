@@ -1,0 +1,22 @@
+R.BatchCheckouts
+
+----------
+
+Name: BatchCheckouts
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or disable batch checkouts
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

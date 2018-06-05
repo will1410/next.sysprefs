@@ -1,0 +1,22 @@
+R.SearchMyLibraryFirst
+
+----------
+
+Name: SearchMyLibraryFirst
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, OPAC searches return results limited by the user's library by default if they are logged in
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

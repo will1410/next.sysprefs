@@ -1,0 +1,22 @@
+R.SearchWithISBNVariations
+
+----------
+
+Name: SearchWithISBNVariations
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, search on all variations of the ISBN
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

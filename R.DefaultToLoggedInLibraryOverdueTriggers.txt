@@ -1,0 +1,22 @@
+R.DefaultToLoggedInLibraryOverdueTriggers
+
+----------
+
+Name: DefaultToLoggedInLibraryOverdueTriggers
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, overdue status triggers editor will default to the logged in library's rules, rather than the 'default' rules.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

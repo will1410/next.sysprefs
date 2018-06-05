@@ -1,0 +1,22 @@
+R.CalculateFinesOnReturn
+
+----------
+
+Name: CalculateFinesOnReturn
+
+----------
+
+Options: 
+
+----------
+
+Description: Switch to control if overdue fines are calculated on return or not
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

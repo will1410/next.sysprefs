@@ -1,0 +1,22 @@
+R.MarkLostItemsReturned
+
+----------
+
+Name: MarkLostItemsReturned
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON,will check in items (removing them from a patron list of checked out items) when they are marked as lost
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

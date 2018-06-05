@@ -1,0 +1,22 @@
+R.Display856uAsImage
+
+----------
+
+Name: Display856uAsImage
+
+----------
+
+Options: OFF|Details|Results|Both
+
+----------
+
+Description: Display the URI in the 856u field as an image, the corresponding Staff Client XSLT option must be on
+
+----------
+
+Type: Choice
+
+----------
+
+OFF
+

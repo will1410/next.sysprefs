@@ -1,0 +1,22 @@
+R.OrderPdfFormat
+
+----------
+
+Name: OrderPdfFormat
+
+----------
+
+Options: 
+
+----------
+
+Description: Controls what script is used for printing (basketgroups)
+
+----------
+
+Type: free
+
+----------
+
+pdfformat::layout2pages
+

@@ -1,0 +1,22 @@
+R.IntranetSlipPrinterJS
+
+----------
+
+Name: IntranetSlipPrinterJS
+
+----------
+
+Options: 
+
+----------
+
+Description: Use this JavaScript for printing slips. Define at least function printThenClose(). For use e.g. with Firefox PlugIn jsPrintSetup, see http://jsprintsetup.mozdev.org/
+
+----------
+
+Type: Free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.OverDriveLibraryID
+
+----------
+
+Name: OverDriveLibraryID
+
+----------
+
+Options: 
+
+----------
+
+Description: Library ID for OverDrive integration
+
+----------
+
+Type: Integer
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.OPACShowHoldQueueDetails
+
+----------
+
+Name: OPACShowHoldQueueDetails
+
+----------
+
+Options: none|priority|holds|holds_priority
+
+----------
+
+Description: Show holds details in OPAC
+
+----------
+
+Type: Choice
+
+----------
+
+none
+

@@ -1,0 +1,22 @@
+R.UsageStatsLibraryName
+
+----------
+
+Name: UsageStatsLibraryName
+
+----------
+
+Options:  
+
+----------
+
+Description: The library name to be shown on Hea Koha community website
+
+----------
+
+Type: Free
+
+----------
+
+NExpress Shared Catalog
+

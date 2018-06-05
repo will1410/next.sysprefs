@@ -1,0 +1,22 @@
+R.CircControl
+
+----------
+
+Name: CircControl
+
+----------
+
+Options: PickupLibrary|PatronLibrary|ItemHomeLibrary
+
+----------
+
+Description: Specify the agency that controls the circulation and fines policy
+
+----------
+
+Type: Choice
+
+----------
+
+PickupLibrary
+

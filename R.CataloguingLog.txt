@@ -1,0 +1,22 @@
+R.CataloguingLog
+
+----------
+
+Name: CataloguingLog
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, log edit/create/delete actions on bibliographic data. WARNING: this feature is very resource consuming.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

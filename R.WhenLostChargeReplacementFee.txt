@@ -1,0 +1,22 @@
+R.WhenLostChargeReplacementFee
+
+----------
+
+Name: WhenLostChargeReplacementFee
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, Charge the replacement price when a patron loses an item.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

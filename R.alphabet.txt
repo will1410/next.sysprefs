@@ -1,0 +1,22 @@
+R.alphabet
+
+----------
+
+Name: alphabet
+
+----------
+
+Options:  
+
+----------
+
+Description: Alphabet that can be expanded into browse links, e.g. on Home > Patrons
+
+----------
+
+Type: free
+
+----------
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+

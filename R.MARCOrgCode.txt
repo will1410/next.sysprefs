@@ -1,0 +1,22 @@
+R.MARCOrgCode
+
+----------
+
+Name: MARCOrgCode
+
+----------
+
+Options: 
+
+----------
+
+Description: Define MARC Organization Code for MARC21 records - http://www.loc.gov/marc/organizations/orgshome.html
+
+----------
+
+Type: free
+
+----------
+
+KsLawNKL
+

@@ -1,0 +1,22 @@
+R.useDefaultReplacementCost
+
+----------
+
+Name: useDefaultReplacementCost
+
+----------
+
+Options:  
+
+----------
+
+Description: default replacement cost defined in item type
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

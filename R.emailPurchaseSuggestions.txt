@@ -1,0 +1,22 @@
+R.emailPurchaseSuggestions
+
+----------
+
+Name: emailPurchaseSuggestions
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, patron suggestions are emailed rather than managed in Acquisitions
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

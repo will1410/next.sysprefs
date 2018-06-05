@@ -1,0 +1,22 @@
+R.AllowAllMessageDeletion
+
+----------
+
+Name: AllowAllMessageDeletion
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow any Library to delete any message
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

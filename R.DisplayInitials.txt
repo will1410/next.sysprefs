@@ -1,0 +1,22 @@
+R.DisplayInitials
+
+----------
+
+Name: DisplayInitials
+
+----------
+
+Options: 
+
+----------
+
+Description: Ability to turn the initials field on/off in patron screen
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

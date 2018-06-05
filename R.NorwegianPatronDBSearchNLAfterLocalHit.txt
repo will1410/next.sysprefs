@@ -1,0 +1,22 @@
+R.NorwegianPatronDBSearchNLAfterLocalHit
+
+----------
+
+Name: NorwegianPatronDBSearchNLAfterLocalHit
+
+----------
+
+Options:  
+
+----------
+
+Description: Search NL if a search has already given one or more local hits?.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

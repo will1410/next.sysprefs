@@ -1,0 +1,22 @@
+R.AcqItemSetSubfieldsWhenReceiptIsCancelled
+
+----------
+
+Name: AcqItemSetSubfieldsWhenReceiptIsCancelled
+
+----------
+
+Options: 
+
+----------
+
+Description: Upon cancelling a receipt, update the items subfields if they were created when placing an order (e.g. o=5|a="bar foo")
+
+----------
+
+Type: Free
+
+----------
+
+
+

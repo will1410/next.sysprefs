@@ -1,0 +1,22 @@
+R.NoRenewalBeforePrecision
+
+----------
+
+Name: NoRenewalBeforePrecision
+
+----------
+
+Options: date|exact_time
+
+----------
+
+Description: Calculate "No renewal before" based on date or exact time. Only relevant for loans calculated in days, hourly loans are not affected.
+
+----------
+
+Type: Choice
+
+----------
+
+date
+

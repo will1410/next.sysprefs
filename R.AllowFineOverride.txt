@@ -1,0 +1,22 @@
+R.AllowFineOverride
+
+----------
+
+Name: AllowFineOverride
+
+----------
+
+Options: 0
+
+----------
+
+Description: If on, staff will be able to issue books to patrons with fines greater than noissuescharge.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

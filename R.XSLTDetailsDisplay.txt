@@ -1,0 +1,22 @@
+R.XSLTDetailsDisplay
+
+----------
+
+Name: XSLTDetailsDisplay
+
+----------
+
+Options: 
+
+----------
+
+Description: XSLTDetailsDisplay
+
+----------
+
+Type: Systempreference
+
+----------
+
+/var/lib/koha/nekls/nekls-sftp/incoming/neklscustomintranetdetail.xsl
+

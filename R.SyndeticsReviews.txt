@@ -1,0 +1,22 @@
+R.SyndeticsReviews
+
+----------
+
+Name: SyndeticsReviews
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Reviews on OPAC from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

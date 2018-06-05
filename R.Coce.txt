@@ -1,0 +1,22 @@
+R.Coce
+
+----------
+
+Name: Coce
+
+----------
+
+Options:  
+
+----------
+
+Description: If on, enables cover retrieval from the configured Coce server
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

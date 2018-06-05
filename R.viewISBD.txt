@@ -1,0 +1,22 @@
+R.viewISBD
+
+----------
+
+Name: viewISBD
+
+----------
+
+Options: 
+
+----------
+
+Description: Allow display of ISBD view of bibiographic records
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

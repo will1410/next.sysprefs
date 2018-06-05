@@ -1,0 +1,22 @@
+R.TagsEnabled
+
+----------
+
+Name: TagsEnabled
+
+----------
+
+Options: 
+
+----------
+
+Description: Enables or disables all tagging features.  This is the main switch for tags.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

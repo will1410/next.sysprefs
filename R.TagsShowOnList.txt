@@ -1,0 +1,22 @@
+R.TagsShowOnList
+
+----------
+
+Name: TagsShowOnList
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of tags to display on search results list.  0 is off.
+
+----------
+
+Type: Integer
+
+----------
+
+6
+

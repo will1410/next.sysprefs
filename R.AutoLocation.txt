@@ -1,0 +1,22 @@
+R.AutoLocation
+
+----------
+
+Name: AutoLocation
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, IP authentication is enabled, blocking access to the staff client from unauthorized IP addresses
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

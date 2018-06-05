@@ -1,0 +1,22 @@
+R.RentalFeesCheckoutConfirmation
+
+----------
+
+Name: RentalFeesCheckoutConfirmation
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow user to confirm when checking out an item with rental fees.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.MaxFine
+
+----------
+
+Name: MaxFine
+
+----------
+
+Options: 
+
+----------
+
+Description: Maximum fine a patron can have for all late returns at one moment. Single item caps are specified in the circulation rules matrix.
+
+----------
+
+Type: Integer
+
+----------
+
+
+

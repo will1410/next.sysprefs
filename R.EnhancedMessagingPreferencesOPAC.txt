@@ -1,0 +1,22 @@
+R.EnhancedMessagingPreferencesOPAC
+
+----------
+
+Name: EnhancedMessagingPreferencesOPAC
+
+----------
+
+Options:  
+
+----------
+
+Description: If ON, allows patrons to select to receive additional messages about items due or nearly due.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

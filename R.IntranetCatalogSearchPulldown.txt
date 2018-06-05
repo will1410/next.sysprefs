@@ -1,0 +1,22 @@
+R.IntranetCatalogSearchPulldown
+
+----------
+
+Name: IntranetCatalogSearchPulldown
+
+----------
+
+Options:  
+
+----------
+
+Description: Show a search field pulldown for "Search the catalog" boxes. 
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

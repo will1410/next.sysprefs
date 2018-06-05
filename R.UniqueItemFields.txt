@@ -1,0 +1,22 @@
+R.UniqueItemFields
+
+----------
+
+Name: UniqueItemFields
+
+----------
+
+Options: 
+
+----------
+
+Description: Space-separated list of fields that should be unique (used in acquisition module for item creation). Fields must be valid SQL column names of items table
+
+----------
+
+Type: Free
+
+----------
+
+barcode
+

@@ -1,0 +1,22 @@
+R.EnablePayPalOpacPayments
+
+----------
+
+Name: EnablePayPalOpacPayments
+
+----------
+
+Options:  
+
+----------
+
+Description: Enables the ability to pay fees and fines from  the OPAC via PayPal
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

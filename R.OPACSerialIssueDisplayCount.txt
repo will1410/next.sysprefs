@@ -1,0 +1,22 @@
+R.OPACSerialIssueDisplayCount
+
+----------
+
+Name: OPACSerialIssueDisplayCount
+
+----------
+
+Options: 
+
+----------
+
+Description: Number of serial issues to display per subscription in the OPAC
+
+----------
+
+Type: Integer
+
+----------
+
+3
+

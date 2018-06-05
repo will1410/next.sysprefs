@@ -1,0 +1,22 @@
+R.NoReturnSetLost
+
+----------
+
+Name: NoReturnSetLost
+
+----------
+
+Options: 
+
+----------
+
+Description: (if you have fines only) After this limit a non returned item is automatically marked as lost, and the itemprice is charged to the patron
+
+----------
+
+Type: Integer
+
+----------
+
+99
+

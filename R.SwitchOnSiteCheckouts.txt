@@ -1,0 +1,22 @@
+R.SwitchOnSiteCheckouts
+
+----------
+
+Name: SwitchOnSiteCheckouts
+
+----------
+
+Options:  
+
+----------
+
+Description: Automatically switch an on-site checkout to a normal checkout
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

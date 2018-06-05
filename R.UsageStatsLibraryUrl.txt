@@ -1,0 +1,22 @@
+R.UsageStatsLibraryUrl
+
+----------
+
+Name: UsageStatsLibraryUrl
+
+----------
+
+Options:  
+
+----------
+
+Description: The library URL to be shown on Hea Koha community website
+
+----------
+
+Type: Free
+
+----------
+
+catalog.nexpresslibrary.org
+

@@ -1,0 +1,22 @@
+R.TrackLastPatronActivity
+
+----------
+
+Name: TrackLastPatronActivity
+
+----------
+
+Options:  
+
+----------
+
+Description: If set, the field borrowers.lastseen will be updated everytime a patron is seen
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

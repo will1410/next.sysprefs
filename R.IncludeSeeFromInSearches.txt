@@ -1,0 +1,22 @@
+R.IncludeSeeFromInSearches
+
+----------
+
+Name: IncludeSeeFromInSearches
+
+----------
+
+Options: 
+
+----------
+
+Description: Include see-from references in searches.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

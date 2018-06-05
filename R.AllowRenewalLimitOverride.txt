@@ -1,0 +1,22 @@
+R.AllowRenewalLimitOverride
+
+----------
+
+Name: AllowRenewalLimitOverride
+
+----------
+
+Options: 
+
+----------
+
+Description: if ON, allows renewal limits to be overridden on the circulation screen
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

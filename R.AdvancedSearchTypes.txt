@@ -1,0 +1,22 @@
+R.AdvancedSearchTypes
+
+----------
+
+Name: AdvancedSearchTypes
+
+----------
+
+Options: itemtypes|ccode|none
+
+----------
+
+Description: Select which set of fields comprise the Type limit in the advanced search
+
+----------
+
+Type: Choice
+
+----------
+
+ccode|itemtypes|loc
+

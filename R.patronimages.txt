@@ -1,0 +1,22 @@
+R.patronimages
+
+----------
+
+Name: patronimages
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable patron images for the Staff Client
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

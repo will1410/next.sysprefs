@@ -1,0 +1,22 @@
+R.DefaultToLoggedInLibraryCircRules
+
+----------
+
+Name: DefaultToLoggedInLibraryCircRules
+
+----------
+
+Options:  
+
+----------
+
+Description: If enabled, circ rules editor will default to the logged in library's rules, rather than the 'all libraries' rules.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

@@ -1,0 +1,22 @@
+R.OPACNumbersPreferPhrase
+
+----------
+
+Name: OPACNumbersPreferPhrase
+
+----------
+
+Options:  
+
+----------
+
+Description: Control the use of phr operator in callnumber and standard number OPAC searches
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

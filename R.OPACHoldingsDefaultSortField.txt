@@ -1,0 +1,22 @@
+R.OPACHoldingsDefaultSortField
+
+----------
+
+Name: OPACHoldingsDefaultSortField
+
+----------
+
+Options: first_column|homebranch|holdingbranch
+
+----------
+
+Description: Default sort field for the holdings table at the OPAC
+
+----------
+
+Type: choice
+
+----------
+
+homebranch
+

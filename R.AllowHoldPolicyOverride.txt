@@ -1,0 +1,22 @@
+R.AllowHoldPolicyOverride
+
+----------
+
+Name: AllowHoldPolicyOverride
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow staff to override hold policies when placing holds
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

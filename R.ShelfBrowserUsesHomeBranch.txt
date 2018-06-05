@@ -1,0 +1,22 @@
+R.ShelfBrowserUsesHomeBranch
+
+----------
+
+Name: ShelfBrowserUsesHomeBranch
+
+----------
+
+Options: 1
+
+----------
+
+Description: Use the item home branch when finding items for the shelf browser.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

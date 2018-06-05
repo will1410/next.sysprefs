@@ -1,0 +1,22 @@
+R.SyndeticsClientCode
+
+----------
+
+Name: SyndeticsClientCode
+
+----------
+
+Options: 
+
+----------
+
+Description: Client Code for using Syndetics Solutions content
+
+----------
+
+Type: free
+
+----------
+
+
+

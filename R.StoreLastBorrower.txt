@@ -1,0 +1,22 @@
+R.StoreLastBorrower
+
+----------
+
+Name: StoreLastBorrower
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, the last borrower to return an item will be stored in items.last_returned_by
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

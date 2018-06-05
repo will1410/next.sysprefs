@@ -1,0 +1,22 @@
+R.OpacHoldNotes
+
+----------
+
+Name: OpacHoldNotes
+
+----------
+
+Options: 
+
+----------
+
+Description: Show hold notes on OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.PatronQuickAddFields
+
+----------
+
+Name: PatronQuickAddFields
+
+----------
+
+Options:  
+
+----------
+
+Description: A list of fields separated by "|" to be displayed along with mandatory fields in the patron quick add form if chosen at patron entry
+
+----------
+
+Type: Free
+
+----------
+
+
+

@@ -1,0 +1,22 @@
+R.decreaseLoanHighHolds
+
+----------
+
+Name: decreaseLoanHighHolds
+
+----------
+
+Options: 
+
+----------
+
+Description: Decreases the loan period for items with number of holds above the threshold specified in decreaseLoanHighHoldsValue
+
+----------
+
+Type: YesNo
+
+----------
+
+
+

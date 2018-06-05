@@ -1,0 +1,22 @@
+R.UsageStats
+
+----------
+
+Name: UsageStats
+
+----------
+
+Options:  
+
+----------
+
+Description: Share anonymous usage data on the Hea Koha community website.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

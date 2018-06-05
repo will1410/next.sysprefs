@@ -1,0 +1,22 @@
+R.GoogleJackets
+
+----------
+
+Name: GoogleJackets
+
+----------
+
+Options: 
+
+----------
+
+Description: if ON, displays jacket covers from Google Books API
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.NoLoginInstructions
+
+----------
+
+Name: NoLoginInstructions
+
+----------
+
+Options: 60|10
+
+----------
+
+Description: Instructions to display on the OPAC login form when a patron is not logged in
+
+----------
+
+Type: Textarea
+
+----------
+
+<div id=logininstuctions >To request materials, manage your account, or access Flipster, you must log in with your username (or library card number) and password.  Contact your library for assistance.</div>
+

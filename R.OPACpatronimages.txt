@@ -1,0 +1,22 @@
+R.OPACpatronimages
+
+----------
+
+Name: OPACpatronimages
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable patron images in the OPAC
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

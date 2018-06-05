@@ -1,0 +1,22 @@
+R.LibraryThingForLibrariesEnabled
+
+----------
+
+Name: LibraryThingForLibrariesEnabled
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable or Disable Library Thing for Libraries Features
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

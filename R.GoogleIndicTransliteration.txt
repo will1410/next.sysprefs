@@ -1,0 +1,22 @@
+R.GoogleIndicTransliteration
+
+----------
+
+Name: GoogleIndicTransliteration
+
+----------
+
+Options: 
+
+----------
+
+Description: GoogleIndicTransliteration on the OPAC.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

@@ -1,0 +1,22 @@
+R.OnSiteCheckoutsForce
+
+----------
+
+Name: OnSiteCheckoutsForce
+
+----------
+
+Options: 
+
+----------
+
+Description: Enable/Disable the on-site for all cases (Even if a user is debarred, etc.)
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

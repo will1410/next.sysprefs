@@ -1,0 +1,22 @@
+R.decreaseLoanHighHoldsDuration
+
+----------
+
+Name: decreaseLoanHighHoldsDuration
+
+----------
+
+Options: 
+
+----------
+
+Description: Specifies a number of days that a loan is reduced to when used in conjunction with decreaseLoanHighHolds
+
+----------
+
+Type: Integer
+
+----------
+
+
+

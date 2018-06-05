@@ -1,0 +1,22 @@
+R.OAI-PMH
+
+----------
+
+Name: OAI-PMH
+
+----------
+
+Options:  
+
+----------
+
+Description: if ON, OAI-PMH server is enabled
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

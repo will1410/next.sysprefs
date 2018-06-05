@@ -1,0 +1,22 @@
+R.URLLinkText
+
+----------
+
+Name: URLLinkText
+
+----------
+
+Options:  
+
+----------
+
+Description: Text to display as the link anchor in the OPAC
+
+----------
+
+Type: free
+
+----------
+
+
+

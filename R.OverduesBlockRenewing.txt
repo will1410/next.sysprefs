@@ -1,0 +1,22 @@
+R.OverduesBlockRenewing
+
+----------
+
+Name: OverduesBlockRenewing
+
+----------
+
+Options: allow|blockitem|block
+
+----------
+
+Description: If any of a patron checked out documents is late, should renewal be allowed, blocked only on overdue items or blocked on whatever checked out document
+
+----------
+
+Type: Choice
+
+----------
+
+allow
+

@@ -1,0 +1,22 @@
+R.AllowCheckoutNotes
+
+----------
+
+Name: AllowCheckoutNotes
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow patrons to submit notes about checked out items.
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

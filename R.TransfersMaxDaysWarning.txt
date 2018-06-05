@@ -1,0 +1,22 @@
+R.TransfersMaxDaysWarning
+
+----------
+
+Name: TransfersMaxDaysWarning
+
+----------
+
+Options: 
+
+----------
+
+Description: Define the days before a transfer is suspected of having a problem
+
+----------
+
+Type: Integer
+
+----------
+
+6
+

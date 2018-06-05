@@ -1,0 +1,22 @@
+R.AllowPurchaseSuggestionBranchChoice
+
+----------
+
+Name: AllowPurchaseSuggestionBranchChoice
+
+----------
+
+Options: 1
+
+----------
+
+Description: Allow user to choose branch when making a purchase suggestion
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

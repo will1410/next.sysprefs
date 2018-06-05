@@ -1,0 +1,22 @@
+R.RestrictedPageLocalIPs
+
+----------
+
+Name: RestrictedPageLocalIPs
+
+----------
+
+Options:  
+
+----------
+
+Description: Beginning of IP addresses considered as local (comma separated ex: "127.0.0,127.0.2")
+
+----------
+
+Type: Free
+
+----------
+
+
+

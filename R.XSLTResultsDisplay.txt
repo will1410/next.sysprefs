@@ -1,0 +1,22 @@
+R.XSLTResultsDisplay
+
+----------
+
+Name: XSLTResultsDisplay
+
+----------
+
+Options: 
+
+----------
+
+Description: XSLTResultsDisplay
+
+----------
+
+Type: Free
+
+----------
+
+/var/lib/koha/nekls/nekls-sftp/incoming/neklscustomintranetResults.xsl
+

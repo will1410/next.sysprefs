@@ -1,0 +1,22 @@
+R.GoogleOpenIDConnect
+
+----------
+
+Name: GoogleOpenIDConnect
+
+----------
+
+Options: if ON, allows the use of Google OpenID Connect for login
+
+----------
+
+Description:  
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

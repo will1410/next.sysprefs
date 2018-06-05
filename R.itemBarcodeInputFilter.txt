@@ -1,0 +1,22 @@
+R.itemBarcodeInputFilter
+
+----------
+
+Name: itemBarcodeInputFilter
+
+----------
+
+Options: whitespace|T-prefix|cuecat|libsuite8|EAN13
+
+----------
+
+Description: If set, allows specification of a item barcode input filter
+
+----------
+
+Type: Choice
+
+----------
+
+
+

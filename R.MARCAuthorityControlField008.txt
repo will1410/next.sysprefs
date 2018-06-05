@@ -1,0 +1,22 @@
+R.MARCAuthorityControlField008
+
+----------
+
+Name: MARCAuthorityControlField008
+
+----------
+
+Options:  
+
+----------
+
+Description: Define the contents of MARC21 authority control field 008 position 06-39
+
+----------
+
+Type: Textarea
+
+----------
+
+|| aca||aabn           | a|a     d
+

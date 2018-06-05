@@ -1,0 +1,22 @@
+R.IdRef
+
+----------
+
+Name: IdRef
+
+----------
+
+Options:  
+
+----------
+
+Description: Disable/enable the IdRef webservice from the OPAC detail page.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

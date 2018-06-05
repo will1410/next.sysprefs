@@ -1,0 +1,22 @@
+R.TranslateNotices
+
+----------
+
+Name: TranslateNotices
+
+----------
+
+Options:  
+
+----------
+
+Description: Allow notices to be translated
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

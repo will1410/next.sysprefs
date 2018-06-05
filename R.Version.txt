@@ -1,0 +1,22 @@
+R.Version
+
+----------
+
+Name: Version
+
+----------
+
+Options:  
+
+----------
+
+Description: The Koha database version. WARNING: Do not change this value manually, it is maintained by the webinstaller
+
+----------
+
+Type:  
+
+----------
+
+17.0510000
+

@@ -1,0 +1,22 @@
+R.SyndeticsCoverImageSize
+
+----------
+
+Name: SyndeticsCoverImageSize
+
+----------
+
+Options: MC|LC
+
+----------
+
+Description: Choose the size of the Syndetics Cover Image to display on the OPAC detail page, MC is Medium, LC is Large
+
+----------
+
+Type: Choice
+
+----------
+
+MC
+

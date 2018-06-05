@@ -1,0 +1,22 @@
+R.Disable_Dictionary
+
+----------
+
+Name: Disable_Dictionary
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, disable Authority Searching and OPAC Dictionary
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

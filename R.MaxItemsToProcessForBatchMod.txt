@@ -1,0 +1,22 @@
+R.MaxItemsToProcessForBatchMod
+
+----------
+
+Name: MaxItemsToProcessForBatchMod
+
+----------
+
+Options:  
+
+----------
+
+Description: Process up to a given number of items in a single item modification batch.
+
+----------
+
+Type: Integer
+
+----------
+
+5000
+

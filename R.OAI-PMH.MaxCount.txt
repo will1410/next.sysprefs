@@ -1,0 +1,22 @@
+R.OAI-PMH:MaxCount
+
+----------
+
+Name: OAI-PMH:MaxCount
+
+----------
+
+Options:  
+
+----------
+
+Description: OAI-PMH maximum number of records by answer to ListRecords and ListIdentifiers queries
+
+----------
+
+Type: Integer
+
+----------
+
+50
+

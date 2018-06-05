@@ -1,0 +1,22 @@
+R.ReservesControlBranch
+
+----------
+
+Name: ReservesControlBranch
+
+----------
+
+Options: ItemHomeLibrary|PatronLibrary
+
+----------
+
+Description: Branch checked for members reservations rights
+
+----------
+
+Type: Choice
+
+----------
+
+ItemHomeLibrary
+

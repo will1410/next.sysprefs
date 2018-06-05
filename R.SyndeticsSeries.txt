@@ -1,0 +1,22 @@
+R.SyndeticsSeries
+
+----------
+
+Name: SyndeticsSeries
+
+----------
+
+Options: 
+
+----------
+
+Description: Display Series information on OPAC from Syndetics
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

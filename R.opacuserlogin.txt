@@ -1,0 +1,22 @@
+R.opacuserlogin
+
+----------
+
+Name: opacuserlogin
+
+----------
+
+Options:  
+
+----------
+
+Description: Enable or disable display of user login features
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

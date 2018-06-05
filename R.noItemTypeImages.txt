@@ -1,0 +1,22 @@
+R.noItemTypeImages
+
+----------
+
+Name: noItemTypeImages
+
+----------
+
+Options: 
+
+----------
+
+Description: If ON, disables item-type images
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+
