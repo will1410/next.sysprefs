@@ -13,6 +13,7 @@ The SQL for this report is:
 
 ----------
 
+```SQL
 SELECT
   Concat(If(Length(REPLACE(systempreferences.value,'\r\n', CONCAT(Char(13),Char(10)))) > 32766, "X.", "R."), REPLACE(systempreferences.variable, ":", ".")) AS FILE_NAME,
   Concat(
@@ -30,6 +31,7 @@ SELECT
   ) AS CONTENT  
 FROM
   systempreferences
+```
 
 ----------
 
@@ -41,6 +43,7 @@ The VBA for the macro is:
 
 ----------
 
+```VBA
 Sub WriteTotxtSQL()
 
 Const forReading = 1, forAppending = 3, fsoForWriting = 2
@@ -70,6 +73,7 @@ For lRowLoop = 1 To lLastRow
 Next lRowLoop
 
 End Sub
+```
 
 ----------
 
