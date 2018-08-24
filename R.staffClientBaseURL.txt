@@ -18,5 +18,5 @@ Type: free
 
 ----------
 
-staff.nexpresslibrary.org
+http://staff.nexpresslibrary.org
 

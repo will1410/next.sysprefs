@@ -18,5 +18,281 @@ Type:
 
 ----------
 
+<div class="mastheadsearch librarypulldown">
+
+
+                            <form name="searchform" method="get" action="/cgi-bin/koha/opac-search.pl" id="searchform" class="form-inline">
+                                <label for="masthead_search"> Search
+
+                                </label>
+
+                                <select name="idx" id="masthead_search">
+
+                                    <option value="">Library catalog</option>
+
+
+                                    <option value="ti">Title</option>
+
+
+                                    <option value="au">Author</option>
+
+
+                                    <option value="su">Subject</option>
+
+
+                                    <option value="nb">ISBN</option>
+
+
+                                    <option value="se">Series</option>
+
+
+
+                                        <option value="callnum">Call number</option>
+
+
+                                </select>
+
+
+
+                                    <input title="Type search term" class="transl1" id="translControl1" name="q" type="text"><span id="translControl"></span>
+
+
+
+
+
+                                    <div class="input-append">
+                                        <select name="branch_group_limit" id="select_library">
+                                            <option value="">All libraries</option>
+                                            <optgroup label="Libraries">
+
+
+                                                        <option value="branch:ATCHISON">Atchison Public Library</option>
+
+
+
+                                                        <option value="branch:BALDWIN">Baldwin City Public Library</option>
+
+
+
+                                                        <option value="branch:BASEHOR">Basehor Community Library</option>
+
+
+
+                                                        <option value="branch:BERN">Bern Community Library</option>
+
+
+
+                                                        <option value="branch:BONNERSPGS">Bonner Springs City Library</option>
+
+
+
+                                                        <option value="branch:BURLINGAME">Burlingame Community Library</option>
+
+
+
+                                                        <option value="branch:CARBONDALE">Carbondale City Library</option>
+
+
+
+                                                        <option value="branch:CENTRALIA">Centralia Community Library</option>
+
+
+
+                                                        <option value="branch:CORNING">Corning City Library</option>
+
+
+
+                                                        <option value="branch:DIGITAL">Digital Content</option>
+
+
+
+                                                        <option value="branch:DONIELWD">Doniphan County Library - Elwood</option>
+
+
+
+                                                        <option value="branch:DONIHIGH">Doniphan County Library - Highland</option>
+
+
+
+                                                        <option value="branch:DONITROY">Doniphan County Library - Troy</option>
+
+
+
+                                                        <option value="branch:DONIWATH">Doniphan County Library - Wathena</option>
+
+
+
+                                                        <option value="branch:EFFINGHAM">Effingham Community Library</option>
+
+
+
+                                                        <option value="branch:EUDORA">Eudora Public Library</option>
+
+
+
+                                                        <option value="branch:EVEREST">Everest, Barnes Reading Room</option>
+
+
+
+                                                        <option value="branch:HIAWATHA">Hiawatha, Morrill Public Library</option>
+
+
+
+                                                        <option value="branch:HOLTON">Holton, Beck-Bookman Library</option>
+
+
+
+                                                        <option value="branch:HORTON">Horton Public Library</option>
+
+
+
+                                                        <option value="branch:LANSING">Lansing Community Library</option>
+
+
+
+                                                        <option value="branch:LEAVENWRTH">Leavenworth Public Library</option>
+
+
+
+                                                        <option value="branch:LINWOOD">Linwood Community Library</option>
+
+
+
+                                                        <option value="branch:LOUISBURG">Louisburg (Hoopla Digital Only)</option>
+
+
+
+                                                        <option value="branch:LYNDON">Lyndon Carnegie Library</option>
+
+
+
+                                                        <option value="branch:MCLOUTH">McLouth Public Library</option>
+
+
+
+                                                        <option value="branch:MERIDEN">Meriden-Ozawkie Public Library</option>
+
+
+
+                                                        <option value="branch:NEKLS">Northeast Kansas Library System</option>
+
+
+
+                                                        <option value="branch:NORTONVLLE">Nortonville Public Library</option>
+
+
+
+                                                        <option value="branch:OSAGECITY">Osage City Library</option>
+
+
+
+                                                        <option value="branch:OSAWATOMIE">Osawatomie Public Library</option>
+
+
+
+                                                        <option value="branch:OSKALOOSA">Oskaloosa Public Library</option>
+
+
+
+                                                        <option value="branch:OTTAWA">Ottawa Library</option>
+
+
+
+                                                        <option value="branch:OVERBROOK">Overbrook Public Library</option>
+
+
+
+                                                        <option value="branch:PAOLA">Paola Free Library</option>
+
+
+
+                                                        <option value="branch:PERRY">Perry-Lecompton Community Library</option>
+
+
+
+                                                        <option value="branch:POMONA">Pomona Community Library</option>
+
+
+
+                                                        <option value="branch:PHAXTELL">Prairie Hills Schools - Axtell Public School</option>
+
+
+
+                                                        <option value="branch:PHSES">Prairie Hills Schools - Sabetha Elementary School</option>
+
+
+
+                                                        <option value="branch:PHSHS">Prairie Hills Schools - Sabetha High School</option>
+
+
+
+                                                        <option value="branch:PHSMS">Prairie Hills Schools - Sabetha Middle School</option>
+
+
+
+                                                        <option value="branch:PHWAC">Prairie Hills Schools - Wetmore Academic Center</option>
+
+
+
+                                                        <option value="branch:RICHMOND">Richmond Public Library</option>
+
+
+
+                                                        <option value="branch:ROSSVILLE">Rossville Community Library</option>
+
+
+
+                                                        <option value="branch:SABETHA">Sabetha, Mary Cotton Library</option>
+
+
+
+                                                        <option value="branch:SENECA">Seneca Free Library</option>
+
+
+
+                                                        <option value="branch:SILVERLAKE">Silver Lake Library</option>
+
+
+
+                                                        <option value="branch:TONGANOXIE">Tonganoxie Public Library</option>
+
+
+
+                                                        <option value="branch:VALLEYFALL">Valley Falls, Delaware Township Library</option>
+
+
+
+                                                        <option value="branch:WELLSVILLE">Wellsville City Library</option>
+
+
+
+                                                        <option value="branch:WETMORE">Wetmore Public Library</option>
+
+
+
+                                                        <option value="branch:WILLIAMSBG">Williamsburg Community Library</option>
+
+
+
+                                                        <option value="branch:WINCHESTER">Winchester Public Library</option>
+
+
+
+                                                </optgroup>
+                                                <optgroup label="Groups">
+
+                                                </optgroup>
+
+                                        </select>
+                                        <button type="submit" id="searchsubmit" class="btn btn-primary"><img src="http://nekls.org/wp-content/uploads/2018/08/search.png"</button>
+                                    </div>
+                                </center>
+
+                            </form>
+<br>
+<center>
+<a id="advsearchbtn" href='http://nextkansas.org/cgi-bin/koha/opac-search.pl'">Advanced Search</a></center>
+
+                        </div>
 
 

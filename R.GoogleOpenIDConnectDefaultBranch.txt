@@ -1,0 +1,22 @@
+R.GoogleOpenIDConnectDefaultBranch
+
+----------
+
+Name: GoogleOpenIDConnectDefaultBranch
+
+----------
+
+Options: 
+
+----------
+
+Description: This branch code will be used to create Google OpenID Connect patrons.
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

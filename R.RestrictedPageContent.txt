@@ -20,123 +20,115 @@ Type: TextArea
 
 <style>
 
-@media screen and (max-width:1024px){
-  #navigation {
-    display:none;
-  }
-  #rcontent {
-    width: 100%;
-  }
-
+h4 {
+	color: #606060;
+	font-size: 20px;
+}
+p {
+	color: #606060;
+	font-size: 16px;
+	text-align: center;
 }
 
 
-.card {
-    box-shadow: 0px 1px 5px #555;
-    background-color: white;
-    border-radius: 25px;
+#columns {
+	column-width: 200px;
+	column-gap: 15px;
+        width: 90%;
+        min-width: 326px;
+	max-width: 980px;
+	margin: 50px auto;
 }
 
-.card__title {
-    font-size: 2rem;
-    padding: .5rem;
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+        display: inline-block;
+        column-break-inside: avoid;
+}
+div#columns figure:hover {
+	border-color: rgba(82, 168, 236, 0.8); */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	}
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
 }
 
-.card__description {
-    padding: .5rem;
-    line-height: 1.6em;
-    font-size: 1rem;
-    min-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 60%;
+div#columns figure figcaption {
+  font-size: .9rem;
+	color: #444;
+  line-height: 1.5;
 }
 
-.button {
-    display: block;
-    background-color: #003366;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    transition: .3s ease-out;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    font-size: 1.25rem;
+div#columns small {
+  font-size: 1rem;
+  float: right;
+  text-transform: uppercase;
+  color: #aaa;
 }
 
-.topp {
-    display: block;
-    background-color: #003366;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    transition: .3s ease-out;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+div#columns small a {
+  color: #666;
+  text-decoration: none;
+  transition: .4s color;
 }
 
-.card-container {
-    display: grid;
-    padding: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+div#columns:hover figure:not(:hover) {
+	opacity: 0.4;
 }
 
-h3, figure, main {
-    text-align: center
 }
-
-img {
-  border-radius: 15px;
+@media screen and (max-width: 750px) {
+  #columns { column-gap: 5px; }
+  #columns figure { width: 70%; }
 }
+@media screen and (max-width: 750px) {
+	#columns figure { width: 90%; }
 
+}
 </style>
 
-<h1 style="text-align: center;">Magazines and Articles</h1>
-<section class="card-container">
+<h4 style="text-align: center;">Digital Media</h4>
 
-    <article class="card">
-        <p class="topp">Requires a NExpress Library Card</p>
-        <header class="card__title">
-            <h3>Flipster Magazines</h3>
-        </header>
-        <figure class="card__thumbnail" style="height: 150px; margin-left: auto; margin-right: auto;">
-            <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon" >
-            <img src="/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=863836" alt="Flipster logo">
-            </a>
-        </figure>
-        <main class="card__description" style="text-align: center;">
-            <p>NExpress currently provides access to 38 magazine titles including TIME, SPORTS ILLUSTRATED, and PEOPLE, just to name a few.</p>
-            <p>Go to Flipster to see a full list.</p>
-        </main>
-        <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon" class="button">Go to Flipster</a>
-    </article>
+<div id="columns">
 
-    <article class="card">
-        <p class="topp">Requires a Kansas Library e-Card</p>
-        <header class="card__title">
-            <h3>Explora Multi-search</h3>
-        </header>
-        <figure class="card__thumbnail" style="height: 150px; margin-left: auto; margin-right: auto;">
-            <a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1965" >
-            <img src="/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=907405" alt="Explora logo">
-            </a>
-        </figure>
-        <main class="card__description" style="text-align: center;">
-            <p>The state library of Kansas provides all Kansas residents with access to the Explora Multi-search database.  This database allows you to to search magazine, journal, news, and reference articles from a wide variety of sources.</p>
-            <p>A state library of Kansas e-card is required to use this service.<br />See your local library to get a Kansas e-card.</p>
-        </main>
-        <a href="http://ksuc-agent.auto-graphics.com/homepages/customerwide/ValidateGlobalIP.asp?cuid=ksuc&lid=kw9&stfftype=Z&defaultlang=english&qmisc=&mode=d&dataid=1965" class="button">Go to Explora</a>
-    </article>
+        <figure><a href="https://www.hoopladigital.com/">
+        <img src="http://nekls.org/wp-content/uploads/2018/03/hoopla.png"></a>
+	<figcaption><b>Hoopla - Movies, Television, Music, Audiobooks, Books, & Comics</b><br>Sign in with your <b><i>Next: Search Catalog</i></b> username and password. Available via apps and through a browser.</figcaption>
+	</figure>
 
-</section>
+	<figure><a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon">
+	<img src="http://nekls.org/wp-content/uploads/2018/03/flipster.png"></a>
+	<figcaption><b>Flipster - Digital Magazines</b><br>Sign in to <b><i>NEXT: Search Catalog</i></b> to access Flipster. After locating magazines, use the Flipster app on your mobile device for optimal reading.</figcaption>
+	</figure>
+
+	<figure><a href="https://www.lynda.com/portal/sip?org=nekls.org">
+	<img src="https://staff.nexpresslibrary.org/cgi-bin/koha/catalogue/image.pl?thumbnail=1&biblionumber=927190"></a>
+	<figcaption><b>Lynda.com - Digital Learning</b><br> Sign in with your <b><i>Next: Search Catalog</i></b> username and password. Lynda.com is a leading online learning platform that helps anyone learn business, software, technology and creative skills to achieve personal and professional goals.</figcaption>
+	</figure>
+
+        <figure><a href="http://ebook.3m.com/library/kansas/">
+	<img src="http://nekls.org/wp-content/uploads/2018/03/cloud-library.png"></a>
+	<figcaption><b>Cloud Library - Digital Books</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a>.<br></figcaption>
+	</figure>
+
+	<figure><a href="http://statelibraryofks.oneclickdigital.com/Home/Featured.aspx">
+	<img src="http://nekls.org/wp-content/uploads/2018/03/rbdigtial.png"></a>
+	<figcaption><b>RB Digital - Digital Audibooks</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a></figcaption>
+	</figure>
 
 
-
-
-
+		</div>
 
 

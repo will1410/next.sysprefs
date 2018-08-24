@@ -1,0 +1,22 @@
+R.ILLModuleCopyrightClearance
+
+----------
+
+Name: ILLModuleCopyrightClearance
+
+----------
+
+Options: Enter text to enable the copyright clearance stage of request creation. Text will be displayed
+
+----------
+
+Description: 70|10
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

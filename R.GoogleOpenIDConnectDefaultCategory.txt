@@ -1,0 +1,22 @@
+R.GoogleOpenIDConnectDefaultCategory
+
+----------
+
+Name: GoogleOpenIDConnectDefaultCategory
+
+----------
+
+Options: 
+
+----------
+
+Description: This category code will be used to create Google OpenID Connect patrons.
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

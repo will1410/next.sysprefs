@@ -1,0 +1,22 @@
+R.BlockReturnOfLostItems
+
+----------
+
+Name: BlockReturnOfLostItems
+
+----------
+
+Options: 0
+
+----------
+
+Description: If enabled, items that are marked as lost cannot be returned.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

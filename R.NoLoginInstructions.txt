@@ -18,5 +18,5 @@ Type: Textarea
 
 ----------
 
-<div id=logininstuctions >To request materials, manage your account, or access Flipster, you must log in with your username (or library card number) and password.  Contact your library for assistance.</div>
+<div id=logininstuctions >To request materials, manage your account, or access Flipster, you must <a href="http://catalog-test.nexpresslibrary.org/cgi-bin/koha/opac-user.pl">Sign In </a>with your username (or library card number) and password.  Contact your library for assistance.</div>
 

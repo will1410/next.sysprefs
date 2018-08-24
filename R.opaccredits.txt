@@ -18,8 +18,11 @@ Type: Textarea
 
 ----------
 
-<div id ="footerlinks">
-<center>NExpress is a catalog of loanable media and materials for the patrons of participating libraries in Northeast Kansas, and is a service of
-<a href="http://www.nekls.org" target="_blank">Northeast Kansas Library System</a>.</center>
-</div>
+<center>
+<img class="headline2" src="http://nekls.org/wp-content/uploads/2018/04/helpful-links.png"></img></center><ul class="flex-container">
+  <a href="http://nextkansas.org/cgi-bin/koha/pages.pl?p=digital"><li class="widget1"><img src="http://nekls.org/wp-content/uploads/2018/04/DigitalMedia.png" width="50%" class="w3-image"></li></a>
+  <a href="http://nextkansas.org/cgi-bin/koha/pages.pl?p=reference"><li class="widget2"><img src="http://nekls.org/wp-content/uploads/2018/08/resouces.png" width="50%" class="w3-image"></li></a>
+  <a href="http:/nextkansas.org/cgi-bin/koha/pages.pl?p=help"><li class="widget3"><img src="http://nekls.org/wp-content/uploads/2018/04/Help.png" width="50%" class="w3-image"></li></a>
+</ul>
+<a href="http://nekls.org"><img class="neklscredit" src="http://nekls.org/wp-content/uploads/2018/03/poweredby.png" ></a>
 

@@ -1,0 +1,22 @@
+R.OPACUserSummary
+
+----------
+
+Name: OPACUserSummary
+
+----------
+
+Options:  
+
+----------
+
+Description: Show the summary of a logged in user's checkouts, overdues, holds and fines on the mainpage
+
+----------
+
+Type: YesNo
+
+----------
+
+1
+

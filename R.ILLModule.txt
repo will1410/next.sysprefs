@@ -1,8 +1,8 @@
-R.OPACShowBarcode
+R.ILLModule
 
 ----------
 
-Name: OPACShowBarcode
+Name: ILLModule
 
 ----------
 
@@ -10,7 +10,7 @@ Options:
 
 ----------
 
-Description: Show items barcode in holding tab
+Description: If ON, enables the interlibrary loans module.
 
 ----------
 

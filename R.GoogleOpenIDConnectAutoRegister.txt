@@ -1,0 +1,22 @@
+R.GoogleOpenIDConnectAutoRegister
+
+----------
+
+Name: GoogleOpenIDConnectAutoRegister
+
+----------
+
+Options:  
+
+----------
+
+Description:  Google OpenID Connect logins to auto-register patrons.
+
+----------
+
+Type: YesNo
+
+----------
+
+0
+

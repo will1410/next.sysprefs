@@ -1,0 +1,183 @@
+R.page_curated
+
+----------
+
+Name: page_curated
+
+----------
+
+Options: 80 | 50
+
+----------
+
+Description: Archive of Curated Collections
+
+----------
+
+Type: Textarea
+
+----------
+
+<style>
+
+h4 {
+	color: #606060;
+	font-size: 20px;
+}
+p  {
+	color: #606060;
+	font-size: 16px;
+	}
+a, a:visited {
+	color: #0056B8;
+	font-size: 16px;
+}
+#columns {
+	column-width: 200px;
+	column-gap: 15px;
+        width: 90%;
+        min-width: 326px;
+	max-width: 980px;
+	margin: 50px auto;
+}
+#columns2 {
+	column-width: 400px;
+	column-gap: 15px;
+        width: 90%;
+        min-width: 326px;
+	max-width: 1280px;
+	margin: 50px auto;
+}
+
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+div#columns figure:hover {
+	border-color: rgba(82, 168, 236, 0.8); */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px 
+
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+	color: #444;
+  line-height: 1.5;
+}
+
+div#columns small {
+  font-size: 1rem;
+  float: right;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+div#columns small a {
+  color: #666;
+  text-decoration: none;
+  transition: .4s color;
+}
+
+div#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+
+}
+@media screen and (max-width: 750px) {
+  #columns { column-gap: 5px; }
+  #columns figure { width: 70%; }
+}
+@media screen and (max-width: 750px) {
+	#columns figure { width: 90%; }
+
+}
+</style>
+<body>
+<center><img height="90" width="395" src="http://nekls.org/wp-content/uploads/2018/08/headlines.next_.opac_.8.14.18.png"></center>
+
+<div id="columns">
+    
+        <figure><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?idx=kw&q=street+date&op=and&idx=kw&op=and&idx=kw&limit=mc-ccode%3ABLU-RAY&limit=mc-ccode%3ACOMBO&limit=mc-ccode%3ADVD&limit=mc-ccode%3ATVSERIES&sort_by=pubdate_dsc&do=Search">
+        <img src="http://nekls.org/wp-content/uploads/2018/08/coming.soon_.video_.3.png"></a>
+	<figcaption><b>Movies & TV Series</b><br>These titles are coming to Next in the coming weeks and months, reserve your place in line today.</figcaption>
+	</figure>
+        <figure><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&limit=mc-ccode%3ABLU-RAY&limit=mc-ccode%3ACOMBO&limit=mc-ccode%3ADVD&limit=mc-ccode%3ATVSERIES&limit=yr%2Cst-numeric%3D2016-&offset=25&sort_by=acqdate_dsc">
+        <img src="http://nekls.org/wp-content/uploads/2018/08/new.releases.video_.2.png"></a>
+	<figcaption><b>Movies & TV Series</b><br>These titles are now in circulation at Next Libraries. Reserve something new to watch today.</figcaption>
+	</figure>
+        <figure><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&limit=mc-itype%2Cphr%3AGAME&limit=yr%2Cst-numeric%3D2016-&offset=25&sort_by=acqdate_dsc">
+        <img src="http://nekls.org/wp-content/uploads/2018/08/new.releases.games_.png"></a>
+	<figcaption><b>Video Games</b><br>These titles are now in circulation at Next Libraries. Reserve something new to play today.</figcaption>
+	</figure>
+        <figure><a href="https:/nextkansas.org/cgi-bin/koha/opac-search.pl?idx=kw&q=street+date&op=and&idx=kw&op=and&idx=kw&searchcat=BOOKS&sort_by=pubdate_dsc&do=Search">
+        <img src="http://nekls.org/wp-content/uploads/2018/08/coming.soon_.book_.png"></a>
+	<figcaption><b>Books</b><br>These titles are coming to Next in the coming weeks and months, reserve your place in line today.</figcaption>
+	</figure>
+</div>
+<center><img height="90" width="395" src="http://nekls.org/wp-content/uploads/2018/08/curated.archive.png"></center>
+<div id="columns2">
+
+<center><h4>Audiobooks</h4></center><p><ul>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-itype%2Cphr%3AAUDIOBOOK&amp;limit=mc-itype%2Cphr%3AFLPLAYAWAY&amp;limit=mc-itype%2Cphr%3ANEWAUDIO&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">New</a>: Audiobooks that have recently been added to the Next: search catalog.</li></ul></p>
+
+<center><h4>Books</h4></center><p><ul>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?idx=kw&q=street+date&op=and&idx=kw&op=and&idx=kw&searchcat=BOOKS&sort_by=pubdate_dsc&do=Search">Coming Soon</a>: Books that will be available in the coming months, reserve your place in line.</li>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-loc%3A%27ADULT%27&amp;limit=mc-itype%2Cphr%3ABOOK&amp;limit=mc-itype%2Cphr%3ALOCALHOLD&amp;limit=mc-itype%2Cphr%3ALOCALHOLD2&amp;limit=mc-itype%2Cphr%3ANEWBOOK&amp;limit=mc-itype%2Cphr%3AREFERENCE&amp;limit=mc-itype%2Cphr%3AWALKIN&amp;limit=mc-itype%2Cphr%3AWALKIN2&amp;limit=mc-itype%2Cphr%3AXXX&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">
+New Adult</a>: New fiction books for adults that have been recently added to Next: search catalog.</li>
+
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-loc%3A%27CHILDRENS%27&amp;limit=mc-itype%2Cphr%3ABOOK&amp;limit=mc-itype%2Cphr%3ALOCALHOLD&amp;limit=mc-itype%2Cphr%3ALOCALHOLD2&amp;limit=mc-itype%2Cphr%3ANEWBOOK&amp;limit=mc-itype%2Cphr%3AREFERENCE&amp;limit=mc-itype%2Cphr%3AWALKIN&amp;limit=mc-itype%2Cphr%3AWALKIN2&amp;limit=mc-itype%2Cphr%3AXXX&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">
+New Kids</a>: New books for children that have been recently added to Next: search catalog.</li>
+
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-ccode%3A%27LARGEPRINT%27&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">
+New Large Print</a>: New books, with large print, that have been recently added to Next: search catalog.</li>
+
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-ccode%3A%27BIOGRAPHY%27&amp;limit=mc-ccode%3A%27EDUCATION%27&amp;limit=mc-ccode%3A%27NONFICTION%27&amp;limit=mc-ccode%3A%27PARENTING%27&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">
+New Nonfiction</a>: New nonfiction books for adults that have been recently added to Next: search catalog.</li>
+
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-loc%3A%27YOUNGADULT%27&amp;limit=mc-itype%2Cphr%3ABOOK&amp;limit=mc-itype%2Cphr%3ALOCALHOLD&amp;limit=mc-itype%2Cphr%3ALOCALHOLD2&amp;limit=mc-itype%2Cphr%3ANEWBOOK&amp;limit=mc-itype%2Cphr%3AREFERENCE&amp;limit=mc-itype%2Cphr%3AWALKIN&amp;limit=mc-itype%2Cphr%3AWALKIN2&amp;limit=mc-itype%2Cphr%3AXXX&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">
+New Young Adult</a>: New books for young adults that have been recently added to Next: search catalog.</li>
+<li><a href=https://nextkansas.org/cgi-bin/koha/opac-search.pl?idx=kw&q=vacation&op=%20%20%20and%20%20%20&idx=kw&q=travel%20&op=%20%20%20and%20%20%20&idx=kw&q=nonfiction&limit=location%3AADULT&limit=su-to%3ATravel.&sort_by=relevance&expand=su-to#su-to_id">Travel Guides</a>: Find inspiration for your next vacation.</li>
+
+<li><a href=https://nextkansas.org/cgi-bin/koha/opac-shelves.pl?op=view&shelfnumber=7541>NOLO Guides</a>: Do it yourself legal guides, from Leavenworth Public Library.</li>
+
+<li><a href=https://nextkansas.org/cgi-bin/koha/opac-shelves.pl?op=view&shelfnumber=8005>Open the Door to Literacy</a>: Books for the early developing mind.</li>
+
+</ul></p>
+
+<center><h4>Graphic Novels</h4></center><p><ul><li>
+<a href="https://teamup.mykansaslibrary.org">Team ups, Mashups, & Crossovers</a>: Comics and graphic novels featuring amazing team ups (features some adult recommendations).</li>
+</ul></p>
+
+<center><h4>Movies</h4></center><p><ul>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?idx=kw&q=street+date&op=and&idx=kw&op=and&idx=kw&searchcat=MOVIES&limit=mc-loc%3AADULT&sort_by=pubdate_dsc&do=Search">Coming Soon</a>: Movies that will be available in the coming months, reserve your place in line.</li>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-ccode%3A%27BLU-RAY%27&amp;limit=mc-ccode%3A%27DVD%27&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">New</a>: Movies that have recently been added to the Next: search catalog.
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-shelves.pl?op=view&shelfnumber=8134"> Let’s Go Campy</a>: Movie or TV shows that are campy, cheesy, and fun.</li></ul></p>
+
+<center><h4>Music</h4></center><p><ul><li>
+<a href="https://www.hoopladigital.com/browse/music/recommended?page=1">Hoopla Music</a>: Homepage for recommended music on the Hoopla service.</li></ul></p>
+
+<center><h4>TV Series</h4></center><p><ul>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-ccode%3A%27TVSERIES%27&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">New</a>: Television series that have recently been added to the Next: search catalog.</li>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?idx=ti&q=%22The+Walking+Dead%22&op=not&idx=ti&q=%22Fear+the+walking+dead%22&op=and&idx=kw&do=Search&limit=mc-ccode%3ABLU-RAY&limit=mc-ccode%3ADLVIDEO&limit=mc-ccode%3ADLTV&limit=mc-ccode%3ADVD&limit=mc-ccode%3ATVSERIES&sort_by=relevance"> 
+The Walking Dead</a>: Find The Walking Dead past seasons and other shows you might enjoy.</li></ul></p>
+
+<center><h4>Video Games</h4></center><p><ul>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-search.pl?&amp;limit=mc-itype%2Cphr%3AGAME&amp;limit=yr%2Cst-numeric%3D2016-&amp;offset=25&amp;sort_by=acqdate_dsc">New</a>: Video games that have recently been added to the Next: seearch catalog.</li>
+<li><a href="https://nextkansas.org/cgi-bin/koha/opac-shelves.pl?op=view&shelfnumber=7541">Library Journal's Best</a>: Video games that the Library Journal has named best of all time.</li></ul></p>
+</div>
+</body>
+
+

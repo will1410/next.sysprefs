@@ -1,0 +1,22 @@
+R.MarkLostItemsAsReturned
+
+----------
+
+Name: MarkLostItemsAsReturned
+
+----------
+
+Options: batchmod|moredetail|cronjob|additem
+
+----------
+
+Description: Mark items as returned when flagged as lost
+
+----------
+
+Type: multiple
+
+----------
+
+batchmod,cronjob,additem
+

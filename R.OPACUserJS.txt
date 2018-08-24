@@ -18,6 +18,9 @@ Type: Systempreference
 
 ----------
 
+//BEGIN Change "Login to your account" to "Sign in"
+$("#members > ul > li:nth-child(1) > a").html("Sign in");
+
 $("#wrap #opac-auth .brief #userid, #wrap #opac-auth .brief #password").attr("autocomplete","off");
 
 $(".sco_entry #mainform .checkout.brief #patronlogin, .sco_entry #mainform .checkout.brief #patronpw").attr("autocomplete","off");
@@ -90,7 +93,17 @@ $(".sco_entry #mainform .checkout.brief #patronlogin, .sco_entry #mainform .chec
     $(this).text(text.replace('SMS', 'Text message')); 
   });
 
-  $("#opac-messaging #usermessaging > form > table").parent().append("<div id='notes'><h3>Notes:</h3>Item due = the catalog sends you a notice the day an item is due<br />Advance notice = the catalog sends you a notice before an item is due - you select the number of days before items are due<br />Hold filled = the catalog sends you a notice within an hour of a hold arriving for pickup<br />Item check-in = the catalog sends you a notice every time you check-in an item<br />Item check-out = the catalog sends you a notice every time you check-out an item<br />Digests only = 1 notice saying many items are due as opposed to many notices saying 1 single item is due<br /><br />The catalog will send notices to the address and/or text messaging number associated with your account<br />If you wish to receive text messages, you must select a provider, enter your mobile phone number, and check the boxes for the types of messages you wish to receive<br />Emails are sent to the address specified as the 'Primary e-mail' on your account (see the 'your personal details tab' on the left for more information)<br /></div>");
+//BEGIN force SMS provider to sort alphabetically, put "Unknown" at top of list, and keep any pre-existing selection after sort is finished
+  $("#sms_provider_id option:contains('Unknown')").text(' Unknown');
+  $("#sms_provider_id").one( "click", function() {
+    var preselected = $('#sms_provider_id option:selected').val();
+    $("#sms_provider_id").html($('#sms_provider_id option').sort(function(x, y) {
+      return $(x).text().toUpperCase() < $(y).text().toUpperCase() ? -1 : 1;
+    }));
+    $("#sms_provider_id").val(preselected);
+  });
+
+  $("#opac-messaging #usermessaging > form > table").parent().append("<div id='notes'><h3>Notes:</h3>Item due = the catalog sends you a notice the day an item is due<br />Advance notice = the catalog sends you a notice before an item is due - you select the number of days before items are due<br />Hold filled = the catalog sends you a notice within an hour of a hold arriving for pickup <ins>(presently not working for text messages)</ins><br />Item check-in = the catalog sends you a notice every time you check-in an item<br />Item check-out = the catalog sends you a notice every time you check-out an item<br />Digests only = 1 notice saying many items are due as opposed to many notices saying 1 single item is due<br /><br />The catalog will send notices to the address and/or text messaging number associated with your account<br />If you wish to receive text messages, you must select a provider, enter your mobile phone number, and check the boxes for the types of messages you wish to receive<br />Emails are sent to the address specified as the 'Primary e-mail' on your account (see the 'your personal details tab' on the left for more information)<br /></div>");
 
 //BEGIN link Digest and E-mail checkboxes to work in tandem (Patron messaging preferences)
   $('#digest1').on('click', function(){
@@ -116,7 +129,6 @@ $("#opac-patron-update #borrower_branchcode, #opac-patron-update #borrower_dateo
 $("#opac-patron-update #memberentry_identity > ol > li:nth-child(3) > a").hide();
 $("#opac-patron-update #memberentry_identity label[for='borrower_surname']").html("Last name");
 $("#opac-patron-update #memberentry_identity label[for='borrower_firstname']").html("First name +/<br />middle initial /<br />or middle name:");
-$("#opac-patron-update #memberentry_identity label[for='borrower_othernames']").html("Nickname/other name");
 
 //BEGIN Set newly placed holds in OPAC to expire after one year if not filled
   var holdtodate = new Date();
@@ -171,36 +183,11 @@ $('a[href*="opac-search.pl"]').attr('href', function(_,v){
 
 //Home › PATRONNAME › Your summary
   //BEGIN rename "Note" to "Report a problem"
-    $("#userdetails #checkoutst th:contains(Note)").html("Report a problem<br />with this item");
+    $("#userdetails #checkoutst th:contains(Note)").html("Report a problem");
 
       $('html').keyup(function() {
         $("#checkoutst [id^='save_']").text("Submit problem");
       });
-
-  //Begin add a hover tip discouraging patrons from sending Renew request via the patron notes
-    $(".note > input").hover(function() {
-        $(this).css('cursor','pointer').attr('title', 'To renew items, click one of the "Renew" buttons on this page or phone your local library');
-    }, function() {
-        $(this).css('cursor','auto');
-    });
-
-  //Begin disallow notes including the word "renew" in upper or lowercase by hiding the submit button
-    $(".note > input").keyup(function() {
-      if ( $(this).val().toLowerCase().indexOf("renew") > -1 ) {
-        alert("To renew items, click one of the 'Renew' buttons on this page or phone your local library");
-        $("#checkoutst [id^='save_']").hide();
-        event.preventDefault();
-      };
-    });
-
-  //Begin allow notes that do not include the word renew by showing the submit button
-    $(".note > input").keyup(function() {
-      if ( $(this).val().toLowerCase().indexOf("renew") < -1 ) {
-        $("#checkoutst [id^='save_']").show();
-        event.preventDefault();
-      };
-    });
-
 
 // Create a clone of the menu, right next to original.
 $('#header-menu').addClass('original').clone().insertAfter('#header-menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
@@ -230,32 +217,33 @@ function stickIt() {
   }
 }
 
-$("#userdetails > h2").append('     <a href="#" onclick="location.href = document.referrer; return false;">Return to where you were</a>     <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon">Go to Flipster</a>     <a href="http://catalog.nexpresslibrary.org/">Go to the home page</a>');
+$("#userdetails > h2").append('     <a href="#" onclick="location.href = document.referrer; return false;">Return to where you were</a>     <a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon">Go to Flipster</a>     <a href="http://catalog-test.nexpresslibrary.org/">Go to the home page</a>'); 
 
-$("#password-recovery .alert.alert-info p").append("<p><br /><ins>You should receive your password recovery e-mail within 15 minutes.</ins></p>");
+/*$("#password-recovery .alert.alert-info p").append("<p><br /><ins>You should receive your password recovery e-mail within 15 minutes.</ins></p>");
 $("#email").after("<p><ins>You should receive a 'Password reset' e-mail within 15 minutes of clicking the 'Submit' button.</ins></p>");
+*/
 
-$("#readingrec .title-string").html("Date the item was <br /> lost or returned");
+$("#password-recovery label[for='username']").html("<br />Library card number or username:");
 
-$("#bookcover a:not(id)").hide();
+$('#password-recovery p').html($('#password-recovery p').html().replace('your login','your login informaion'));
 
-$("#mytagst td.tagterm:contains('not approved')").prev().children().attr("checked", "checked");
+/*
+jQuery.moveColumn = function (table, from, to) {
+    var rows = jQuery('tr', table);
+    var cols;
+    rows.each(function() {
+        cols = jQuery(this).children('th, td');
+        cols.eq(from).detach().insertBefore(cols.eq(to));
+    });
+}
 
-$("#restrictedcontent").parent().attr("id", "rcontent");
+var tbl = jQuery('table');
+jQuery.moveColumn(tbl, 2, 0);
+jQuery.moveColumn(tbl, 4, 1);
+jQuery.moveColumn(tbl, 4, 3);
+jQuery.moveColumn(tbl, 5, 4);
 
+*/
 
-
-$("#tab_html5media a").html("Watch <ins>" + $("span.results_summary > a:last-child").text() + "</ins>");
-
-$("#html5media p video").attr("style", "outline: solid;"); 
-$('#html5media > p:nth-last-child(5)').prepend("<p>Click on the player to watch <ins>" + $("span.results_summary > a:nth-last-child(5)").text() + "<ins></p>");
-$('#html5media > p:nth-last-child(4)').prepend("<p>Click on the player to watch <ins>" + $("span.results_summary > a:nth-last-child(4)").text() + "<ins></p>");
-$('#html5media > p:nth-last-child(3)').prepend("<p>Click on the player to watch <ins>" + $("span.results_summary > a:nth-last-child(3)").text() + "<ins></p>");
-$('#html5media > p:nth-last-child(2)').prepend("<p>Click on the player to watch <ins>" + $("span.results_summary > a:nth-last-child(2)").text() + "<ins></p>");
-$('#html5media > p:nth-last-child(1)').prepend("<p>Click on the player to watch <ins>" + $("span.results_summary > a:nth-last-child(1)").text() + "<ins></p>");   
-
-
-
-  
 
 

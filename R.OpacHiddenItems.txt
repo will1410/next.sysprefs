@@ -22,6 +22,5 @@ withdrawn: [1, 2, 3]
 ccode: [ILL]
 itemlost: [1, 2, 3, 4, 5, IP]
 damaged: [1, 2, 3, 4]
-homebranch: [PHAXTELL,PHSES,PHSHS,PHSMS,PHWAC]
 itype: [ILL]
 

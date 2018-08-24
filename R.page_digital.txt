@@ -36,7 +36,7 @@ p {
 	column-gap: 15px;
         width: 90%;
         min-width: 326px;
-	max-width: 980px;
+	max-width: 1280px;
 	margin: 50px auto;
 }
 
@@ -48,8 +48,8 @@ div#columns figure {
 	padding: 15px;
 	padding-bottom: 10px;
 	transition: opacity .4s ease-in-out;
-  display: inline-block;
-  column-break-inside: avoid;
+        display: inline-block;
+        column-break-inside: avoid;
 }
 div#columns figure:hover {
 	border-color: rgba(82, 168, 236, 0.8); */
@@ -99,28 +99,33 @@ div#columns:hover figure:not(:hover) {
 }
 </style>
 
-<h4 style="text-align: center;">Digital Media</h4>
+<center><img height="90" width="395" src="http://nekls.org/wp-content/uploads/2018/08/digital.media_.png"></center>
 
 <div id="columns">
 
-  <figure><a href="https://www.hoopladigital.com/">
-  <img src="http://nekls.org/wp-content/uploads/2018/03/hoopla.png"></a>
-	<figcaption><b>Hoopla - Movies, Television, Music, Audiobooks, Books, & Comics</b><br> Sign in with your <b><i>Next: Search Catalog</i></b> username and password. Available via apps and through a browser.</figcaption>
+        <figure><a href="https://www.hoopladigital.com/">
+        <img src="http://nekls.org/wp-content/uploads/2018/03/hoopla.png"></a>
+	<figcaption><b>Hoopla - Movies, Television, Music, Audiobooks, Books, & Comics</b><br>Sign in with your <b><i>Next: search catalog</i></b> username and password. Available via apps and through a browser.</figcaption>
 	</figure>
 
-	<figure><a href="http://search.ebscohost.com/login.aspx?authtype=uid&user=ns257120main&password=hkhr_c7rk2&profile=eon">
+	<figure><a href="https://catalog.nexpresslibrary.org/cgi-bin/koha/opac-restrictedpage.pl">
 	<img src="http://nekls.org/wp-content/uploads/2018/03/flipster.png"></a>
-	<figcaption><b>Flipster - Digital Magazines</b><br>Sign in to <b><i>NEXT: Search Catalog</i></b> to access Flipster. After locating magazines, use the Flipster app on your mobile device for optimal reading. </figcaption>
+	<figcaption><b>Flipster - Digital Magazines</b><br>Sign in to <b><i>Next: search catalog</i></b> to access Flipster. After locating magazines, use the Flipster app on your mobile device for optimal reading.</figcaption>
 	</figure>
 
-  <figure><a href="http://ebook.3m.com/library/kansas/">
+        <figure><a href="http://ebook.3m.com/library/kansas/">
 	<img src="http://nekls.org/wp-content/uploads/2018/03/cloud-library.png"></a>
-	<figcaption><b>Cloud Library - Digital Books</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a>.<br></figcaption>
+	<figcaption><b>Cloud Library - Digital Books</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. <br><br>Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a>.</figcaption>
 	</figure>
 
 	<figure><a href="http://statelibraryofks.oneclickdigital.com/Home/Featured.aspx">
 	<img src="http://nekls.org/wp-content/uploads/2018/03/rbdigtial.png"></a>
-	<figcaption><b>RB Digital - Digital Audibooks</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a></figcaption>
+	<figcaption><b>RB Digital - Digital Audibooks</b><br>Sign in with your <b><i>State Library Card</i></b> username and password. <br><br>Learn more about State Library Digital Book eLending <a href="https://kslib.info/128/Digital-Book-eLending">here</a>.<br></figcaption>
+	</figure>
+	
+	<figure><a href="https://www.lynda.com/portal/sip?org=nekls.org">
+	<img src="http://nekls.org/wp-content/uploads/2018/08/lynda.com_.png"></a>
+	<figcaption><b>Lynda - Digital Learning</b><br>Sign in with your <b><i>Next: search catalog</i></b> username and password. Learn business, software, technology and creative skills to achieve goals.</figcaption>
 	</figure>
 		</div>
 

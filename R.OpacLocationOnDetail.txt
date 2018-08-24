@@ -1,0 +1,22 @@
+R.OpacLocationOnDetail
+
+----------
+
+Name: OpacLocationOnDetail
+
+----------
+
+Options: holding|home|both|column
+
+----------
+
+Description: In the OPAC detail, display the shelving location on its own column or under a library columns.
+
+----------
+
+Type: Choice
+
+----------
+
+both
+

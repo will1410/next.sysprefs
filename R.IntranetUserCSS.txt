@@ -18,15 +18,64 @@ Type: free
 
 ----------
 
+/* KOHA > Login screen */
+ /* hide upgrade notes */
+  .upgrade {text-align: center; color: #ff0000; display: none;}
+  .highlight {background-color: #ffff00;}
+
+ /* remove old logo */
+  #login > h1 {display: none;}
+
+ /* hide branch dropdown */
+  #main_auth #bd #loginform label[for*='branch'] {display: none;}
+  #main_auth #bd #login #loginform #branch {display: none;}
+
 /* KOHA > * (all pages) */
-  /* Hide My Account and My Checkouts from drop-down menu */
-    #firefox-screenshots-preselection-iframe {display: none;}
-  /* Remove old logo */
-    #logo, #login > h1 {display: none;}
+ /* Hide My Account and My Checkouts from drop-down menu */
+  .toplinks-myaccount, .toplinks-mycheckouts {display: none;}
+
+ /* disable Firefox screenshots */
+  #firefox-screenshots-preselection-iframe {display: none;}
+
+ /* remove old logo */
+  #logo {display: none;}
+
+/* Home > Advanced search */
+ /* Advanced search - hide subtype filters */
+  #subtype {display: none;}
+
+/* Home > Administration > Circulation and fine rules */
+ /* disable rule cloning */
+  #admin_smart-rules #doc3.yui-t1 #yui-main div.yui-b:nth-child(1) > div:nth-child(3) > form:nth-child(2) {display: none;}
+
+/* Cart */
+ /* Removes the "Batch delete" link from the cart */
+  #cart_basket #bookbag_form #batch_delete {display: none;}
+
+/* Catalog > Details for TITLE */
+ /* Hides many links */
+  #batchedit,
+  #batchdelete,
+  #deleteallitems,
+  #batchedit-disabled,
+  #batchdelete-disabled,
+  #deleteallitems-disabled
+   {display: none;}
+
+/* Circulation > Checkouts */
+ /* Hide automatic renewals checkbox */
+  #circ_circulation #set-automatic-renewal {display: none;}
+
+
+.report_json_url {display: none;}
+#table_reports > thead > tr > th:nth-child(14) {display: none;}
+#table_reports > tbody > tr > td:nth-child(14) {display: none;}
+.rep .yui-t1 #bd #yui-main .yui-b td #reportinfo {font-size: inherit; font-weight: inherit; background-color: inherit;}
+.rep .yui-t1 #bd #yui-main .yui-b #reportinfo {font-size: 14px; font-weight: normal; background-color: #FFFF66;}
+
 
 #toplevelnav {
 float: left;
-
 margin-left: .5em;
 width: 60em;
 }
@@ -58,7 +107,7 @@ font-size: 85%;
 }
 
 h5.author {
-font-size: 110% !important; 
+font-size: 110% !important;
 }
 
 <-- .patronbriefinfo .patronattribute {
@@ -70,16 +119,17 @@ font-weight: bold;
    max-height:250px;
    overflow-x:hidden;
    overflow-y:auto;
-} 
+}
 
 /* -Home- Changes background of the news area (makes it easier to read) */
-#area-news { 
+#area-news {
     background-color: #E0ECF8;
 }
 
 /* -Administration › Circulation and fine rules- hides columns in circulation rules (requires accompanying jQuery) */
 th.hiderule, td.hiderule {
-    max-width: 10px;
+    min-width: 15px;
+    max-width: 15px;
     text-indent: -9999px;
 }
 
@@ -100,7 +150,7 @@ display: none;
 /* -Circulation › Checkouts › -PATRONNAME-- hides checkin column
 #issues-table th:last-child {
   display: none;
-} 
+}
 #issues-table tbody td:last-child {
   display: none;
 }
@@ -113,24 +163,15 @@ div.lastchecked {
 /* -Circulation › Checkouts › -PATRONNAME-- and all other pages with the "patroninfo" block - highlights patron attributes in yellow */
 .patronattribute {background-color: #ffff00;}
 
-/* Home › Reports › Guided reports wizard › Saved reports */
-/* Hides columns: checkboxs, type, cache expiry, saved results, json */
-/* Needs update for 17.11 */
-.report_json_url,
-#table_reports > thead > tr > th:nth-child(1), #table_reports > tbody > tr > td:nth-child(1),
-#table_reports > thead > tr > th:nth-child(4), #table_reports > tbody > tr > td:nth-child(4),
-#table_reports > thead > tr > th:nth-child(13), #table_reports > tbody > tr > td:nth-child(13),
-#table_reports > thead > tr > th:nth-child(14), #table_reports > tbody > tr > td:nth-child(14)
-{display: none;}
 
-/* Hides delete button */
-#reports_form > fieldset > input[type='submit'] {display: none}
+/* Patrons */
+#pat_member div.btn-group:nth-child(2) {display: none;}
 
-/* Home › Reports › Guided reports wizard › Saved reports - gives reportinfo div same style as rest of table */
-.rep .yui-t1 #bd #yui-main .yui-b td #reportinfo {font-size: inherit; font-weight: inherit; background-color: inherit;}
+/* Patrons › Pay fines for PATRONNAME */
+/*#table_account_fines td.actions a:nth-child(2) {display: none;}*/
 
-/* Home › Reports › Guided reports wizard › Saved reports › NAME - gives reportinfo div its own style  */
-.rep .yui-t1 #bd #yui-main .yui-b #reportinfo {font-size: 14px; font-weight: normal; background-color: #FFFF66;}
 
-#issues-table td:nth-child(1), #issues-table td:nth-child(2) {}
+
+/* Custom styles here */
+
 

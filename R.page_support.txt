@@ -1,0 +1,26 @@
+R.page_support
+
+----------
+
+Name: page_support
+
+----------
+
+Options: 80 | 50
+
+----------
+
+Description: Support Page
+
+----------
+
+Type: Textarea
+
+----------
+
+<center><img class="headline1" src="http://nekls.org/wp-content/uploads/2018/04/find.answers.png"><h3>This part of NEXT: search catalog is under construction.
+
+Call you home library for help!</h3></center>
+
+
+

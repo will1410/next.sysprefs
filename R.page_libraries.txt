@@ -1,0 +1,230 @@
+R.page_libraries
+
+----------
+
+Name: page_libraries
+
+----------
+
+Options: 80 | 50
+
+----------
+
+Description: List of Member Library Websites
+
+----------
+
+Type: Textarea
+
+----------
+
+<style>
+
+h4 {
+	color: #606060;
+	font-size: 20px;
+}
+p {
+	color: #606060;
+	font-size: 16px;
+	text-align: center;
+}
+ul.bullet {
+	list-style-type: square;
+}
+
+#columns {
+	column-width: 200px;
+	column-gap: 15px;
+        width: 90%;
+        min-width: 326px;
+	max-width: 980px;
+	margin: 50px auto;
+}
+
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+div#columns figure:hover {
+	border-color: rgba(82, 168, 236, 0.8); */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	}
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+	color: #444;
+  line-height: 1.5;
+}
+
+div#columns small {
+  font-size: 1rem;
+  float: right;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+div#columns small a {
+  color: #666;
+  text-decoration: none;
+  transition: .4s color;
+}
+
+div#columns:hover figure:not(:hover) {
+	opacity: 0.4;
+}
+
+}
+@media screen and (max-width: 750px) {
+  #columns { column-gap: 5px; }
+  #columns figure { width: 70%; }
+}
+@media screen and (max-width: 750px) {
+	#columns figure { width: 90%; }
+
+}
+</style>
+<center><img class="headline1" src="http://nekls.org/wp-content/uploads/2018/08/next.libraries.list_.png"></center>
+
+<div id="columns">
+	<figure>
+  <h4><center>Atchison</center></h4>
+	<figcaption><ul class="bullet">
+		<li><a title="Atchison Public Library" href="http://www.atchisonlibrary.org/" target="_blank" rel="noopener">Atchison Public Library</a></li>
+		<li><a title="Effingham Community Library" href="http://www.effinghamlibrary.net/" target="_blank" rel="noopener">Effingham Community Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+  <figure>
+  <h4><center>Brown</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Everest - Barnes Reading Room" href="http://everest.mykansaslibrary.org/" target="_blank" rel="noopener">Barnes Reading Room (Everest)</a></li>
+			<li><a title="Hiawatha - Morrill Public Library" href="http://www.hiawathalibrary.org/" target="_blank" rel="noopener">Morrill Public Library (Hiawatha)</a></li>
+			<li><a title="Horton Public Library" href="http://www.hortonlibrary.org/" target="_blank" rel="noopener">Horton Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+  <h4><center>Douglas</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Baldwin City Public Library" href="http://www.baldwincitylibrary.org/" target="_blank" rel="noopener">Baldwin City Public Library</a></li>
+			<li><a title="Eudora Public Library" href="http://www.eudorapubliclibrary.org/" target="_blank" rel="noopener">Eudora Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+
+	<figure>
+	<h4><center>Doniphan</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Doniphan County, Library District #1" href="http://www.librarydistrict1.org/" target="_blank" rel="noopener">Library District #1, Elwood Library</a></li>
+			<li><a title="Doniphan County, Library District #1" href="http://www.librarydistrict1.org/" target="_blank" rel="noopener">Library District #1, Highland Library</a></li>
+			<li><a title="Doniphan County, Library District #1" href="http://www.librarydistrict1.org/" target="_blank" rel="noopener">Library District #1, Troy Central Library</a></li>
+			<li><a title="Doniphan County, Library District #1" href="http://www.librarydistrict1.org/" target="_blank" rel="noopener">Library District #1, Wathena Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+	<h4><center>Franklin</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Ottawa Library" href="http://www.ottawalibrary.org/" target="_blank" rel="noopener">Ottawa Library</a></li>
+			<li><a title="Pomona Community Library" href="http://pomona.mykansaslibrary.org/" target="_blank" rel="noopener">Pomona Community Library</a></li>
+			<li><a title="Richmond Public Library" href="http://richmond.mykansaslibrary.org/" target="_blank" rel="noopener">Richmond Public Library</a></li>
+			<li><a title="Wellsville Community Library" href="http://www.wellsvillelibrary.org/" target="_blank" rel="noopener">Wellsville Community Library</a></li>
+			<li><a title="Williamsburg Community Library" href="http://www.williamsburgcommunitylibrary.org/" target="_blank" rel="noopener">Williamsburg Community Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+
+	<figure>
+  <h4><center>Jackson</center></h4>
+	<figcaption><ul class="bullet">
+	<li><a title="Holton - Beck-Bookman Library" href="http://www.beckbookmanlibrary.org/" target="_blank" rel="noopener">Beck-Bookman Library (Holton)</a></li>
+		</ul></figcaption>
+	</figure>
+
+
+	<figure>
+	<h4><center>Jefferson</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="McLouth Public Library" href="http://mclouth.mykansaslibrary.org/" target="_blank" rel="noopener">McLouth Public Library</a></li>
+			<li><a title="Meriden Community Library" href="http://meriden.mykansaslibrary.org/" target="_blank" rel="noopener">Meriden Community Library</a></li>
+			<li><a title="Nortonville Library" href="http://www.nortonvillelibrary.org/" target="_blank" rel="noopener">Nortonville Library</a></li>
+			<li><a title="Oskaloosa Public Library" href="http://www.oskielibrary.org/" target="_blank" rel="noopener">Oskaloosa Public Library</a></li>
+			<li><a title="Perry-Lecompton Community Library" href="https://www.facebook.com/perrylecomptoncommunitylibrary" target="_blank" rel="noopener">Perry-Lecompton Community Library</a></li>
+			<li><a title="Valley Falls â€“ Delaware Township Library" href="http://valleyfalls.mykansaslibrary.org/" target="_blank" rel="noopener">Delaware Township Library (Valley Falls)</a></li>
+			<li><a title="Winchester Public Library" href="http://www.winchesterlibrary.org/" target="_blank" rel="noopener">Winchester Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+	<h4><center>Leavenworth</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Basehor Community Library" href="http://www.basehorlibrary.org/" target="_blank" rel="noopener">Basehor Community Library</a></li>
+			<li><a title="Bonner Springs City Library" href="http://www.bonnerlibrary.org/" target="_blank" rel="noopener">Bonner Springs City Library</a></li>
+			<li><a title="Lansing Community Library" href="http://lansing.mykansaslibrary.org/" target="_blank" rel="noopener">Lansing Community Library</a></li>
+			<li><a title="Leavenworth Public Library" href="http://www.leavenworthpubliclibrary.org/" target="_blank" rel="noopener">Leavenworth Public Library</a></li>
+			<li><a title="Linwood Community Library" href="http://www.linwoodlibrary.org/" target="_blank" rel="noopener">Linwood Community Library</a></li>
+			<li><a title="Tonganoxie Public Library" href="http://www.tonganoxielibrary.org/" target="_blank" rel="noopener">Tonganoxie Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+	<h4><center>Miami</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Osawatomie Public Library" href="http://www.osawatomie.org/" target="_blank" rel="noopener">Osawatomie Public Library</a></li>
+			<li><a title="Paola Free Library" href="http://www.paolalibrary.org/" target="_blank" rel="noopener">Paola Free Library</a></li>
+			</ul></figcaption>
+	</figure>
+
+
+	<figure>
+	<h4><center>Nemaha</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Bern Community Library" href="http://bern.mykansaslibrary.org/" target="_blank" rel="noopener">Bern Community Library</a></li>
+			<li><a title="Centralia Community Library" href="http://www.centralialibrary.com/" target="_blank" rel="noopener">Centralia Community Library</a></li>
+			<li><a title="Corning City Library" href="http://www.corningcitylibrary.org/" target="_blank" rel="noopener">Corning City Library</a></li>
+			<li><a title="Prairie Hills USD #113 Schools" href="http://www.usd113.org" target="_blank" rel="noopener">Prairie Hills Schools</a></li>
+			<li><a title="Sabetha - Mary Cotton Public Library" href="http://www.sabethalibrary.org/" target="_blank" rel="noopener">Mary Cotton Public Library (Sabetha)</a></li>
+			<li><a title="Seneca Free Library" href="http://www.senecafreelibrary.org/" target="_blank" rel="noopener">Seneca Free Library</a></li>
+			<li><a title="Wetmore Community Library" href="http://www.wetmorepubliclibrary.org/" target="_blank" rel="noopener">Wetmore Community Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+	<h4><center>Osage</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Burlingame Community Library" href="http://burlingame.mykansaslibrary.org/" target="_blank" rel="noopener">Burlingame Community Library</a></li>
+			<li><a title="Carbondale City Library" href="http://www.carbondalecitylibrary.org/" target="_blank" rel="noopener">Carbondale City Library</a></li>
+			<li><a title="Lyndon Carnegie Library" href="http://www.lyndonlibrary.org/" target="_blank" rel="noopener">Lyndon</a></li>
+			<li><a title="Osage City Public Library" href="http://www.osagecitylibrary.org/" target="_blank" rel="noopener">Osage City Public Library</a></li>
+			<li><a title="Overbrook Public Library" href="http://overbrook.mykansaslibrary.org/" target="_blank" rel="noopener">Overbrook Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+	<figure>
+	<h4><center>Shawnee</center></h4>
+	<figcaption><ul class="bullet">
+			<li><a title="Rossville Community Library" href="http://www.rossvillelibrary.org/" target="_blank" rel="noopener">Rossville Community Library</a></li>
+			<li><a title="Silver Lake Public Library" href="http://www.silverlakelibrary.org/" target="_blank" rel="noopener">Silver Lake Public Library</a></li>
+		</ul></figcaption>
+	</figure>
+
+		</div>
+
+

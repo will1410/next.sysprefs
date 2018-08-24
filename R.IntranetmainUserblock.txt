@@ -186,11 +186,11 @@ Type: Textarea
         <h5>Spreadsheet reports</h5>
         <p>Monthly statistics - Excel spreadsheet.</p>
         <p><ins><a href="https://drive.google.com/uc?id=10OQb9V8xdlXLqxJ85VdcnJZxxFfIQyiT&export=download">2018 statistics (Excel file - switch tabs at the bottom of the screen to view different months)</a></ins></p>
-        <p>Updated 2018.06.01</p>
+        <p>Updated 2018.08.03</p>
         <p>-----</p>
         <p>Request statistics - Excel spreadsheet.</p>
-        <p>Updated 2018.06.01</p>
-        <p><ins><a href="https://drive.google.com/uc?id=1-3n7UEQ2eKXk6tcmwBSXRxWrMkdNywEL&export=download">2018 request statistics (Excel file - switch tabs at the bottom of the screen to view different months)</a></ins></p>
+        <p>Updated 2018.08.02</p>
+        <p><ins><a href="https://drive.google.com/uc?id=11CjyhXMEa2L4OHEVadXFmJEmzZu-03NR&export=download">2018 request statistics (Excel file - switch tabs at the bottom of the screen to view different months)</a></ins></p>
         <p>-----</p>
       </div>
       <div id="stat2">
@@ -217,109 +217,110 @@ Type: Textarea
         <table class="tg">
           <tr>
             <th>2018</th>
-            <th>Total items</th>
-            <th>Total titles</th>
-            <th>Total patrons</th>
-            <th>Total Circulation this month</th>
-            <th>Total Circ for 2018 through the end of this month</th>
+            <th id="eomitotalhd">Total items</th>
+            <th id="eombtotalhd">Total titles</th>
+            <th id="eomptotalhd">Total patrons</th>
+            <th id="eomctotalhd">Total Circulation<br />this month</th>
+            <th id="eoyctotalhd">Total Circ for 2018 through<br />the end of this month</th>
           </tr>
           <tr class="futrow">
             <td>December</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal"></td>
+            <td id="eombtotal"></td>
+            <td id="eomptotal"></td>
+            <td id="eomctotal"></td>
+            <td id="eoyctotal"></td>
           </tr>
           <tr class="futrow">
             <td>November</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal"></td>
+            <td id="eombtotal"></td>
+            <td id="eomptotal"></td>
+            <td id="eomctotal"></td>
+            <td id="eoyctotal"></td>
           </tr>
           <tr class="futrow">
             <td>October</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal"></td>
+            <td id="eombtotal"></td>
+            <td id="eomptotal"></td>
+            <td id="eomctotal"></td>
+            <td id="eoyctotal"></td>
           </tr>
           <tr class="futrow">
             <td>September</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal"></td>
+            <td id="eombtotal"></td>
+            <td id="eomptotal"></td>
+            <td id="eomctotal"></td>
+            <td id="eoyctotal"></td>
           </tr>
           <tr class="futrow">
             <td>August</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal"></td>
+            <td id="eombtotal"></td>
+            <td id="eomptotal"></td>
+            <td id="eomctotal"></td>
+            <td id="eoyctotal"></td>
           </tr>
-          <tr class="futrow">
+          <tr>
             <td>July</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal">1042834</td>
+            <td id="eombtotal">409275</td>
+            <td id="eomptotal">133529</td>
+            <td id="eomctotal">152516</td>
+            <td id="eoyctotal">937749</td>
           </tr>
-          <tr class="futrow">
+          <tr>
             <td>June</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal">1043053</td>
+            <td id="eombtotal">411942</td>
+            <td id="eomptotal">132519</td>
+            <td id="eomctotal">161867</td>
+            <td id="eoyctotal">785233</td>
           </tr>
-          <tr class="futrow">
+          <tr>
             <td>May</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="eomitotal">1045605</td>
+            <td id="eomvtotal">413840</td>
+            <td id="eomptotal">131574</td>
+            <td id="eomctotal">130623</td>
+            <td id="eoyctotal">623366</td>
           </tr>
           <tr>
             <td>April</td>
-            <td>1041794</td>
-            <td>411325</td>
-            <td>130687</td>
-            <td>120444</td>
-            <td>492743</td>
+            <td id="eomitotal">1041794</td>
+            <td id="eombtotal">411325</td>
+            <td id="eomptotal">130687</td>
+            <td id="eomctotal">120444</td>
+            <td id="eoyctotal">492743</td>
           </tr>
           <tr>
             <td>March</td>
-            <td>1038195</td>
-            <td>410354</td>
-            <td>130269</td>
-            <td>130786</td>
-            <td>372299</td>
+            <td id="eomitotal">1038195</td>
+            <td id="eombtotal">410354</td>
+            <td id="eomptotal">130269</td>
+            <td id="eomctotal">130786</td>
+            <td id="eoyctotal">372299</td>
           </tr>
           <tr>
             <td>February</td>
-            <td>1038217</td>
-            <td>409477</td>
-            <td>129761</td>
-            <td>115343</td>
-            <td>241513</td>
+            <td id="eomitotal">1038217</td>
+            <td id="eombtotal">409477</td>
+            <td id="eomptotal">129761</td>
+            <td id="eomctotal">115343</td>
+            <td id="eoyctotal">241513</td>
           </tr>
           <tr>
             <td>January</td>
-            <td>1044433</td>
-            <td>410068</td>
-            <td>129209</td>
-            <td>126170</td>
-            <td>126170</td>
+            <td id="eomitotal">1044433</td>
+            <td id="eombtotal">410068</td>
+            <td id="eomptotal">129209</td>
+            <td id="eomctotal">126170</td>
+            <td id="eoyctotal">126170</td>
           </tr>
         </table>
+        <p><span>Updated 2018.08.03</p>
         <p>-----</p>
       </div>
     </div>

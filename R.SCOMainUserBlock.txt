@@ -1,0 +1,22 @@
+R.SCOMainUserBlock
+
+----------
+
+Name: SCOMainUserBlock
+
+----------
+
+Options: 70|10
+
+----------
+
+Description: Add a block of HTML that will display on the self checkout screen
+
+----------
+
+Type: Textarea
+
+----------
+
+
+

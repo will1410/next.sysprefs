@@ -18,5 +18,5 @@ Type: free
 
 ----------
 
-http://www.nexpresslibrary.org/wp-content/uploads/favicon.ico
+http://nekls.org/wp-content/uploads/2018/02/nextfavicon.ico
 
