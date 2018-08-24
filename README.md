@@ -27,7 +27,7 @@ SELECT
     Concat("----------"), Char(13), Char(10), Char(13), Char(10),
     Concat("Type: ", Coalesce(systempreferences.type, " ")), Char(13), Char(10), Char(13), Char(10),
     Concat("----------"), Char(13), Char(10), Char(13), Char(10),
-    Concat( IF(Length(REPLACE(systempreferences.value,'\r\n', CONCAT(Char(13), CHAR(10)))) > 32766, "Too large to process", REPLACE(systempreferences.value, '\\r\\n', Concat(Char(13), Char(10))) ) ) 
+    Concat( IF(Length(REPLACE(systempreferences.value,'\r\n', CONCAT(Char(13), CHAR(10)))) > 32766, "Too large to process", REPLACE(systempreferences.value, '\\r\\n', Concat(Char(13), Char(10))) ) )
   ) AS CONTENT  
 FROM
   systempreferences
@@ -35,7 +35,7 @@ FROM
 
 ----------
 
-Make sure C:\GIT\ is empty.
+Make sure C:\\GIT\\ is empty.
 
 Open the csv file and run the macro from the XLSX macro file.
 
@@ -83,4 +83,4 @@ Save all of these files into the appropriate github folder.
 
 ----------
 
-Once all files are saved in the github folder, run github desktop to sync with the online repository.
+Once all files are saved in the github folder, use Git or Atom to sync with the online repository.
