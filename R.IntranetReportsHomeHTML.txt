@@ -6,7 +6,7 @@ Name: IntranetReportsHomeHTML
 
 ----------
 
-Options:  
+Options:
 
 ----------
 
@@ -18,5 +18,873 @@ Type: Free
 
 ----------
 
-Too large to process
+<style type="text/css">
+  ul#mptabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+  ul#mptabs li { display: inline; }
+  ul#mptabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+  ul#mptabs li a:hover { background-color: #f1f0ee; }
+  ul#mptabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+  div.mptabContent { border: 1px solid #c9c3ba; padding: 0.5em; background-color: #f1f0ee; }
+  div.mptabContent.hide { display: none; }
+</style>
 
+<script type="text/javascript">
+  //<![CDATA[
+
+  var mptabLinks = new Array();
+  var contentDivs = new Array();
+
+  function init() {
+
+    // Grab the mptab links and content divs from the page
+    var mptabListItems = document.getElementById('mptabs').childNodes;
+    for ( var i = 0; i < mptabListItems.length; i++ ) {
+      if ( mptabListItems[i].nodeName == "LI" ) {
+        var mptabLink = getFirstChildWithTagName( mptabListItems[i], 'A' );
+        var id = getHash( mptabLink.getAttribute('href') );
+        mptabLinks[id] = mptabLink;
+        contentDivs[id] = document.getElementById( id );
+      }
+    }
+
+    // Assign onclick events to the mptab links, and
+    // highlight the first mptab
+    var i = 0;
+
+    for ( var id in mptabLinks ) {
+      mptabLinks[id].onclick = showmptab;
+      mptabLinks[id].onfocus = function() { this.blur() };
+      if ( i == 0 ) mptabLinks[id].className = 'selected';
+      i++;
+    }
+
+    // Hide all content divs except the first
+    var i = 0;
+
+    for ( var id in contentDivs ) {
+      if ( i != 0 ) contentDivs[id].className = 'mptabContent hide';
+      i++;
+    }
+  }
+
+  function showmptab() {
+    var selectedId = getHash( this.getAttribute('href') );
+
+    // Highlight the selected mptab, and dim all others.
+    // Also show the selected content div, and hide all others.
+    for ( var id in contentDivs ) {
+      if ( id == selectedId ) {
+        mptabLinks[id].className = 'selected';
+        contentDivs[id].className = 'mptabContent';
+      } else {
+        mptabLinks[id].className = '';
+        contentDivs[id].className = 'mptabContent hide';
+      }
+    }
+
+    // Stop the browser following the link
+    return false;
+  }
+
+  function getFirstChildWithTagName( element, tagName ) {
+    for ( var i = 0; i < element.childNodes.length; i++ ) {
+      if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+    }
+  }
+
+  function getHash( url ) {
+    var hashPos = url.lastIndexOf ( '#' );
+    return url.substring( hashPos + 1 );
+  }
+
+  //]]>
+</script>
+
+<body onload="init()">
+
+  <h1>NExpress</h1>
+  <ul id="mptabs">
+    <li><a href="#tabR01">Missing in transit</a></li>
+    <li><a href="#tabR02">Auto deletion</a></li>
+    <li><a href="#tabR03">Statistics - 2017</a></li>
+    <li><a href="#tabR04">Statistics - 2016</a></li>
+    <li><a href="#tabR05" style="display:none;">Facebook</a></li>
+    <li><a href="#tabR06" style="display:none;">Contact information</a></li>
+  </ul>
+
+<!-- TABR01 NEW TAB MIT -->
+
+  <div class="mptabContent" id="tabR01">
+    <h2>Missing in transit</h2>
+    <div>
+      <h3>MIT shelf-list - previous 6 months</h3>
+      <p>Report 2774 generates a list of items that are missing in transit that are either owned by, being shipped to, or being shipped from the library you select.<br /><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2774&phase=Run%20this%20report"  target="_blank">Click here to run report 2774 in a new window</a></p>
+      <h3>MIT shelf-list - all items in transit for more than 7 days</h3>
+      <p>Report 2894 generates the same list but limits the results to the previous 6 months.<br /><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2894&phase=Run%20this%20report"  target="_blank">Click here to run report 2894 in a new window</a></p>
+      <h3>MIT cut-and-paste messages</h3>
+      <p>Report 2945 displays the exact same data as Report 2774 but generates data that can be cut and pasted into an e-mail message.<br /><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2945&phase=Run%20this%20report"  target="_blank">Click here to run report 2945 in a new window</a></p>
+      <h3>Web form</h3>
+      <p><a href="http://news.nexpresslibrary.org/missing-in-transit-items/">http://news.nexpresslibrary.org/missing-in-transit-items/</a> is a form that you can paste the output from report 2945 into that will e-mail the owning library, the shipping library, and the receiving library asking them to search for the item.</p>
+    </div>
+  </div>
+
+<!-- TABR02 NEW TAB auto deletion -->
+
+  <div class="mptabContent" id="tabR02">
+    <h2>Automatic deletion of items</h2>
+    <div>
+      <h3>Items about to be automatically deleted</h3>
+      <p>Report 2959 generates a list of items that are about to be deleted.<br /><br />If you run this report and choose your library from the drop-down, you will see a list of all of the items that will be deleted automatically between today and the last day of the month, two calendar months from now.  If you run this report on March 15, you will see everything that is expected to be deleted between March 15 and May 31.  If you run it on November 29, you will see everything that is expected to be automatically deleted between November 29 and January 31 of the following year.</p>
+      <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2959&phase=Run%20this%20report"  target="_blank">Click here to run report 2959 in a new window</a></p>
+      <h3>Deleted items list by date range</h3>
+      <p>Report 2958 generates a list of items that have already been deleted.<br /><br />This will show you a list of items that have already been deleted during the date range you specify up to the previous 13 months.  Since data is only kept in the deleteditems table for 13 months, you will not be able to generate list going back further than 13 months ago.</p>
+      <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2958&phase=Run%20this%20report"  target="_blank">Click here to run report 2958 in a new window</a></p>
+      <h3>Deleted item information</h3>
+      <p>Report 2883 allows you to lookup information on a single item that has been deleted by entering its barcode number.</p>
+      <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2883&phase=Run%20this%20report"  target="_blank">Click here to run report 2883 in a new window</a></p>
+    </div>
+  </div>
+
+<!-- TABR03 NEW TAB 2017 statistics -->
+
+  <div class="mptabContent" id="tabR03">
+    <h2>Statistics - 2017</h2>
+    <div>
+      <h3>Nexpress Statistics</h3>
+      <span style="font-size: 125%;">
+
+<!-- ANNUAL - statistics -->
+
+	  <div>
+            <h3>2017 Statistics Yearly Totals</h3>
+            <p>Click the link below to download an Excel spreadsheet containing all of last year's NExpress statistical data.  This workbook should open to the page for 2017 totals and you can examine the data from each separate month by clicking on the tabs to move from month to month.</p>
+            <p><a href="https://drive.google.com/uc?id=1b1l59JvMLmOEkoshNsSqwAW9LixfuUNW&export=download" target="_blank">Click here to download 2017 overall statistics with annual totals and a month-by-month breakdown</a></p>
+            <p><a href="https://drive.google.com/uc?id=1RR5b0DznKS8ItILZKIbMsuX5ZvEMCY63&export=download" target="_blank">Click here to download data for the 2017 annual statistical report.</a></p>
+        </div>
+
+<!-- MONTH - 2017-December statistics -->
+
+        <div id="December" style="background-color: #FFFF00;">
+          <p>December, 2017 Statistics</p>
+          <p>NExpress Overall</p>
+          <ul>
+            <li>Total items: <ins>1045809</ins></li>
+            <li>Total records: <ins>410110</ins></li>
+            <li>Total patrons: <ins>128560</ins></li>
+            <li>Total Circ in December: <ins>112101</ins></li>
+            <li>Total Circ for 2017 through the end of December: <ins>1629601</ins></li>
+          </ul>
+          <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in December, 2017.</p>
+          <p>Directions to run these: Dropdowns: choose your library; month: choose December; year: choose 2017 and click "Run the report."<br />
+            If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+          </p>
+          <ul>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+          </ul>
+          <p>Reports for new patrons and new materials</p>
+          <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+          <ul>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+            <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+          </ul>
+          <p>Spreadsheet Reports</p>
+          <p>All of the data in last year's reports can be found now in one spreadsheet.
+          <p>
+          <p><a href="https://docs.google.com/spreadsheets/d/1MmLZoFU_4Gf1qSqrWvsNCCbDtKJMz6ud/export?format=xlsx" target="_blank">December, 2017, statistics as an Excel file</a></p>
+          <p><a href="https://drive.google.com/open?id=1Wh6ismopEV2veQBzTaJ-yC9VPqXxDymQZ5Ps1n8gz54" target="_blank">December, 2017, statistics as a Google Sheets file</a></p>
+          <ul>
+            <li>For total collection size, see column D</li>
+            <li>For total circulation, see column J</li>
+            <li>For total patrons, see column O</li>
+            <li>For total ILL Loans and Borrows, see columns R and S</li>
+          </ul>
+      </span>
+      <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-November statistics -->
+
+      <div id="November">
+        <p>November, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1043853</ins></li>
+          <li>Total records: <ins>398929</ins></li>
+          <li>Total patrons: <ins>128065</ins></li>
+          <li>Total Circ in : <ins>120925</ins></li>
+          <li>Total Circ for 2017 through the end of November: <ins>1517500</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in November, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose November; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a style="display: none;" href=" XXXXX " target="_blank">REVISED - includes Hoopla statistics - November, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1kXG9PdcozrqFjoE6Yat67B2ssxG68q4H" target="_blank">November, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=17WNBSyONLQ5aiXOEhexzvZFGeiP234hQKWHp5oQDZR8" target="_blank">November, 2017, statistics as a Google Sheets file</a></p>
+        <p><a href="https://drive.google.com/open?id=1cqF3-QUhwhyGYXy_Jk78qzO_eCwaZJns" target="_blank">November, 2017, request statistics</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-October statistics -->
+
+      <div id="October" style="background-color: #FFFF00;">
+        <p>October, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1041670</ins></li>
+          <li>Total records: <ins>408017</ins></li>
+          <li>Total patrons: <ins>127709</ins></li>
+          <li>Total Circ in : <ins>132434</ins></li>
+          <li>Total Circ for 2017 through the end of October: <ins>1396575</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in October, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose October; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a style="display: none;" href=" XXXXX " target="_blank">REVISED - includes Hoopla statistics - October, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1akAXooNRTypcyR7YdhoSYUQCTvhoBQ0v" target="_blank">October, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1L8xeek8ue8D3pczo1rWBeNF6oEuI9Utl0ZZeazO-_R8" target="_blank">October, 2017, statistics as a Google Sheets file</a></p>
+        <p><a href="https://drive.google.com/open?id=1QnlNaa_aPv7Xbu4bZYD7_f9waEu3JDL_" target="_blank">October, 2017, request statistics</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-September statistics -->
+
+      <div id="September">
+        <p>September, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1039602</ins></li>
+          <li>Total records: <ins>405514</ins></li>
+          <li>Total patrons: <ins>126879</ins></li>
+          <li>Total Circ in September: <ins>124599</ins></li>
+          <li>Total Circ for 2017 through the end of September: <ins>1264141</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in September, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose September; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKc1pDVnJaSVpYVms" target="_blank">September, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1tKMlbsi0etwUSnRzPVH9qHQdjjk5GOnyg_bl1gOCMOQ" target="_blank">September, 2017, statistics as a Google Sheets file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKTi03cXNoQXJhLWc" target="_blank">September, 2017, request statistics</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-August statistics -->
+
+      <div id="August" style="background-color: #FFFF00;">
+        <p>August, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1052085</ins></li>
+          <li>Total records: <ins>407341</ins></li>
+          <li>Total patrons: <ins>126082</ins></li>
+          <li>Total Circ in : <ins>143419</ins></li>
+          <li>Total Circ for 2017 through the end of August: <ins>1139542</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in August, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose August; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a style="display: none;" href=" XXXXX " target="_blank">REVISED - includes Hoopla statistics - August, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKWTMyTFpzVUR4Y28" target="_blank">August, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1EyAUKG0uKxALggUuPlq97XZDDk1Ibi7iKD2gzc6edb8" target="_blank">August, 2017, statistics as a Google Sheets file</a><br /></p>
+        <p><ins>New for August 2017</ins></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKT3ZCQVd5Sy1CT2M" target="_blank">August, 2017, request statistics</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-July statistics -->
+
+      <div id="July">
+        <p>July, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1067678</ins></li>
+          <li>Total records: <ins>399058</ins></li>
+          <li>Total patrons: <ins>125198</ins></li>
+          <li>Total Circ in July: <ins>156161</ins></li>
+          <li>Total Circ for 2017 through the end of July: <ins>996123</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in July, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose July; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKWXBMdlp1czg2TGs" target="_blank">July, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1IdiVRO-IT4rLrw0oM5giEVN3KH1I2ajb0NayICtmPJA" target="_blank">July, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-June statistics -->
+
+      <div id="June" style="background-color: #FFFF00;">
+        <p>June, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1043032</ins></li>
+          <li>Total records: <ins>400016</ins></li>
+          <li>Total patrons: <ins>124155</ins></li>
+          <li>Total Circ in June: <ins>174508</ins></li>
+          <li>Total Circ for 2017 through the end of June: <ins>839962</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in June, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose June; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a style="display: none;" href=" XXXXX " target="_blank">REVISED - includes Hoopla statistics - June, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKSjhzNWVQbFAtalk" target="_blank">June, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1f146hdwMmXZ4ScUYSRl3Ue7Aczyi2TKkcDP8CzqP1_w" target="_blank">June, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-May statistics -->
+
+      <div id="May">
+        <p>May, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1043269</ins></li>
+          <li>Total records: <ins>396502</ins></li>
+          <li>Total patrons: <ins>122783</ins></li>
+          <li>Total Circ in : <ins>143377</ins></li>
+          <li>Total Circ for 2017 through the end of May: <ins>665454</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in May, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose May; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKZk5NWnBmc01xVW8" target="_blank">REVISED - includes Hoopla statistics - May, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKSGhCR3FKTk9mZ0U" target="_blank">May, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1nb2JZMzZB7obgqGMZ1PjABRSI6VLGPMIF_2t4x0HCRw" target="_blank">May, 2017, statistics as a Google Sheets file</a></p>
+        <p>Please note that we depend on Hoopla to send us monthly statistics.  Sometime these statistics do not arrive until the end of the next calendar month.  When Hoopla statistics are available, we will add them to the spreadsheet.</p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-April statistics -->
+
+      <div id="April" style="background-color: #FFFF00;">
+        <p>April, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1038700</ins></li>
+          <li>Total records: <ins>395889</ins></li>
+          <li>Total patrons: <ins>121721</ins></li>
+          <li>Total Circ in : <ins>123437</ins></li>
+          <li>Total Circ for 2017 through the end of April: <ins>522077</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in April, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose April; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a style="display: none;" href=" XXXXX " target="_blank">REVISED - includes Hoopla statistics - April, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKbUY0c29UUXhmYWs" target="_blank">April, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1CIkFzjK8TRCqGawK6PKRoxodOGti0oVZS0ovUs4hbEM" target="_blank">April, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-March statistics -->
+
+      <div id="March">
+        <p>March, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1045519</ins></li>
+          <li>Total records: <ins>399058</ins></li>
+          <li>Total patrons: <ins>120962</ins></li>
+          <li>Total Circ in : <ins>139696</ins></li>
+          <li>Total Circ for 2017 through the end of March: <ins> 398640 </ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in March, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose March; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKdm5KWWkyMXhnc2s" target="_blank">REVISED - includes Hoopla statistics - March, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKdm5KWWkyMXhnc2s" target="_blank">March, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1hv69IW3ZkUazsVdJHigKgmgREepYvvyrNF8I1BIWdEE" target="_blank">March, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-February statistics -->
+
+      <div id="February" style="background-color: #FFFF00;">
+        <p>February, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1046895</ins></li>
+          <li>Total records: <ins>399458</ins></li>
+          <li>Total patrons: <ins>120195</ins></li>
+          <li>Total Circ in : <ins>125151</ins></li>
+          <li>Total Circ for 2017 through the end of February: <ins>258944</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in February, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose February; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKM3NibmdZQXN2WTg" target="_blank">REVISED - includes Hoopla statistics - February, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKM3NibmdZQXN2WTg" target="_blank">February, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1jtJ-IJ38c23pG4XyMgTMM__N9y4HK2PFiMlwfaHcHtI" target="_blank">February, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2017-January statistics -->
+
+      <div id="January">
+        <p>January, 2017 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1044219</ins></li>
+          <li>Total records: <ins>397874</ins></li>
+          <li>Total patrons: <ins>119491</ins></li>
+          <li>Total Circ in : <ins>133793</ins></li>
+          <li>Total Circ for 2017 through the end of January: <ins>133793</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in January, 2017.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose January; year: choose 2017 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Reports for new patrons and new materials</p>
+        <p>To run these reports, click on the link and choose your library.  The report will automatically set the date to gather the data for the previous calendar month.</p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2903&phase=Run%20this%20report" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2902&phase=Run%20this%20report" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2901&phase=Run%20this%20report" target="_blank">New Materials by Collection Code & Location</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <p>All of the data in last year's reports can be found now in one spreadsheet.
+        <p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKMlVhRXIyQmx5QnM" target="_blank">January, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=1w3JeX0ga4U-_zwoQzwfTq5iqSfzm8x_AyzX9ZDgM2co" target="_blank">January, 2017, statistics as a Google Sheets file</a></p>
+        <p>REVISED STATISTICS FOR JANUARY</p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKejR2aTRqem12QVE" target="_blank">REVISED January, 2017, statistics as an Excel file</a></p>
+        <p><a href="https://drive.google.com/open?id=0B1y1vSumiZCKejR2aTRqem12QVE" target="_blank">REVISED January, 2017, statistics as a Google Sheets file</a></p>
+        <ul>
+          <li>For total collection size, see column D</li>
+          <li>For total circulation, see column J</li>
+          <li>For total patrons, see column O</li>
+          <li>For total ILL Loans and Borrows, see columns R and S</li>
+        </ul>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- TABR04 NEW TAB 2016 statistics -->
+
+  <div class="mptabContent" id="tabR04">
+    <h2>Statistics - 2016</h2>
+    <div>
+      <h3>Nexpress Statistics</h3>
+      <span style="font-size: 125%;">
+        <p><a href="https://drive.google.com/open?id=1-AamRNN5XFi0Hi1ZVCzxPZmu3IwRDSlIhhYfkNytDZc" target="_blank">Statistics Archive</a></p>
+
+<!-- MONTH - 2016-December statistics -->
+
+        <div  id="decemberstats" style="background-color: #FFFF00;">
+          <p>December 2016 Statistics</p>
+          <p>NExpress Overall</p>
+          <ul>
+            <li>Total items: <ins>1041850</ins></li>
+            <li>Total records: <ins>394901</ins></li>
+            <li>Total patrons: <ins>118751</ins></li>
+            <li>Total Circ in December: <ins>120183</ins></li>
+            <li>Total Circ for 2016 through December 31: <ins>1696577</ins></li>
+          </ul>
+          <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in December 2016.</p>
+          <p>Directions to run these: Dropdowns: choose your library; month: choose 10-December; year: choose 2016 and click "Run the report."<br />
+            If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+          </p>
+          <ul>
+            <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+            <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+            <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions</a></li>
+            <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+          </ul>
+          <p>Spreadsheet Reports</p>
+          <ol>
+            <li><a href="https://drive.google.com/open?id=1FAamLJGl0UWMBiQhDMzosh5EhIRJxX6fP9ZIb28E0oM" target="_blank">Total Collection Size</a></li>
+            <li><a href="https://drive.google.com/open?id=16sofvDHIwwoGx_wBGef_TeS9IoOmqwt-E2pTm99AOGA" target="_blank">Total Circulation</a></li>
+            <li><a href="https://drive.google.com/open?id=1W0AW1D5fHePx71S9W0twDorzR4wa_qZ_erkZM0Xcz1o" target="_blank">Total Patrons</a></li>
+            <li><a href="https://drive.google.com/open?id=1PWt3dL4YapV8YcaDEBzn9pNMNTm05TAcVauY50mkNoY" target="_blank">New Patrons by Category</a></li>
+            <li><a href="https://drive.google.com/open?id=1i7tone6SQrXfvG_u-OxKJTqbMT4w8kPxbByrdlzbezA" target="_blank">New Materials by Item Type & Location</a></li>
+            <li><a href="https://drive.google.com/open?id=1W1uNswbpQVfpX90yaOK-na8Rh0enNGzxu0ToTJ5Tpk4" target="_blank">New Materials by Collection Code & Location</a></li>
+            <li><a href="https://drive.google.com/open?id=1hOuqtAUXL6dJFyHtkYk8Nhv0f_BdluqPi9OXxzx9JZ4" target="_blank">ILL Loans & Borrows</a></li>
+          </ol>
+      </span>
+      <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2016-NOVEMBER statistics -->
+
+      <div id="Novemberstats">
+        <p>November 2016 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1576394</ins></li>
+          <li>Total records: <ins>394590</ins></li>
+          <li>Total patrons: <ins>118196</ins></li>
+          <li>Total Circ in November: <ins>128072</ins></li>
+          <li>Total Circ for 2016 through November 30: <ins>1576394</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in November 2016.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose 11-November; year: choose 2016 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions in November</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <ol>
+          <li><a href="https://drive.google.com/open?id=1VerOFyaCYzUKJuAYNf59s2pn5cFdZO-ohY5NOFHkuvE" target="_blank">Total Collection Size</a></li>
+          <li><a href="https://drive.google.com/open?id=1i5r52FoCBdkmpeivnulrXozJVdE2Pgiy8i96ghBrrDI" target="_blank">Total Circulation</a></li>
+          <li><a href="https://drive.google.com/open?id=168oeL6s82hlJ2OS4GTl4Em9X6z8MH9hIKlxiK9mVZrY" target="_blank">Total Patrons</a></li>
+          <li><a href="https://drive.google.com/open?id=1ppsA8KkIenwp49sjh87ftd37rhVehGYEPf4L3MpWupU" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://drive.google.com/open?id=1-v1iJZCXJeWCGCKwScyZSyMbYE7BnBwZE3U7QhGUlHc" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=1zXEwNnY3bxSALQtsb_9PcxisEhVirJUMpmZYSq_xTIc" target="_blank">New Materials by Collection Code & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=1GHm0vLKzyJKASnpCXPDZ9vgW-KVIxyP57x3WWyQsWJ8" target="_blank">ILL Loans & Borrows</a></li>
+        </ol>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2016-OCTOBER statistics -->
+
+      <div  id="octoberstats" style="background-color: #FFFF00;">
+        <p>October 2016 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1042023</ins></li>
+          <li>Total records: <ins>394806</ins></li>
+          <li>Total patrons: <ins>119099</ins></li>
+          <li>Total Circ in October: <ins>136394</ins></li>
+          <li>Total Circ for 2016 through October 31: <ins>1448322</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in October 2016.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose 10-October; year: choose 2016 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions in October</a></li>
+          <li><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <ol>
+          <li><a href="https://drive.google.com/open?id=1hVDTHezbSo858KNExhEBm87c_OQG9TyGpFYrV33Rt0A" target="_blank">Total Collection Size</a></li>
+          <li><a href="https://drive.google.com/open?id=1sRHLEXWVhyLwgE6p8B0YuK1_c97ORBx41iWMsw5Vvy8" target="_blank">Total Circulation</a></li>
+          <li><a href="https://drive.google.com/open?id=1VLX9sEumUP5VAKwEiN03AMUkK6Ni-yvTe6ITEJcI8i8" target="_blank">Total Patrons</a></li>
+          <li><a href="https://drive.google.com/open?id=1ABZdyh7xxFlco1_1DgiJKr2OvxnxWfgHpurXPUFmoh8" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://drive.google.com/open?id=1ZAXGTT9t24sa2CZR4rbaSfMQyqdJ68-0B4Mdd328U4Q" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=11Rnn0QFT-1X9RxXohP4SzH6Nn9dT39wV50F6dPbktrs" target="_blank">New Materials by Collection Code & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=18ULhrPVGb26g55lKJRrJ_kTdYMgA30LyjiDbr98uWJE" target="_blank">ILL Loans & Borrows</a></li>
+        </ol>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+<!-- MONTH - 2016-September statistics -->
+
+      <div id="septemberstats">
+        <p>September 2016 Statistics</p>
+        <p>NExpress Overall</p>
+        <ul>
+          <li>Total items: <ins>1042203</ins></li>
+          <li>Total records: <ins>394440</ins></li>
+          <li>Total patrons: <ins>118292</ins></li>
+          <li>Total Circ in September: <ins>135370</ins></li>
+          <li>Total Circ for 2016 through September 30: <ins>1311928</ins></li>
+        </ul>
+        <p>Circulation Reports for Item Type & Ccode Breakdown, New Acquisitions, and Newly Added Patrons in September 2016.</p>
+        <p>Directions to run these: Dropdowns: choose your library; month: choose 09-September; year: choose 2016 and click "Run the report."<br />
+          If you want to download, print, and/or resort the report, scroll to the bottom to download the report, save to your computer, and open in Excel or another spreadsheet software.
+        </p>
+        <ul>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1930&phase=Run%20this%20report" target="_blank">Circulation by Item Type</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=1929&phase=Run%20this%20report" target="_blank">Circulation by Collection Code</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=536&phase=Run%20this%20report" target="_blank">New Acquisitions in September</a></li>
+          <li><a href="https://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=555&phase=Run%20this%20report" target="_blank">Review newly added patrons</a></li>
+        </ul>
+        <p>Spreadsheet Reports</p>
+        <ol>
+          <li><a href="https://drive.google.com/open?id=1SQbfmksLjf1MioB6k1-a-mEeZKLVznKA892VRhcfnkg" target="_blank">Total Collection Size</a></li>
+          <li><a href="https://drive.google.com/open?id=1cWoCY1CUeckEkFaLKDCOpERNJxep21rdc7udTn5N0VY" target="_blank">Total Circulation</a></li>
+          <li><a href="https://drive.google.com/open?id=1DRWp6KBcyhQl68CyvCP98Xx2fEKV1WV6gAp7b4qKaKU" target="_blank">Total Patrons</a></li>
+          <li><a href="https://drive.google.com/open?id=1NFn4fFjbBFRoAYhamcQ7V6gduigVAA02DvqTAN8Z0ko" target="_blank">New Patrons by Category</a></li>
+          <li><a href="https://drive.google.com/open?id=1IJSGP-rqv5OqAWAgmbD3F6cycJu1wNLu6__7RgKgDAY" target="_blank">New Materials by Item Type & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=1rybtDQ1L91SgTqiM2KdxwW5YuOj8D2Rub-L6MgSd764" target="_blank">New Materials by Collection Code & Location</a></li>
+          <li><a href="https://drive.google.com/open?id=19B19sV7RtbcPq9xhBICnwNf_QCBK2imyg6EKlC_yAVQ" target="_blank">ILL Loans & Borrows</a></li>
+        </ol>
+        </span>
+        <p>--------------------------------------------------</p>
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- TABR05 NEW TAB -->
+
+  <div class="mptabContent" id="tabR05">
+    <h2>Contact information</h2>
+    <div>
+      <p>Content coming soon</p>
+    </div>
+  </div>
+
+<!-- TABR06 NEW TAB -->
+
+  <div class="mptabContent" id="tabR06">
+    <h2>Contact information</h2>
+    <div>
+      <p>Content coming soon</p>
+    </div>
+  </div>
+
+<!-- END -->
+
+</body>

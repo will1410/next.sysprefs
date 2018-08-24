@@ -6,7 +6,7 @@ Name: IntranetCirculationHomeHTML
 
 ----------
 
-Options:  
+Options:
 
 ----------
 
@@ -18,5 +18,385 @@ Type: Free
 
 ----------
 
-Too large to process
+<style type="text/css">
 
+      ul#mptabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+      ul#mptabs li { display: inline; }
+      ul#mptabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+      ul#mptabs li a:hover { background-color: #f1f0ee; }
+      ul#mptabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+      div.mptabContent { border: 1px solid #c9c3ba; padding: 0.5em; background-color: #f1f0ee; }
+      div.mptabContent.hide { display: none; }
+    </style>
+
+    <script type="text/javascript">
+    //<![CDATA[
+
+    var mptabLinks = new Array();
+    var contentDivs = new Array();
+
+    function init() {
+
+      // Grab the mptab links and content divs from the page
+      var mptabListItems = document.getElementById('mptabs').childNodes;
+      for ( var i = 0; i < mptabListItems.length; i++ ) {
+        if ( mptabListItems[i].nodeName == "LI" ) {
+          var mptabLink = getFirstChildWithTagName( mptabListItems[i], 'A' );
+          var id = getHash( mptabLink.getAttribute('href') );
+          mptabLinks[id] = mptabLink;
+          contentDivs[id] = document.getElementById( id );
+        }
+      }
+
+      // Assign onclick events to the mptab links, and
+      // highlight the first mptab
+      var i = 0;
+
+      for ( var id in mptabLinks ) {
+        mptabLinks[id].onclick = showmptab;
+        mptabLinks[id].onfocus = function() { this.blur() };
+        if ( i == 0 ) mptabLinks[id].className = 'selected';
+        i++;
+      }
+
+      // Hide all content divs except the first
+      var i = 0;
+
+      for ( var id in contentDivs ) {
+        if ( i != 0 ) contentDivs[id].className = 'mptabContent hide';
+        i++;
+      }
+    }
+
+    function showmptab() {
+      var selectedId = getHash( this.getAttribute('href') );
+
+      // Highlight the selected mptab, and dim all others.
+      // Also show the selected content div, and hide all others.
+      for ( var id in contentDivs ) {
+        if ( id == selectedId ) {
+          mptabLinks[id].className = 'selected';
+          contentDivs[id].className = 'mptabContent';
+        } else {
+          mptabLinks[id].className = '';
+          contentDivs[id].className = 'mptabContent hide';
+        }
+      }
+
+      // Stop the browser following the link
+      return false;
+    }
+
+    function getFirstChildWithTagName( element, tagName ) {
+      for ( var i = 0; i < element.childNodes.length; i++ ) {
+        if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+      }
+    }
+
+    function getHash( url ) {
+      var hashPos = url.lastIndexOf ( '#' );
+      return url.substring( hashPos + 1 );
+    }
+
+    //]]>
+    </script>
+  </head>
+  <body onload="init()">
+
+    <br />
+
+    <h1>NExpress</h1>
+
+    <ul id="mptabs">
+      <li><a href="#tabC01">Library contact information</a></li>
+      <li><a href="#tabC02">Holds Queue Schedule</a></li>
+      <li><a href="#tabC03" style="display:none;">Tab 3</a></li>
+      <li><a href="#tabC04" style="display:none;">Tab 4</a></li>
+      <li><a href="#tabC05" style="display:none;">Tab 5</a></li>
+    </ul>
+
+    <div class="mptabContent" id="tabC01">
+      <h2>Library contact information</h2>
+      <div>
+        <h3>If your contact information is wrong, please send updated information to nexpresshelp@nekls.org</h3>
+        <p>To find all of your library's current contact information in Koha, run report 2847 (<a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2946&phase=Run%20this%20report"  target="_blank">click here to run that report in a new window</a>) and choose your library from the drop-down.</p>
+
+         <p>Last updated 2017.08.28</p>
+
+
+<!-- Paste table data from Report 2946 after this comment to display library contact info -->
+
+<table style="margin-left: auto; margin-right: auto; width: 90%;">
+<tr><th>Library</th><th>Contact information</th><th>Staff contacts / holdings</th></tr>
+
+<tr>
+    <td>Atchison Public Library<p><ins>Mailing address:</ins><br />401 Kansas Ave<br />Atchison, KS 66002-2410</p><ins>Street address:</ins><br />401 Kansas Ave<br />Atchison, KS<br /></td><td>Phone: 913-367-1902</p><p>Fax: 913-367-2717</p><p>e-mail: circulation@atchisonlibrary.org</p><p>Website: <a href="http://www.atchisonlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS136</p></td><td>Director: Jacqueline Slingsby<br />     - jslingsby@atchisonlibrary.org<br /><br />ILL: Cindy Kloepper<br />     - ckloepper@atchisonlibrary.org<br /><br />Total titles: 57647<br /> <br />Total items: 59128</td>
+</tr>
+
+<tr>
+    <td>Baldwin City Public Library<p><ins>Mailing address:</ins><br />PO Box 565<br />Baldwin City, KS 66006-0565</p><ins>Street address:</ins><br />800 7th St<br />Baldwin City, KS<br /></td><td>Phone: 785-594-3411</p><p>Fax: 785-594-3411</p><p>e-mail: baldwinpl@baldwin.lib.ks.us</p><p>Website: <a href="http://www.baldwincitylibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS103</p></td><td>Director: Cheryl Sylvester<br />     - director@baldwin.lib.ks.us<br /><br />NExpress/ILL: Phyllis Braun<br />     - baldwinpl@baldwin.lib.ks.us<br /><br />Total titles: 23069<br /> <br />Total items: 23525</td>
+</tr>
+
+<tr>
+    <td>Basehor Community Library<p><ins>Mailing address:</ins><br />1400 N 158th St<br />Basehor, KS 66007-7300</p><ins>Street address:</ins><br />1400 N 158th St<br />Basehor, KS<br /></td><td>Phone: 913-724-2828</p><p>Fax: 913-724-2898</p><p>e-mail: patronupdate@basehorlibrary.org</p><p>Website: <a href="http://www.basehorlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS126</p></td><td>Director: Diana Weaver<br />     - dweaver@basehorlibrary.org<br /><br />ILL: Jenne Laytham<br />     - jlaytham@basehorlibrary.org<br /><br />Total titles: 60366<br /> <br />Total items: 64961</td>
+</tr>
+
+<tr>
+    <td>Bern Community Library<p><ins>Mailing address:</ins><br />PO Box 1<br />Bern, KS 66408-0001</p><ins>Street address:</ins><br />405 Main St<br />Bern, KS<br /></td><td>Phone: 785-336-3000</p><p>Fax: 785-336-3000</p><p>e-mail: librarian@bernlibrary.org</p><p>Website: <a href="http://bern.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS226</p></td><td>Director: Kathie Platt<br />     - kplatt@bernlibrary.org <br /><br />Total titles: 11193<br /> <br />Total items: 11483</td>
+</tr>
+
+<tr>
+    <td>Bonner Springs City Library<p><ins>Mailing address:</ins><br />201 N Nettleton Ave<br />Bonner Springs, KS 66012-1447</p><ins>Street address:</ins><br />201 N Nettleton Ave<br />Bonner Springs, KS<br /></td><td>Phone: 913-441-2665</p><p>Fax: 913-441-2660</p><p>e-mail: circulationdesk@bonnerlibrary.org</p><p>Website: <a href="http://www.bonnerlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS133</p></td><td>Director: Jack Granath<br />     - jgranath@bonnerlibrary.org<br /><br />ILL: Katy Konovalske<br />     - kkonovalske@bonnerlibrary.org<br /><br />Total titles: 55892<br /> <br />Total items: 59245</td>
+</tr>
+
+<tr>
+    <td>Burlingame Community Library<p><ins>Mailing address:</ins><br />122 W Santa Fe Ave<br />Burlingame, KS 66413-1210</p><ins>Street address:</ins><br />122 W Santa Fe Ave<br />Burlingame, KS<br /></td><td>Phone: 785-654-3400</p><p>Fax: 785-654-3411</p><p>e-mail: director@burlingame.lib.ks.us</p><p>Website: <a href="http://burlingame.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS313</p></td><td>Director: Sara Worcester<br />     - director@burlingame.lib.ks.us<br /><br />Total titles: 14813<br /> <br />Total items: 14905</td>
+</tr>
+
+<tr>
+    <td>Carbondale City Library<p><ins>Mailing address:</ins><br />234 Main St<br />Carbondale, KS 66414-9604</p><ins>Street address:</ins><br />234 Main St<br />Carbondale, KS<br /></td><td>Phone: 785-836-7638</p><p>Fax: 785-836-7789</p><p>e-mail: circulation@carbondalecitylibrary.org</p><p>Website: <a href="http://www.carbondalecitylibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS209</p></td><td>Director: Alice Smith<br />     - asmith@carbondalecitylibrary.org <br /><br />Total titles: 8817<br /> <br />Total items: 8973</td>
+</tr>
+
+<tr>
+    <td>Centralia Community Library<p><ins>Mailing address:</ins><br />PO Box 337<br />Centralia, KS 66415-0337</p><ins>Street address:</ins><br />520 4th St<br />Centralia, KS<br /></td><td>Phone: 785-857-3331</p><p>Fax: 785-857-3331</p><p>e-mail: librarian@centralialibrary.com</p><p>Website: <a href="http://www.centralialibrary.com/" target="_blank">Click here</a></p><p>Courier route #: KS221</p></td><td>Director: Dreda Smith<br />     - librarian@centralialibrary.com<br /><br />Total titles: 9583<br /> <br />Total items: 9740</td>
+</tr>
+
+<tr>
+    <td>Corning City Library<p><ins>Mailing address:</ins><br />6221 5th St<br />Corning, KS 66417-8485</p><ins>Street address:</ins><br />6221 5th St<br />Corning, KS<br /></td><td>Phone: 785-868-2755</p><p>Fax: 785-868-2755</p><p>e-mail: kboden@corningcitylibrary.org</p><p>Website: <a href="http://www.corningcitylibrary.org/" target="_blank">Click here</a></p><p>Courier route #: KS236</p></td><td>Director: Karleen Boden<br />     - kboden@corningcitylibrary.org<br /><br />Total titles: 6236<br /> <br />Total items: 6376</td>
+</tr>
+
+<tr>
+    <td>Digital Content<p><ins>Mailing address:</ins><br />4317 W 6th St<br />Lawrence, KS KS131</p><ins>Street address:</ins><br />4317 W 6th St<br />Lawrence, KS<br /></td><td>Phone: 785-838-4090</p><p>Fax: 785-838-3989</p><p>e-mail: george+digital@nekls.org</p><p>Website: <a href="http://www.nekls.org" target="_blank">Click here</a></p><p>Courier route #: </p></td><td>Contact: teamnexpress@nekls.org<br /><br />Total titles: 12744<br /> <br />Total items: 12744</td>
+</tr>
+
+<tr>
+    <td>Doniphan County Library<br />     Elwood<p><ins>Mailing address:</ins><br />PO Box 208<br />Elwood, KS 66024-0208</p><ins>Street address:</ins><br />410 N 9th St<br />Elwood, KS<br /></td><td>Phone: 913-365-5625</p><p>Fax: </p><p>e-mail: library@librarydistrict1.org</p><p>Website: <a href="http://www.librarydistrict1.org/" target="_blank">Click here</a></p><p>Courier route #: KS100</p></td><td>Director: Maggie McKeithan<br />     - mmckeithan@librarydistrict1.org<br /><br />Total titles: 3072<br /> <br />Total items: 3246</td>
+</tr>
+
+<tr>
+    <td>Doniphan County Library<br />     Highland<p><ins>Mailing address:</ins><br />306 W Main St<br />Highland, KS 66035-4138</p><ins>Street address:</ins><br />306 W Main St<br />Highland, KS<br /></td><td>Phone: 785-442-3078</p><p>Fax: </p><p>e-mail: library@librarydistrict1.org</p><p>Website: <a href="http://www.librarydistrict1.org/" target="_blank">Click here</a></p><p>Courier route #: KS100</p></td><td>Director: Maggie McKeithan<br />     - mmckeithan@librarydistrict1.org<br /><br />Total titles: 5237<br /> <br />Total items: 5356</td>
+</tr>
+
+<tr>
+    <td>Doniphan County Library<br />     Troy<p><ins>Mailing address:</ins><br />PO Box 220<br />Troy, KS 66087-0220</p><ins>Street address:</ins><br />105 N Main St<br />Troy, KS<br /></td><td>Phone: 785-985-2597</p><p>Fax: 785-985-2602</p><p>e-mail: library@librarydistrict1.org</p><p>Website: <a href="http://www.librarydistrict1.org/" target="_blank">Click here</a></p><p>Courier route #: KS100</p></td><td>Director: Maggie McKeithan<br />     - mmckeithan@librarydistrict1.org<br /><br />Total titles: 13806<br /> <br />Total items: 14117</td>
+</tr>
+
+<tr>
+    <td>Doniphan County Library<br />     Wathena<p><ins>Mailing address:</ins><br />401 St Joseph St<br />Wathena, KS 66090</p><ins>Street address:</ins><br />401 St Joseph St<br />Wathena, KS<br /></td><td>Phone: 785-990-2665</p><p>Fax: </p><p>e-mail: library@librarydistrict1.org</p><p>Website: <a href="http://www.librarydistrict1.org/" target="_blank">Click here</a></p><p>Courier route #: KS100</p></td><td>Director: Maggie McKeithan<br />     - mmckeithan@librarydistrict1.org<br /><br />Total titles: 8592<br /> <br />Total items: 8731</td>
+</tr>
+
+<tr>
+    <td>Effingham Community Library<p><ins>Mailing address:</ins><br />PO Box 189<br />Effingham, KS 66023-0189</p><ins>Street address:</ins><br />414 Main St<br />Effingham, KS<br /></td><td>Phone: 913-833-5881</p><p>Fax: 913-833-5881</p><p>e-mail: dfalk@effinghamlibrary.net</p><p>Website: <a href="http://www.effinghamlibrary.net" target="_blank">Click here</a></p><p>Courier route #: KS212</p></td><td>Director: Debbie Falk<br />     - dfalk@effinghamlibrary.net<br /><br />Total titles: 8241<br /> <br />Total items: 8437</td>
+</tr>
+
+<tr>
+    <td>Eudora Public Library<p><ins>Mailing address:</ins><br />PO Box 370<br />Eudora, KS 66025-0370</p><ins>Street address:</ins><br />14 E 9th St<br />Eudora, KS<br /></td><td>Phone: 785-542-2496</p><p>Fax: 785-542-2496</p><p>e-mail: eudoralibrary@gmail.com</p><p>Website: <a href="http://www.eudorapubliclibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS109</p></td><td>Director: Carol Wohlford<br />     - eudorapl@sunflower.com<br /><br />ILL: Alisha Whitis<br />     - eudoralibrary@gmail.com<br /><br />Total titles: 15541<br /> <br />Total items: 15834</td>
+</tr>
+
+<tr>
+    <td>Everest, Barnes Reading Room<p><ins>Mailing address:</ins><br />PO Box 204<br />Everest, KS 66424-0204</p><ins>Street address:</ins><br />640 Main St<br />Everest, KS<br /></td><td>Phone: 785-548-7733</p><p>Fax: 785-548-7733</p><p>e-mail: barnesreadingroom@rainbowtel.net</p><p>Website: <a href="http://everest.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS215</p></td><td>Director: Nancy Linck<br />     - barnesreadingroom@rainbowtel.net<br /><br />Total titles: 9447<br /> <br />Total items: 9525</td>
+</tr>
+
+<tr>
+    <td>Hiawatha, Morrill Public Library<p><ins>Mailing address:</ins><br />431 Oregon St<br />Hiawatha, KS 66434-2219</p><ins>Street address:</ins><br />431 Oregon St<br />Hiawatha, KS<br /></td><td>Phone: 785-742-3831</p><p>Fax: 785-742-2054</p><p>e-mail: circulation@hiawathalibrary.org</p><p>Website: <a href="http://www.hiawathalibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS225</p></td><td>Director: Jessica Ezell<br />     - jezell@hiawathalibrary.org<br /><br />Total titles: 32088<br /> <br />Total items: 33839</td>
+</tr>
+
+<tr>
+    <td>Holton, Beck-Bookman Library<p><ins>Mailing address:</ins><br />420 W 4th St<br />Holton, KS 66436-1572</p><ins>Street address:</ins><br />420 W 4th St<br />Holton, KS<br /></td><td>Phone: 785-364-3532</p><p>Fax: 785-364-5402</p><p>e-mail: holtoncitylib@gmail.com</p><p>Website: <a href="http://www.beckbookmanlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS203</p></td><td>Director: Candee Jacobs<br />     - holtoncitylib@gmail.com<br /><br />Total titles: 26876<br /> <br />Total items: 27970</td>
+</tr>
+
+<tr>
+    <td>Horton Public Library<p><ins>Mailing address:</ins><br />809 1st Ave E<br />Horton, KS 66439-1807</p><ins>Street address:</ins><br />809 1st Ave E<br />Horton, KS<br /></td><td>Phone: 785-486-3326</p><p>Fax: 785-486-2116</p><p>e-mail: hortonlibrary@hortonlibrary.org</p><p>Website: <a href="http://www.hortonlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS224</p></td><td>Director: Rita Higley<br />     - rhigley@hortonlibrary.org<br /><br />Total titles: 18084<br /> <br />Total items: 19143</td>
+</tr>
+
+<tr>
+    <td>Lansing Community Library<p><ins>Mailing address:</ins><br />730 1st Terrace, Ste 1<br />Lansing, KS 66043-1704</p><ins>Street address:</ins><br />730 1st Terrace, Ste 1<br />Lansing, KS<br /></td><td>Phone: 913-727-2929</p><p>Fax: 913-727-2969</p><p>e-mail: librarycirc@lansing.ks.us</p><p>Website: <a href="http://lansing.mykansaslibrary.org/" target="_blank">Click here</a></p><p>Courier route #: KS101</p></td><td>Director: Terri Wojtalewicz<br />     - twojo@lansing.ks.us<br /><br />Total titles: 20446<br /> <br />Total items: 21582</td>
+</tr>
+
+<tr>
+    <td>Leavenworth Public Library<p><ins>Mailing address:</ins><br />417 Spruce St<br />Leavenworth, KS 66048-2729</p><ins>Street address:</ins><br />417 Spruce St<br />Leavenworth, KS<br /></td><td>Phone: 913-682-5666</p><p>Fax: 913-682-1248</p><p>e-mail: circulation@lvplks.org</p><p>Website: <a href="http://www.leavenworthpubliclibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS118</p></td><td>Director: Matt Nojonen<br />     - mnojonen@lvplks.org<br /><br />NExpress: Holly Fetter<br />     - hollyf@lvplks.org<br /><br />ILL: Cheryl Boisson<br />     - lvplill@lvplks.org<br /><br />Total titles: 79942<br /> <br />Total items: 89769</td>
+</tr>
+
+<tr>
+    <td>Linwood Community Library<p><ins>Mailing address:</ins><br />PO Box 80<br />Linwood, KS 66052-0080</p><ins>Street address:</ins><br />19649 Linwood Rd<br />Linwood, KS<br /></td><td>Phone: 913-301-3686</p><p>Fax: 913-723-3208</p><p>e-mail: linwoodlib@linwoodlibrary.org</p><p>Website: <a href="http://www.linwoodlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS102</p></td><td>Director: Mike Washburn<br />     - washburnm@linwoodlibrary.org<br /><br />ILL: Kathy Reno<br />     - renok@linwoodlibrary.org<br /><br />Total titles: 12811<br /> <br />Total items: 13197</td>
+</tr>
+
+<tr>
+    <td>Louisburg (Hoopla Digital Only)<p><ins>Mailing address:</ins><br />206 S Broadway St<br />Louisburg, KS 66053-3614</p><ins>Street address:</ins><br />206 S Broadway St<br />Louisburg, KS<br /></td><td>Phone: 913-837-2217</p><p>Fax: </p><p>e-mail: </p><p>Website: <a href="http://www.louisburglibrary.org/" target="_blank">Click here</a></p><p>Courier route #: KS116</p></td><td><br /><br />Total titles: 0<br /> <br />Total items: 0</td>
+</tr>
+
+<tr>
+    <td>Lyndon Carnegie Library<p><ins>Mailing address:</ins><br />PO Box 563<br />Lyndon, KS 66451-0563</p><ins>Street address:</ins><br />127 E 6th St<br />Lyndon, KS<br /></td><td>Phone: 785-828-4520</p><p>Fax: 785-828-4565</p><p>e-mail: lyndonlibrary@lyndonlibrary.org</p><p>Website: <a href="http://www.lyndonlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS321</p></td><td>Director: Genea Reynolds<br />     - greynolds@lyndonlibrary.org<br /><br />Total titles: 14758<br /> <br />Total items: 15097</td>
+</tr>
+
+<tr>
+    <td>McLouth Public Library<p><ins>Mailing address:</ins><br />PO Box 69<br />McLouth, KS  66054-0069</p><ins>Street address:</ins><br />215 S Union St<br />McLouth, KS <br /></td><td>Phone: 913-796-2225</p><p>Fax: 913-796-2230</p><p>e-mail: director@mclouth.lib.ks.us</p><p>Website: <a href="http://mclouth.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS127</p></td><td>Director: Carolyn Knotts<br />     - director@mclouth.lib.ks.us<br /><br />Total titles: 3859<br /> <br />Total items: 3891</td>
+</tr>
+
+<tr>
+    <td>Meriden-Ozawkie Public Library<p><ins>Mailing address:</ins><br />7272 K4 Hwy #D<br />Meriden, KS 66512-9307</p><ins>Street address:</ins><br />7272 K4 Hwy #D<br />Meriden, KS<br /></td><td>Phone: 785-484-3393</p><p>Fax: 785-484-3222</p><p>e-mail: meridencommunitylibrary@gmail.com</p><p>Website: <a href="http://meriden.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS205</p></td><td>Director: Jerie Tichenor<br />     - jtichenor@meriden.lib.ks.us<br /><br />Total titles: 16445<br /> <br />Total items: 16636</td>
+</tr>
+
+<tr>
+    <td>Northeast Kansas Library System<p><ins>Mailing address:</ins><br />4317 W 6th St<br />Lawrence, KS 66049</p><ins>Street address:</ins><br />4317 W 6th St<br />Lawrence, KS<br /></td><td>Phone: 785-838-4090</p><p>Fax: 785-838-3989</p><p>e-mail: teamnexpress@nekls.org</p><p>Website: <a href="http://www.nekls.org/" target="_blank">Click here</a></p><p>Courier route #: KS131</p></td><td>Contact: nexpresshelp@nekls.org<br /><br />Total titles: 1038<br /> <br />Total items: 1121</td>
+</tr>
+
+<tr>
+    <td>Nortonville Public Library<p><ins>Mailing address:</ins><br />PO Box 179<br />Nortonville, KS 66060-0179</p><ins>Street address:</ins><br />407 Main St<br />Nortonville, KS<br /></td><td>Phone: 913-886-2060</p><p>Fax: 913-886-3070</p><p>e-mail: dtrinkle@nortonvillelibrary.org</p><p>Website: <a href="http://www.nortonvillelibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS210</p></td><td>Director: Diane Trinkle<br />     - dtrinkle@nortonvillelibrary.org<br /><br />Total titles: 20656<br /> <br />Total items: 21506</td>
+</tr>
+
+<tr>
+    <td>Osage City Library<p><ins>Mailing address:</ins><br />515 Main St<br />Osage City, KS 66523-1363</p><ins>Street address:</ins><br />515 Main St<br />Osage City, KS<br /></td><td>Phone: 785-528-3727</p><p>Fax: 785-528-2620</p><p>e-mail: circulation@osagecitylibrary.org</p><p>Website: <a href="http://www.osagecitylibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS306</p></td><td>Director: Jeanette Stromgren<br />     - jstromgren@osagecitylibrary.org<br /><br />ILL: Mavet Cooper<br />     - mcooper@osagecitylibrary.org<br /><br />Total titles: 23717<br /> <br />Total items: 23977</td>
+</tr>
+
+<tr>
+    <td>Osawatomie Public Library<p><ins>Mailing address:</ins><br />527 Brown Ave<br />Osawatomie, KS 66064-1367</p><ins>Street address:</ins><br />527 Brown Ave<br />Osawatomie, KS<br /></td><td>Phone: 913-755-2136</p><p>Fax: 913-755-2335</p><p>e-mail: ozlibrary@osawatomieks.org</p><p>Website: <a href="http://www.osawatomie.org" target="_blank">Click here</a></p><p>Courier route #: KS114</p></td><td>Director: Elizabeth Trigg<br />     - etrigg23@yahoo.com<br /><br />Total titles: 23558<br /> <br />Total items: 23975</td>
+</tr>
+
+<tr>
+    <td>Oskaloosa Public Library<p><ins>Mailing address:</ins><br />PO Box 347 <br />Oskaloosa, KS 66066-0347</p><ins>Street address:</ins><br />315 Jefferson St<br />Oskaloosa, KS<br /></td><td>Phone: 785-863-2475 </p><p>Fax: 785-863-2088 </p><p>e-mail: rhissong@oskielibrary.org</p><p>Website: <a href="http://www.oskielibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS104</p></td><td>Director: Rachael Hissong<br />     - rhissong@oskielibrary.org<br /><br />Total titles: 10467<br /> <br />Total items: 10621</td>
+</tr>
+
+<tr>
+    <td>Ottawa Library<p><ins>Mailing address:</ins><br />105 S Hickory St<br />Ottawa, KS 66067-2302</p><ins>Street address:</ins><br />105 S Hickory St<br />Ottawa, KS<br /></td><td>Phone: 785-242-3080 </p><p>Fax: 785-242-8789</p><p>e-mail: circstaff@ottawalibrary.org</p><p>Website: <a href="http://www.ottawalibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS134</p></td><td>Director: Terry Chartier<br />     -  terry.chartier@ottawalibrary.org<br /><br />ILL/NExpress: Sheryl Servatius-Brown<br />     - sheryl.servatius-brown@ottawalibrary.org<br /><br />Total titles: 61952<br /> <br />Total items: 64266</td>
+</tr>
+
+<tr>
+    <td>Overbrook Public Library<p><ins>Mailing address:</ins><br />PO Box 389<br />Overbrook, KS 66524-0389</p><ins>Street address:</ins><br />317 Maple St<br />Overbrook, KS<br /></td><td>Phone: 785-665-7266</p><p>Fax: 785-665-7973</p><p>e-mail: staff@overbrook.lib.ks.us</p><p>Website: <a href="http://overbrook.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS202</p></td><td>Director: Kyle Sederstrom<br />     - ksederstrom@overbrook.lib.ks.us<br /><br />Total titles: 20103<br /> <br />Total items: 20356</td>
+</tr>
+
+<tr>
+    <td>Paola Free Library<p><ins>Mailing address:</ins><br />101 E Peoria St<br />Paola, KS 66071-1708</p><ins>Street address:</ins><br />101 E Peoria St<br />Paola, KS<br /></td><td>Phone: 913-259-3655</p><p>Fax: </p><p>e-mail: library@cityofpaola.com</p><p>Website: <a href="http://www.paolalibrary.org/" target="_blank">Click here</a></p><p>Courier route #: KS138</p></td><td>Director: Emily Burgdorf<br />     - eburgdorf@cityofpaola.com<br /><br />Youth Services: Cari Michael<br />     - youthservices@cityofpaola.com<br /><br />NExpress/ILL: Shelley Snouffer<br />     - ssnouffer@cityofpaola.com<br /><br />Total titles: 31133<br /> <br />Total items: 32665</td>
+</tr>
+
+<tr>
+    <td>Perry-Lecompton Community Library<p><ins>Mailing address:</ins><br />PO Box 700<br />Perry, KS 66073-0700</p><ins>Street address:</ins><br />609 Cedar St<br />Perry, KS<br /></td><td>Phone: 785-597-5031</p><p>Fax: </p><p>e-mail: pllibrary@mail.com</p><p>Website: <a href="https://www.facebook.com/perrylecomptoncommunitylibrary" target="_blank">Click here</a></p><p>Courier route #: KS142</p></td><td>Library Coordinator: Janet Barnett<br />     - janet.barnett@hotmail.com<br /><br />Total titles: 7846<br /> <br />Total items: 7852</td>
+</tr>
+
+<tr>
+    <td>Prairie Hills Schools<br />     Axtell Public School<p><ins>Mailing address:</ins><br />504 Pine St<br />Axtell, KS 66403-9628</p><ins>Street address:</ins><br />504 Pine St<br />Axtell, KS<br /></td><td>Phone: 785-736-2237</p><p>Fax: </p><p>e-mail: kasterc@usd113.org</p><p>Website: <a href="http://www.usd113.org" target="_blank">Click here</a></p><p>Courier route #: KS240</p></td><td>Librarian: Cindy Kaster<br />     - kasterc@usd113.org<br /><br />Total titles: 9105<br /> <br />Total items: 10768</td>
+</tr>
+
+<tr>
+    <td>Prairie Hills Schools<br />     Sabetha Elementary School<p><ins>Mailing address:</ins><br />101 Oregon St<br />Sabetha, KS 66534-2804</p><ins>Street address:</ins><br />101 Oregon St<br />Sabetha, KS<br /></td><td>Phone: 785-284-3448</p><p>Fax: </p><p>e-mail: bauerlem@usd113.org</p><p>Website: <a href="http://www.usd113.org" target="_blank">Click here</a></p><p>Courier route #: KS239</p></td><td>Librarian: Marcia Bauerle<br />     - bauerlem@usd113.org<br /><br />Total titles: 14587<br /> <br />Total items: 18459</td>
+</tr>
+
+<tr>
+    <td>Prairie Hills Schools<br />     Sabetha High School<p><ins>Mailing address:</ins><br />1011 Blue Jay Blvd  <br />Sabetha, KS 66534-9552</p><ins>Street address:</ins><br />1011 Blue Jay Blvd  <br />Sabetha, KS<br /></td><td>Phone: 785-284-2155</p><p>Fax: 785-284-2600</p><p>e-mail: walkerp@usd113.org</p><p>Website: <a href="http://www.usd113.org/pages/shs/library.html" target="_blank">Click here</a></p><p>Courier route #: KS237</p></td><td>Librarian: Pam Walker<br />     - walkerp@usd113.org<br /><br />Total titles: 5476<br /> <br />Total items: 6054</td>
+</tr>
+
+<tr>
+    <td>Prairie Hills Schools<br />     Sabetha Middle School<p><ins>Mailing address:</ins><br />751 Blue Jay Blvd<br />Sabetha, KS 66534-9421</p><ins>Street address:</ins><br />751 Blue Jay Blvd<br />Sabetha, KS<br /></td><td>Phone: 785-284-2151</p><p>Fax: 785-284-0061</p><p>e-mail: niehuesb@usd113.org</p><p>Website: <a href="http://www.usd113.org" target="_blank">Click here</a></p><p>Courier route #: KS238</p></td><td>Librarian: Beverly Niehues<br />     - niehuesb@usd113.org<br /><br />Total titles: 4307<br /> <br />Total items: 5018</td>
+</tr>
+
+<tr>
+    <td>Prairie Hills Schools<br />     Wetmore Academic Center<p><ins>Mailing address:</ins><br />PO Box AB<br />Wetmore, KS 66550-0246</p><ins>Street address:</ins><br />321 6th St<br />Wetmore, KS<br /></td><td>Phone: 785-866-2860</p><p>Fax: 785-866-5450</p><p>e-mail: achtens@usd113.org</p><p>Website: <a href="http://www.usd113.org" target="_blank">Click here</a></p><p>Courier route #: KS241</p></td><td>Librarian: Lana Sheldon<br />     - sheldonl@usd113.org<br /><br />Total titles: 9549<br /> <br />Total items: 13480</td>
+</tr>
+
+<tr>
+    <td>Pomona Community Library<p><ins>Mailing address:</ins><br />PO Box 320<br />Pomona, KS 66076</p><ins>Street address:</ins><br />113 E Franklin St<br />Pomona, KS<br /></td><td>Phone: 785-566-3300</p><p>Fax: 785-566-3301</p><p>e-mail: pomonalibraryks@gmail.com</p><p>Website: <a href="http://pomona.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS326</p></td><td>Director: Judy Stratton<br />     - directorpomona@gmail.com<br /><br />Total titles: 6056<br /> <br />Total items: 6175</td>
+</tr>
+
+<tr>
+    <td>Richmond Public Library<p><ins>Mailing address:</ins><br />PO Box 237<br />Richmond, KS 66080-4035</p><ins>Street address:</ins><br />107 E Central St<br />Richmond, KS<br /></td><td>Phone: 785-835-6163</p><p>Fax: 785-835-6163</p><p>e-mail: cweber@richmond.lib.ks.us</p><p>Website: <a href="http://richmond.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS120</p></td><td>Director: Connie Weber<br />     - cweber@richmond.lib.ks.us<br /><br />Total titles: 6843<br /> <br />Total items: 6876</td>
+</tr>
+
+<tr>
+    <td>Rossville Community Library<p><ins>Mailing address:</ins><br />PO Box 618<br />Rossville, KS 66533-0618</p><ins>Street address:</ins><br />407 N Main St<br />Rossville, KS<br /></td><td>Phone: 785-584-6454</p><p>Fax: </p><p>e-mail: director@rossvillelibrary.org</p><p>Website: <a href="http://www.rossvillelibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS216</p></td><td>Director: Adrienne Olejnik<br />     - director@rossvillelibrary.org<br /><br />Total titles: 14549<br /> <br />Total items: 14619</td>
+</tr>
+
+<tr>
+    <td>Sabetha, Mary Cotton Library<p><ins>Mailing address:</ins><br />PO Box 70<br />Sabetha, KS 66534-0070</p><ins>Street address:</ins><br />915 Virginia St<br />Sabetha, KS<br /></td><td>Phone: 785-284-3160</p><p>Fax: 785-284-3605</p><p>e-mail: kimpriest@sabethalibrary.org</p><p>Website: <a href="http://www.sabethalibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS223</p></td><td>Director: Kim Priest<br />     - kimpriest@sabethalibrary.org<br /><br />Total titles: 31411<br /> <br />Total items: 32575</td>
+</tr>
+
+<tr>
+    <td>Seneca Free Library<p><ins>Mailing address:</ins><br />606 Main St<br />Seneca, KS 66538-1930</p><ins>Street address:</ins><br />606 Main St<br />Seneca, KS<br /></td><td>Phone: 785-336-2377</p><p>Fax: 785-336-3699</p><p>e-mail: librarian@senecafreelibrary.org</p><p>Website: <a href="http://www.senecafreelibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS207</p></td><td>Director: Kate Haynie<br />     - khaynie@senecafreelibrary.org<br /><br />ILL: Karen Todd<br />     - ktodd@senecafreelibrary.org<br /><br />Total titles: 25227<br /> <br />Total items: 25366</td>
+</tr>
+
+<tr>
+    <td>Silver Lake Library<p><ins>Mailing address:</ins><br />PO Box 248<br />Silver Lake, KS 66539-0248</p><ins>Street address:</ins><br />203 Railroad St<br />Silver Lake, KS<br /></td><td>Phone: 785-582-5141 </p><p>Fax: 785-582-4282</p><p>e-mail: circulation@silverlakelibrary.org</p><p>Website: <a href="http://www.silverlakelibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS231</p></td><td>Director: Cathy Newland<br />     - cnewland@silverlakelibrary.org<br /><br />ILL: Emily Marasco<br />     - emarasco@silverlakelibrary.org<br /><br />Total titles: 10025<br /> <br />Total items: 10525</td>
+</tr>
+
+<tr>
+    <td>Tonganoxie Public Library<p><ins>Mailing address:</ins><br />PO Box 890<br />Tonganoxie, KS 66086-0890</p><ins>Street address:</ins><br />303 S Bury St<br />Tonganoxie, KS<br /></td><td>Phone: 913-845-3281</p><p>Fax: 913-845-2962</p><p>e-mail: library@tonganoxielibrary.org</p><p>Website: <a href="http://www.tonganoxielibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS123</p></td><td>Interim Director: Nicole Holifield<br />     - nicoleh@tonganoxielibrary.org<br /><br />ILL: Linda Hancock<br />     - lindah@tonganoxielibrary.org<br /><br />Total titles: 30356<br /> <br />Total items: 30743</td>
+</tr>
+
+<tr>
+    <td>Valley Falls, Delaware Township Library<p><ins>Mailing address:</ins><br />421 Mary #A <br />Valley Falls, KS 66088-1200</p><ins>Street address:</ins><br />421 Mary #A <br />Valley Falls, KS<br /></td><td>Phone: 785-945-3990 </p><p>Fax: 785-945-3341 </p><p>e-mail: director@valleyfalls.lib.ks.us</p><p>Website: <a href="http://valleyfalls.mykansaslibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS230</p></td><td>Director: Adam Doolittle<br />     - director@valleyfalls.lib.ks.us<br /><br />Total titles: 11060<br /> <br />Total items: 11140</td>
+</tr>
+
+<tr>
+    <td>Wellsville City Library<p><ins>Mailing address:</ins><br />PO Box 517 <br />Wellsville, KS 66092-0517</p><ins>Street address:</ins><br />115 W 6th St<br />Wellsville, KS<br /></td><td>Phone: 785-883-2870</p><p>Fax: 785-883-2870 </p><p>e-mail: wclibrary@wellsvillelibrary.org</p><p>Website: <a href="http://www.wellsvillelibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS113</p></td><td>Director: Becky Dodd<br />     - bdodd@wellsvillelibrary.org<br /><br />Total titles: 21459<br /> <br />Total items: 22217</td>
+</tr>
+
+<tr>
+    <td>Wetmore Public Library<p><ins>Mailing address:</ins><br />PO Box 126<br />Wetmore, KS 66550-0126</p><ins>Street address:</ins><br />333 2nd St<br />Wetmore, KS<br /></td><td>Phone: 785-866-2250 </p><p>Fax: 785-866-2250 </p><p>e-mail: director@wetmorepubliclibrary.org</p><p>Website: <a href="http://www.wetmorepubliclibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS217</p></td><td>Director: Misty Ballenger<br />     - director@wetmorepubliclibrary.org<br /><br />Total titles: 10145<br /> <br />Total items: 10318</td>
+</tr>
+
+<tr>
+    <td>Williamsburg Community Library<p><ins>Mailing address:</ins><br />PO Box 142<br />Williamsburg, KS 66095-0142</p><ins>Street address:</ins><br />107 S Louisa Ave<br />Williamsburg, KS<br /></td><td>Phone: 785-746-5407</p><p>Fax: </p><p>e-mail: wmbglib@williamsburgcommunitylibrary.org</p><p>Website: <a href="http://www.williamsburgcommunitylibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS311</p></td><td>Director: Shae Crowley<br />     - wmbglib@williamsburgcommunitylibrary.org<br /><br />Total titles: 15132<br /> <br />Total items: 15270</td>
+</tr>
+
+<tr>
+    <td>Winchester Public Library<p><ins>Mailing address:</ins><br />PO Box 143<br />Winchester, KS 66097-0143</p><ins>Street address:</ins><br />203 4th St<br />Winchester, KS<br /></td><td>Phone: 913-774-4967</p><p>Fax: 913-774-4967</p><p>e-mail: director@winchesterlibrary.org</p><p>Website: <a href="http://www.winchesterlibrary.org" target="_blank">Click here</a></p><p>Courier route #: KS208</p></td><td>Director: Cheryl Sylvester<br />     - director@winchesterlibrary.org<br /><br />Total titles: 17651<br /> <br />Total items: 18310</td>
+</tr>
+
+</table>
+
+
+         <p>Last updated 2018.04.22</p>
+
+<!-- Paste table data from Report 2946 before this comment to display library contact info -->
+
+
+      </div>
+    </div>
+
+    <div class="mptabContent" id="tabC02">
+      <h2>Holds Queue Schedule</h2>
+      <div>
+        <h3>The holds queue in Koha is re-built on the following schedule:</h3>
+          <ul>
+            <li>6:52 a.m.</li>
+            <li>7:52 a.m.</li>
+            <li>8:52 a.m.</li>
+            <li>9:52 a.m.</li>
+            <li>10:52 a.m.</li>
+            <li>12:52 p.m.</li>
+            <li>2:52 p.m.</li>
+            <li>4:52 p.m.</li>
+            <li>6:52 p.m.</li>
+            <li>8:52 p.m.</li>
+            <li>10:52 p.m.</li>
+            <li>12:52 a.m.</li>
+            <li>2:52 a.m.</li>
+            <li>4:52 a.m.</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="mptabContent" id="tabC03">
+      <h2>Reports</h2>
+      <div>
+        <h3>Title</h3>
+          <p>Content coming soon</p>
+      </div>
+    </div>
+
+    <div class="mptabContent" id="tabC04">
+      <h2>Tab 4</h2>
+      <div>
+        <h3>Title</h3>
+          <p>Content coming soon</p>
+      </div>
+    </div>
+
+    <div class="mptabContent" id="tabC05">
+      <h2>Contact information</h2>
+      <div>
+        <p>Content coming soon</p>
+      </div>
+    </div>
+
+  </body>
+</html>
