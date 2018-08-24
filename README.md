@@ -27,7 +27,7 @@ SELECT
     Concat("----------"), Char(13), Char(10), Char(13), Char(10),
     Concat("Type: ", Coalesce(systempreferences.type, " ")), Char(13), Char(10), Char(13), Char(10),
     Concat("----------"), Char(13), Char(10), Char(13), Char(10),
-    Concat( IF(Length(REPLACE(systempreferences.value,'\r\n', CONCAT(Char(13), CHAR(10)))) > 32766, "Too large to process", REPLACE(systempreferences.value, '\\r\\n', Concat(Char(13), Char(10))) ) )
+    Concat( IF(Length(REPLACE(systempreferences.value,'\r\n', CONCAT(Char(13), CHAR(10)))) > 32766, "Too large to process", REPLACE(systempreferences.value, '\r\n', Concat(Char(13), Char(10))) ) )
   ) AS CONTENT  
 FROM
   systempreferences
